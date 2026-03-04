@@ -77,7 +77,7 @@ ac = requests.get(
 ).json()
 
 for c in ac:
-    if c["start_epoch_second"] > utc_time and c["rate_change"] is not None:
+    if c["start_epoch_second"] > utc_time :
         AtCoder.append({
             "platform": "AtCoder",
             "name": c["title"],
