@@ -9,7 +9,6 @@ from datetime import datetime, timezone
 AtCoder=[]
 CodeChef=[]
 Codeforces=[]
-HackerEarth=[]
 HackerRank=[]
 Leetcode=[]
 TopCoder=[]
@@ -178,38 +177,9 @@ for c in tc:
         })
 
 
-
-
-#HackerEarth
-he = requests.get(
-    "https://raw.githubusercontent.com/Contest-Hive/__contest-hive-backend/cache/cache/Data/hackerearth.json",
-    headers=headers,
-    timeout=10
-).json()
-
-# handle both formats
-contests = he["data"] if isinstance(he, dict) else he
-
-for c in contests:
-    dt = datetime.strptime(c["startTime"], "%d-%m-%Y %H:%M:%S UTC")
-    dt = dt.replace(tzinfo=timezone.utc)
-    start_time = int(dt.timestamp())
-
-    duration = c["durationSeconds"]
-    end_time = start_time + duration
-
-    if end_time > utc_time:
-        HackerEarth.append({
-            "platform": "HackerEarth",
-            "name": c["name"],
-            "startTime": start_time,
-            "duration": duration,
-            "url": c["url"]
-        })
-
 AllContests = (
     Codeforces + Leetcode + AtCoder +
-    CodeChef + HackerRank + TopCoder + HackerEarth
+    CodeChef + HackerRank + TopCoder
 )
 
 AllContests.sort(key=lambda x: x["startTime"])
