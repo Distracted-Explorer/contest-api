@@ -7,6 +7,27 @@
     "url": "https://www.hackerrank.com/contests/projecteuler/challenges"
   },
   {
+    "platform": "HackerEarth",
+    "name": "Zerve.AI 2026 Hackathon",
+    "startTime": 1769005620,
+    "duration": 4593720,
+    "url": "https://www.hackerearth.com/challenges/hackathon/zerve-ai-2026-hackathon/"
+  },
+  {
+    "platform": "HackerEarth",
+    "name": "The Big Code",
+    "startTime": 1771565400,
+    "duration": 1774740,
+    "url": "https://www.hackerearth.com/challenges/hackathon/the-big-code/"
+  },
+  {
+    "platform": "HackerEarth",
+    "name": "TinyFish $2M Pre-Accelerator Hackathon",
+    "startTime": 1772026200,
+    "duration": 2782740,
+    "url": "https://www.hackerearth.com/challenges/hackathon/the-tiny-fish-hackathon-2026/"
+  },
+  {
     "platform": "TopCoder",
     "name": "Topcoder Statistic Design Challenge",
     "startTime": 1772488800,
@@ -75,6 +96,13 @@
     "startTime": 1773259200,
     "duration": 7200,
     "url": "https://www.codechef.com/START229"
+  },
+  {
+    "platform": "HackerEarth",
+    "name": "StudyIn Hackathon 2026",
+    "startTime": 1773482400,
+    "duration": 116940,
+    "url": "/challenges/competitive/studyin-2025/"
   },
   {
     "platform": "LeetCode",
