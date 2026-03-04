@@ -187,7 +187,10 @@ he = requests.get(
     timeout=10
 ).json()
 
-for c in he.get("data", []):
+# handle both formats
+contests = he["data"] if isinstance(he, dict) else he
+
+for c in contests:
     dt = datetime.strptime(c["startTime"], "%d-%m-%Y %H:%M:%S UTC")
     dt = dt.replace(tzinfo=timezone.utc)
     start_time = int(dt.timestamp())
