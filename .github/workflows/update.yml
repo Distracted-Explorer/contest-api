@@ -22,7 +22,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run contest fetcher
-        run: python contest_fetcher.py
+        run: python fetch_contests.py
 
       - name: Commit updated files
         run: |
