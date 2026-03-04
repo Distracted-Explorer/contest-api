@@ -181,36 +181,39 @@ for c in tc:
 
 
 #HackerEarth
+r = requests.get(
+    "https://www.hackerearth.com/api/community/challenges/compete/",
+    headers=headers,
+    timeout=10
+)
+if r.status_code != 200:
+    print("Request failed:", r.status_code)
+    print(r.text)
+    exit()
 try:
-    r = requests.get(
-        "https://www.hackerearth.com/api/community/challenges/compete/",
-        headers=headers,
-        timeout=10
-    )
     he = r.json()
 except:
-    he = {"data": []}
-
+    print("Response is not JSON")
+    print(r.text)
+    exit()
 for c in he["data"]:
-    date_string = c["start_str"]
-    cleaned = date_string.replace(" (UTC)", "").replace(" UTC", "")
-    dt = datetime.strptime(cleaned, "%b %d, %Y %I:%M %p")
-    dt = dt.replace(tzinfo=timezone.utc)
-    start_time = int(dt.timestamp())
-
-    date_string = c["end_str"]
-    cleaned = date_string.replace(" (UTC)", "").replace(" UTC", "")
-    dt = datetime.strptime(cleaned, "%b %d, %Y %I:%M %p")
-    dt = dt.replace(tzinfo=timezone.utc)
-    end_time = int(dt.timestamp())
-
+    start = datetime.strptime(
+        c["start_str"].replace(" (UTC)", "").replace(" UTC", ""),
+        "%b %d, %Y %I:%M %p"
+    ).replace(tzinfo=timezone.utc)
+    end = datetime.strptime(
+        c["end_str"].replace(" (UTC)", "").replace(" UTC", ""),
+        "%b %d, %Y %I:%M %p"
+    ).replace(tzinfo=timezone.utc)
+    start_time = int(start.timestamp())
+    end_time = int(end.timestamp())
     if end_time > utc_time:
         HackerEarth.append({
             "platform": "HackerEarth",
             "name": c["title"],
             "startTime": start_time,
-            "duration": end_time-start_time,
-            "url": c['url']
+            "duration": end_time - start_time,
+            "url": c["url"]
         })
 
 AllContests = (
