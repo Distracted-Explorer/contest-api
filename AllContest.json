@@ -7,27 +7,6 @@
     "url": "https://www.hackerrank.com/contests/projecteuler/challenges"
   },
   {
-    "platform": "HackerEarth",
-    "name": "Zerve.AI 2026 Hackathon",
-    "startTime": 1769005620,
-    "duration": 4593720,
-    "url": "https://www.hackerearth.com/challenges/hackathon/zerve-ai-2026-hackathon/"
-  },
-  {
-    "platform": "HackerEarth",
-    "name": "The Big Code",
-    "startTime": 1771565400,
-    "duration": 1774740,
-    "url": "https://www.hackerearth.com/challenges/hackathon/the-big-code/"
-  },
-  {
-    "platform": "HackerEarth",
-    "name": "TinyFish $2M Pre-Accelerator Hackathon",
-    "startTime": 1772026200,
-    "duration": 2782740,
-    "url": "https://www.hackerearth.com/challenges/hackathon/the-tiny-fish-hackathon-2026/"
-  },
-  {
     "platform": "TopCoder",
     "name": "Topcoder Statistic Design Challenge",
     "startTime": 1772488800,
@@ -50,17 +29,17 @@
   },
   {
     "platform": "CodeChef",
-    "name": "Starters 228 (Rated till 6 star)",
-    "startTime": 1772654400,
-    "duration": 7200,
-    "url": "https://www.codechef.com/START228"
-  },
-  {
-    "platform": "CodeChef",
     "name": "Weekend Dev Challenge 40: Linux & Shell Scripting Challenges",
     "startTime": 1772841600,
     "duration": 172800,
     "url": "https://www.codechef.com/DEVWEEKEND40"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Beginner Contest 448",
+    "startTime": 1772884800,
+    "duration": 6000,
+    "url": "https://atcoder.jp/contests/abc448"
   },
   {
     "platform": "Codeforces",
@@ -98,11 +77,18 @@
     "url": "https://www.codechef.com/START229"
   },
   {
-    "platform": "HackerEarth",
-    "name": "StudyIn Hackathon 2026",
-    "startTime": 1773482400,
-    "duration": 116940,
-    "url": "/challenges/competitive/studyin-2025/"
+    "platform": "AtCoder",
+    "name": "\u24bd\u25c9 UNIQUE VISION Programming Contest 2026 Spring (AtCoder Heuristic Contest 062)",
+    "startTime": 1773468000,
+    "duration": 14400,
+    "url": "https://atcoder.jp/contests/ahc062"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Beginner Contest 449",
+    "startTime": 1773489600,
+    "duration": 6000,
+    "url": "https://atcoder.jp/contests/abc449"
   },
   {
     "platform": "LeetCode",
@@ -138,5 +124,33 @@
     "startTime": 1773864000,
     "duration": 7200,
     "url": "https://www.codechef.com/START230"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Beginner Contest 450",
+    "startTime": 1774094400,
+    "duration": 6000,
+    "url": "https://atcoder.jp/contests/abc450"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Regular Contest++ 216",
+    "startTime": 1774180800,
+    "duration": 9000,
+    "url": "https://atcoder.jp/contests/arc216"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Beginner Contest 451",
+    "startTime": 1774699200,
+    "duration": 6000,
+    "url": "https://atcoder.jp/contests/abc451"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Grand Contest 077",
+    "startTime": 1774785600,
+    "duration": 10800,
+    "url": "https://atcoder.jp/contests/agc077"
   }
 ]
