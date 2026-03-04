@@ -16,6 +16,7 @@ headers = {"User-Agent": "Mozilla/5.0"}
 
 utc_time = int(datetime.now(timezone.utc).timestamp())
 
+
 # CODEFORCES
 headers = {"User-Agent": "Mozilla/5.0"}
 
@@ -34,6 +35,7 @@ for c in cf["result"]:
             "duration": c["durationSeconds"],
             "url": f"https://codeforces.com/contestRegistration/{c['id']}"
         })
+
 
 
 # LEETCODE
@@ -70,21 +72,39 @@ for c in lc["data"]["allContests"]:
 
 
 # AtCoder
-ac = requests.get(
-    "https://kenkoooo.com/atcoder/resources/contests.json",
-    headers=headers,
-    timeout=10
-).json()
+url = "https://atcoder.jp/contests/"
 
-for c in ac:
-    if c["start_epoch_second"] > utc_time :
-        AtCoder.append({
-            "platform": "AtCoder",
-            "name": c["title"],
-            "startTime": c["start_epoch_second"],
-            "duration": c["duration_second"],
-            "url": f"https://atcoder.jp/contests/{c['id']}"
-        })
+html = requests.get(url).text
+soup = BeautifulSoup(html, "html.parser")
+
+table = soup.find("div", id="contest-table-upcoming")
+rows = table.find_all("tr")[1:]
+
+for r in rows:
+
+    cols = r.find_all("td")
+
+    name = cols[1].text.strip()
+    link = "https://atcoder.jp" + cols[1].find("a")["href"]
+
+    time_str = cols[0].text.strip()
+
+    dt = datetime.strptime(time_str, "%Y-%m-%d %H:%M:%S%z")
+    timestamp = int(dt.timestamp())
+
+    duration_str = cols[2].text.strip()
+    # Convert duration string "HH:MM" to total seconds
+    hours, minutes = map(int, duration_str.split(':'))
+    duration_seconds = hours * 3600 + minutes * 60
+
+    AtCoder.append({
+        "platform": "AtCoder",
+        "name": name,
+        "startTime": timestamp,
+        "duration": duration_seconds,
+        "url": link
+    })
+
 
 
 
