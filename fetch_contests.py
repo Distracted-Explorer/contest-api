@@ -76,7 +76,7 @@ for c in lc["data"]["allContests"]:
 # AtCoder
 url = "https://atcoder.jp/contests/"
 
-html = requests.get(url).text
+html = requests.get(url, headers=headers, timeout=10).text
 soup = BeautifulSoup(html, "html.parser")
 
 table = soup.find("div", id="contest-table-upcoming")
@@ -183,10 +183,11 @@ for c in tc:
 #HackerEarth
 he = requests.get(
     "https://raw.githubusercontent.com/Contest-Hive/__contest-hive-backend/cache/cache/Data/hackerearth.json",
+    headers=headers,
     timeout=10
 ).json()
 
-for c in he["data"]:
+for c in he.get("data", []):
     dt = datetime.strptime(c["startTime"], "%d-%m-%Y %H:%M:%S UTC")
     dt = dt.replace(tzinfo=timezone.utc)
     start_time = int(dt.timestamp())
