@@ -131,6 +131,7 @@ for c in hr["models"]:
 
 
 #TopCoder
+
 tc=requests.get(
     "https://api.topcoder.com/v6/challenges/?status=ACTIVE&perPage=100&page=1&sortBy=startDate&sortOrder=desc&tracks%5b%5d=Dev&tracks%5b%5d=Des&tracks%5b%5d=DS&tracks%5b%5d=QA&types%5b%5d=CH&types%5b%5d=F2F&types%5b%5d=MM&types%5b%5d=TSK",
     headers=headers,
@@ -158,11 +159,15 @@ for c in tc:
 
 
 #HackerEarth
-he = requests.get(
-    "https://www.hackerearth.com/api/community/challenges/compete/",
-    headers=headers,
-    timeout=10
-).json()
+try:
+    r = requests.get(
+        "https://www.hackerearth.com/api/community/challenges/compete/",
+        headers=headers,
+        timeout=10
+    )
+    he = r.json()
+except:
+    he = {"data": []}
 
 for c in he["data"]:
     date_string = c["start_str"]
