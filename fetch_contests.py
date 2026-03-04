@@ -186,7 +186,7 @@ he = requests.get(
     timeout=10
 ).json()
 
-for c in he:
+for c in he["data"]:
     dt = datetime.strptime(c["startTime"], "%d-%m-%Y %H:%M:%S UTC")
     dt = dt.replace(tzinfo=timezone.utc)
     start_time = int(dt.timestamp())
