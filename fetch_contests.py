@@ -1,6 +1,8 @@
 import requests
 import json
 from datetime import datetime, timezone
+from bs4 import BeautifulSoup
+from datetime import datetime, timezone
 
 
 
