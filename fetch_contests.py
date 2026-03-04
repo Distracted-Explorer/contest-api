@@ -181,38 +181,25 @@ for c in tc:
 
 
 #HackerEarth
-r = requests.get(
-    "https://www.hackerearth.com/api/community/challenges/compete/",
-    headers=headers,
+he = requests.get(
+    "https://raw.githubusercontent.com/Contest-Hive/__contest-hive-backend/cache/cache/Data/hackerearth.json",
     timeout=10
-)
-if r.status_code != 200:
-    print("Request failed:", r.status_code)
-    print(r.text)
-    exit()
-try:
-    he = r.json()
-except:
-    print("Response is not JSON")
-    print(r.text)
-    exit()
-for c in he["data"]:
-    start = datetime.strptime(
-        c["start_str"].replace(" (UTC)", "").replace(" UTC", ""),
-        "%b %d, %Y %I:%M %p"
-    ).replace(tzinfo=timezone.utc)
-    end = datetime.strptime(
-        c["end_str"].replace(" (UTC)", "").replace(" UTC", ""),
-        "%b %d, %Y %I:%M %p"
-    ).replace(tzinfo=timezone.utc)
-    start_time = int(start.timestamp())
-    end_time = int(end.timestamp())
+).json()
+
+for c in he:
+    dt = datetime.strptime(c["startTime"], "%d-%m-%Y %H:%M:%S UTC")
+    dt = dt.replace(tzinfo=timezone.utc)
+    start_time = int(dt.timestamp())
+
+    duration = c["durationSeconds"]
+    end_time = start_time + duration
+
     if end_time > utc_time:
         HackerEarth.append({
             "platform": "HackerEarth",
-            "name": c["title"],
+            "name": c["name"],
             "startTime": start_time,
-            "duration": end_time - start_time,
+            "duration": duration,
             "url": c["url"]
         })
 
