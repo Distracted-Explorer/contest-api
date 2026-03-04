@@ -97,7 +97,7 @@ cc = requests.get(
 
 for c in cc["future_contests"]:
     s=c["contest_start_date"]
-    dt = datetime.strptime(s, "%Y-%m-%d %H:%M:%S")
+    dt = datetime.strptime(s, "%d %b %Y  %H:%M:%S")
     dt = dt.replace(tzinfo=timezone.utc)
     timestamp = int(dt.timestamp())
     if utc_time+1296000>timestamp:
