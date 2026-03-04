@@ -166,13 +166,13 @@ he = requests.get(
 
 for c in he["data"]:
     date_string = c["start_str"]
-    cleaned = date_string.replace(" (UTC)", "")
-    dt = datetime.strptime(cleaned, "%b %d, %Y %I:%M %p %Z")
+    cleaned = date_string.replace(" (UTC)", "").replace(" UTC", "")
+    dt = datetime.strptime(cleaned, "%b %d, %Y %I:%M %p")
     dt = dt.replace(tzinfo=timezone.utc)
     start_time = int(dt.timestamp())
 
     date_string = c["end_str"]
-    cleaned = date_string.replace(" (UTC)", "")
+    cleaned = date_string.replace(" (UTC)", "").replace(" UTC", "")
     dt = datetime.strptime(cleaned, "%b %d, %Y %I:%M %p")
     dt = dt.replace(tzinfo=timezone.utc)
     end_time = int(dt.timestamp())
