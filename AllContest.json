@@ -152,5 +152,12 @@
     "startTime": 1774785600,
     "duration": 10800,
     "url": "https://atcoder.jp/contests/agc077"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Beginner Contest 452",
+    "startTime": 1775304000,
+    "duration": 6000,
+    "url": "https://atcoder.jp/contests/abc452"
   }
 ]
