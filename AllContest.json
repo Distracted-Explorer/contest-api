@@ -8,13 +8,6 @@
   },
   {
     "platform": "TopCoder",
-    "name": "Topcoder Statistic Design Challenge",
-    "startTime": 1772488800,
-    "duration": 226800,
-    "url": "https://www.topcoder.com/challenges/0d9a2c8f-f8a2-4f6d-982e-5e1467dfadb9"
-  },
-  {
-    "platform": "TopCoder",
     "name": "AI CE Orchestration Part 2 Tourney",
     "startTime": 1772559900,
     "duration": 260100,
@@ -57,7 +50,7 @@
   },
   {
     "platform": "Codeforces",
-    "name": "Codeforces Round (Div. 1 + Div. 2)",
+    "name": "Codeforces Round 1085 (Div. 1 + Div. 2)",
     "startTime": 1772980500,
     "duration": 10800,
     "url": "https://codeforces.com/contestRegistration/2207"
