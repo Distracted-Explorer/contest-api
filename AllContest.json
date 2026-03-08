@@ -7,13 +7,6 @@
     "url": "https://www.hackerrank.com/contests/projecteuler/challenges"
   },
   {
-    "platform": "LeetCode",
-    "name": "Weekly Contest 492",
-    "startTime": 1772937000,
-    "duration": 5400,
-    "url": "https://leetcode.com/contest/weekly-contest-492"
-  },
-  {
     "platform": "Codeforces",
     "name": "Codeforces Round 1085 (Div. 1 + Div. 2)",
     "startTime": 1772980500,
