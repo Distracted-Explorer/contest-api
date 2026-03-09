@@ -77,6 +77,13 @@
     "url": "https://atcoder.jp/contests/abc450"
   },
   {
+    "platform": "LeetCode",
+    "name": "Weekly Contest 494",
+    "startTime": 1774146600,
+    "duration": 5400,
+    "url": "https://leetcode.com/contest/weekly-contest-494"
+  },
+  {
     "platform": "AtCoder",
     "name": "\u24b6\u25c9 AtCoder Regular Contest++ 216",
     "startTime": 1774180800,
@@ -89,6 +96,13 @@
     "startTime": 1774699200,
     "duration": 6000,
     "url": "https://atcoder.jp/contests/abc451"
+  },
+  {
+    "platform": "LeetCode",
+    "name": "Biweekly Contest 179",
+    "startTime": 1774708200,
+    "duration": 5400,
+    "url": "https://leetcode.com/contest/biweekly-contest-179"
   },
   {
     "platform": "AtCoder",
