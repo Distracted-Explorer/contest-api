@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 
 AtCoder=[]
 CodeChef=[]
-Codeforces=[]
+CodeForces=[]
 HackerRank=[]
 Leetcode=[]
 TopCoder=[]
@@ -30,7 +30,7 @@ cf = requests.get(
 for c in cf["result"]:
     if utc_time<c["startTimeSeconds"]+c["durationSeconds"]:
         Codeforces.append({
-            "platform": "Codeforces",
+            "platform": "CodeForces",
             "name": c["name"],
             "startTime": c["startTimeSeconds"],
             "duration": c["durationSeconds"],
@@ -178,7 +178,7 @@ for c in tc:
 
 
 AllContests = (
-    Codeforces + Leetcode + AtCoder +
+    CodeForces + Leetcode + AtCoder +
     CodeChef + HackerRank + TopCoder
 )
 
