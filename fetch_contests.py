@@ -28,7 +28,7 @@ cf = requests.get(
 ).json()
 
 for c in cf["result"]:
-    if utc_time<c["startTimeSeconds"]:
+    if utc_time<c["startTimeSeconds"]+c["durationSeconds"]:
         Codeforces.append({
             "platform": "Codeforces",
             "name": c["name"],
@@ -61,7 +61,7 @@ lc = requests.post(
 ).json()
 
 for c in lc["data"]["allContests"]:
-    if utc_time<c["startTime"]:
+    if utc_time<c["startTime"]+c["duration"]:
         Leetcode.append({
             "platform": "LeetCode",
             "name": c["title"],
@@ -97,14 +97,14 @@ for r in rows:
     # Convert duration string "HH:MM" to total seconds
     hours, minutes = map(int, duration_str.split(':'))
     duration_seconds = hours * 3600 + minutes * 60
-
-    AtCoder.append({
-        "platform": "AtCoder",
-        "name": name,
-        "startTime": timestamp,
-        "duration": duration_seconds,
-        "url": link
-    })
+    if(utc_time<timestamp+duration_seconds):
+      AtCoder.append({
+          "platform": "AtCoder",
+          "name": name,
+          "startTime": timestamp,
+          "duration": duration_seconds,
+          "url": link
+      })
 
 
 
@@ -121,7 +121,7 @@ for c in cc["future_contests"]:
     dt = datetime.strptime(s, "%d %b %Y  %H:%M:%S")
     dt = dt.replace(tzinfo=timezone.utc)
     timestamp = int(dt.timestamp())
-    if utc_time+1296000>timestamp:
+    if utc_time<timestamp+(int(c["contest_duration"])*60):
         CodeChef.append({
             "platform": "CodeChef",
             "name": c["contest_name"],
@@ -186,4 +186,3 @@ AllContests.sort(key=lambda x: x["startTime"])
 
 with open("AllContest.json", "w") as f:
     json.dump(AllContests, f, indent=2)
-
