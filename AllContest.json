@@ -8,7 +8,7 @@
   },
   {
     "platform": "CodeChef",
-    "name": "Starters 229",
+    "name": "Starters 229 (Rated till 6 star)",
     "startTime": 1773259200,
     "duration": 7200,
     "url": "https://www.codechef.com/START229"
@@ -119,6 +119,13 @@
     "url": "https://atcoder.jp/contests/agc077"
   },
   {
+    "platform": "CodeChef",
+    "name": "Starters 232",
+    "startTime": 1775073600,
+    "duration": 7200,
+    "url": "https://www.codechef.com/START232"
+  },
+  {
     "platform": "AtCoder",
     "name": "\u24bd\u25c9 AtCoder Heuristic Contest 063",
     "startTime": 1775210400,
@@ -131,5 +138,12 @@
     "startTime": 1775304000,
     "duration": 6000,
     "url": "https://atcoder.jp/contests/abc452"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 \uff33\uff4b\uff59 Inc, Programming Contest 2026 (AtCoder Beginner Contest 455)",
+    "startTime": 1777118400,
+    "duration": 6000,
+    "url": "https://atcoder.jp/contests/abc455"
   }
 ]
