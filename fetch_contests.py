@@ -140,7 +140,7 @@ hr = requests.get(
 ).json()    
 
 for c in hr["models"]:
-    if c["ended"]==False:
+    if c["ended"]==False&&c["name"]!="ProjectEuler+":
         HackerRank.append({
             "platform": "HackerRank",
             "name": c["name"],
