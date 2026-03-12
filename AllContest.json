@@ -1,12 +1,5 @@
 [
   {
-    "platform": "HackerRank",
-    "name": "ProjectEuler+",
-    "startTime": 1404747480,
-    "duration": 412693610,
-    "url": "https://www.hackerrank.com/contests/projecteuler/challenges"
-  },
-  {
     "platform": "CodeChef",
     "name": "Weekend Dev Challenge 41: Terraform Challenges",
     "startTime": 1773446400,
