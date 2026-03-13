@@ -73,40 +73,35 @@ for c in lc["data"]["allContests"]:
 
 
 # AtCoder
+seen = set()
 url = "https://atcoder.jp/contests/"
-
 html = requests.get(url, headers=headers, timeout=10).text
 soup = BeautifulSoup(html, "html.parser")
-
-table = soup.find("div", id="contest-table-upcoming")
-rows = table.find_all("tr")[1:]
-
-for r in rows:
-
-    cols = r.find_all("td")
-
-    name = cols[1].text.strip()
-    link = "https://atcoder.jp" + cols[1].find("a")["href"]
-
-    time_str = cols[0].text.strip()
-
-    dt = datetime.strptime(time_str, "%Y-%m-%d %H:%M:%S%z")
-    timestamp = int(dt.timestamp())
-
-    duration_str = cols[2].text.strip()
-    # Convert duration string "HH:MM" to total seconds
-    hours, minutes = map(int, duration_str.split(':'))
-    duration_seconds = hours * 3600 + minutes * 60
-    if(utc_time<timestamp+duration_seconds):
-      AtCoder.append({
-          "platform": "AtCoder",
-          "name": name,
-          "startTime": timestamp,
-          "duration": duration_seconds,
-          "url": link
-      })
-
-
+for table_id in ["contest-table-daily", "contest-table-action", "contest-table-upcoming"]:
+    table = soup.find("div", id=table_id)
+    if not table:
+        continue
+    rows = table.find_all("tr")[1:]
+    for r in rows:
+        cols = r.find_all("td")
+        name = cols[1].text.strip()
+        link = "https://atcoder.jp" + cols[1].find("a")["href"]
+        if link in seen:
+            continue
+        time_str = cols[0].text.strip()
+        dt = datetime.strptime(time_str, "%Y-%m-%d %H:%M:%S%z")
+        timestamp = int(dt.timestamp())
+        duration_str = cols[2].text.strip()
+        h, m = map(int, duration_str.split(":"))
+        duration_seconds = h*3600 + m*60
+        AtCoder.append({
+            "platform": "AtCoder",
+            "name": name,
+            "startTime": timestamp,
+            "duration": duration_seconds,
+            "url": link
+        })
+        seen.add(link)
 
 
 # CodeChef
