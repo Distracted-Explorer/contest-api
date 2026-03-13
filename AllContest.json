@@ -1,5 +1,12 @@
 [
   {
+    "platform": "TopCoder",
+    "name": "AI CE Orchestration 3 Launching",
+    "startTime": 1773384751,
+    "duration": 205649,
+    "url": "https://www.topcoder.com/challenges/b7da4e96-52ed-4b22-a923-65c1fda7c09d"
+  },
+  {
     "platform": "CodeChef",
     "name": "Weekend Dev Challenge 41: Terraform Challenges",
     "startTime": 1773446400,
@@ -131,6 +138,13 @@
     "startTime": 1775304000,
     "duration": 6000,
     "url": "https://atcoder.jp/contests/abc452"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Beginner Contest 453",
+    "startTime": 1775908800,
+    "duration": 6000,
+    "url": "https://atcoder.jp/contests/abc453"
   },
   {
     "platform": "AtCoder",
