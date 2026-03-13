@@ -49,6 +49,13 @@
     "url": "https://leetcode.com/contest/weekly-contest-493"
   },
   {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0026 Beta",
+    "startTime": 1773658800,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0026"
+  },
+  {
     "platform": "CodeForces",
     "name": "Educational Codeforces Round 188 (Rated for Div. 2)",
     "startTime": 1773671700,
@@ -75,6 +82,13 @@
     "startTime": 1774094400,
     "duration": 6000,
     "url": "https://atcoder.jp/contests/abc450"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Codeforces Round (Div. 2)",
+    "startTime": 1774103700,
+    "duration": 7200,
+    "url": "https://codeforces.com/contestRegistration/2209"
   },
   {
     "platform": "LeetCode",
