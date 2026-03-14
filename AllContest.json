@@ -14,20 +14,6 @@
     "url": "https://www.topcoder.com/challenges/21d5ea84-dfa4-43ad-afd8-483942aff152"
   },
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Beginner Contest 449",
-    "startTime": 1773489600,
-    "duration": 6000,
-    "url": "https://atcoder.jp/contests/abc449"
-  },
-  {
-    "platform": "LeetCode",
-    "name": "Biweekly Contest 178",
-    "startTime": 1773498600,
-    "duration": 5400,
-    "url": "https://leetcode.com/contest/biweekly-contest-178"
-  },
-  {
     "platform": "CodeForces",
     "name": "Codeforces Round 1086 (Div. 2)",
     "startTime": 1773498900,
