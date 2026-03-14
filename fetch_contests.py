@@ -112,9 +112,7 @@ cc = requests.get(
 ).json()
 
 for c in cc["future_contests"]:
-    s=c["contest_start_date"]
-    dt = datetime.strptime(s, "%d %b %Y  %H:%M:%S")
-    dt = dt.replace(tzinfo=timezone.utc)
+    dt = datetime.fromisoformat(c["contest_start_date_iso"])
     timestamp = int(dt.timestamp())
     if utc_time<timestamp+(int(c["contest_duration"])*60):
         CodeChef.append({
