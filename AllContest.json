@@ -29,7 +29,7 @@
   },
   {
     "platform": "CodeForces",
-    "name": "Codeforces Round (Div. 2)",
+    "name": "Codeforces Round 1087 (Div. 2)",
     "startTime": 1774103700,
     "duration": 7200,
     "url": "https://codeforces.com/contestRegistration/2209"
@@ -78,10 +78,10 @@
   },
   {
     "platform": "CodeForces",
-    "name": "Codeforces Round (Div. 2)",
+    "name": "Codeforces Round (Div. 1 + Div. 2)",
     "startTime": 1774708500,
-    "duration": 7200,
-    "url": "https://codeforces.com/contestRegistration/2210"
+    "duration": 9000,
+    "url": "https://codeforces.com/contestRegistration/2211"
   },
   {
     "platform": "AtCoder",
@@ -89,6 +89,13 @@
     "startTime": 1774785600,
     "duration": 10800,
     "url": "https://atcoder.jp/contests/agc077"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Codeforces Round (Div. 2)",
+    "startTime": 1774794900,
+    "duration": 8100,
+    "url": "https://codeforces.com/contestRegistration/2210"
   },
   {
     "platform": "CodeChef",
