@@ -7,18 +7,25 @@
     "url": "https://www.topcoder.com/challenges/4a50de0f-aaf0-4f5f-8052-c88306b6594b"
   },
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0028 Beta",
-    "startTime": 1773831600,
-    "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0028"
-  },
-  {
     "platform": "CodeChef",
     "name": "Starters 230 (Rated till 5 star)",
     "startTime": 1773844200,
     "duration": 7200,
     "url": "https://www.codechef.com/START230"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0029 Beta",
+    "startTime": 1773918000,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0029"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Weekend Dev Challenge 42: DevOps",
+    "startTime": 1774031400,
+    "duration": 172800,
+    "url": "https://www.codechef.com/DEVWEEKEND42"
   },
   {
     "platform": "AtCoder",
@@ -117,13 +124,6 @@
     "startTime": 1775304000,
     "duration": 6000,
     "url": "https://atcoder.jp/contests/abc452"
-  },
-  {
-    "platform": "CodeChef",
-    "name": "Starters 233",
-    "startTime": 1775658600,
-    "duration": 7200,
-    "url": "https://www.codechef.com/START233"
   },
   {
     "platform": "AtCoder",
