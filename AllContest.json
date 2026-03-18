@@ -1,19 +1,5 @@
 [
   {
-    "platform": "TopCoder",
-    "name": "RFP Tool  Proposal Management  FrontendBackend Integration",
-    "startTime": 1773591314,
-    "duration": 259200,
-    "url": "https://www.topcoder.com/challenges/4a50de0f-aaf0-4f5f-8052-c88306b6594b"
-  },
-  {
-    "platform": "CodeChef",
-    "name": "Starters 230 (Rated till 5 star)",
-    "startTime": 1773844200,
-    "duration": 7200,
-    "url": "https://www.codechef.com/START230"
-  },
-  {
     "platform": "AtCoder",
     "name": "\u24b6\u25c9 AtCoder Weekday Contest 0029 Beta",
     "startTime": 1773918000,
@@ -124,6 +110,13 @@
     "startTime": 1775304000,
     "duration": 6000,
     "url": "https://atcoder.jp/contests/abc452"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Starters 233",
+    "startTime": 1775658600,
+    "duration": 7200,
+    "url": "https://www.codechef.com/START233"
   },
   {
     "platform": "AtCoder",
