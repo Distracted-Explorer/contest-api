@@ -1,12 +1,5 @@
 [
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0030 Beta",
-    "startTime": 1774004400,
-    "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0030"
-  },
-  {
     "platform": "CodeChef",
     "name": "Weekend Dev Challenge 42: DevOps",
     "startTime": 1774031400,
@@ -42,6 +35,13 @@
     "url": "https://atcoder.jp/contests/arc216"
   },
   {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0031 Beta",
+    "startTime": 1774263600,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0031"
+  },
+  {
     "platform": "CodeChef",
     "name": "Monday Munch - DSA Challenge 30",
     "startTime": 1774355400,
@@ -75,6 +75,13 @@
     "startTime": 1774708500,
     "duration": 9000,
     "url": "https://codeforces.com/contestRegistration/2211"
+  },
+  {
+    "platform": "LeetCode",
+    "name": "Weekly Contest 495",
+    "startTime": 1774751400,
+    "duration": 5400,
+    "url": "https://leetcode.com/contest/weekly-contest-495"
   },
   {
     "platform": "AtCoder",
@@ -124,6 +131,13 @@
     "startTime": 1775908800,
     "duration": 6000,
     "url": "https://atcoder.jp/contests/abc453"
+  },
+  {
+    "platform": "LeetCode",
+    "name": "Biweekly Contest 180",
+    "startTime": 1775917800,
+    "duration": 5400,
+    "url": "https://leetcode.com/contest/biweekly-contest-180"
   },
   {
     "platform": "AtCoder",
