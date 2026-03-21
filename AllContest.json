@@ -1,12 +1,5 @@
 [
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Beginner Contest 450",
-    "startTime": 1774094400,
-    "duration": 6000,
-    "url": "https://atcoder.jp/contests/abc450"
-  },
-  {
     "platform": "CodeForces",
     "name": "Codeforces Round 1087 (Div. 2)",
     "startTime": 1774103700,
