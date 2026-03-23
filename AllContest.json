@@ -1,17 +1,24 @@
 [
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0031 Beta",
-    "startTime": 1774263600,
-    "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0031"
+    "platform": "TopCoder",
+    "name": "Admin Challenge Curation  UI Prototype",
+    "startTime": 1774268968,
+    "duration": 259200,
+    "url": "https://www.topcoder.com/challenges/67ffad5a-fd94-47a0-9b20-80f7b6ed5b64"
   },
   {
-    "platform": "CodeChef",
-    "name": "Monday Munch - DSA Challenge 30",
-    "startTime": 1774269000,
-    "duration": 10800,
-    "url": "https://www.codechef.com/DSAMONDAY30"
+    "platform": "TopCoder",
+    "name": "Admin Challenge Curation  Backend Development",
+    "startTime": 1774268990,
+    "duration": 259200,
+    "url": "https://www.topcoder.com/challenges/39c5f88b-14f1-40f0-938c-2529a8d22b26"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0032 Beta",
+    "startTime": 1774350000,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0032"
   },
   {
     "platform": "CodeChef",
@@ -91,6 +98,13 @@
     "url": "https://leetcode.com/contest/weekly-contest-496"
   },
   {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Regular Contest 217",
+    "startTime": 1775390400,
+    "duration": 7200,
+    "url": "https://atcoder.jp/contests/arc217"
+  },
+  {
     "platform": "CodeChef",
     "name": "Starters 233",
     "startTime": 1775658600,
@@ -117,6 +131,13 @@
     "startTime": 1776263400,
     "duration": 7200,
     "url": "https://www.codechef.com/START234"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Starters 235",
+    "startTime": 1776868200,
+    "duration": 7200,
+    "url": "https://www.codechef.com/START235"
   },
   {
     "platform": "AtCoder",
