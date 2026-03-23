@@ -84,6 +84,13 @@
     "url": "https://atcoder.jp/contests/abc452"
   },
   {
+    "platform": "LeetCode",
+    "name": "Weekly Contest 496",
+    "startTime": 1775356200,
+    "duration": 5400,
+    "url": "https://leetcode.com/contest/weekly-contest-496"
+  },
+  {
     "platform": "CodeChef",
     "name": "Starters 233",
     "startTime": 1775658600,
