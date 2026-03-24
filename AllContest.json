@@ -71,6 +71,13 @@
   },
   {
     "platform": "CodeChef",
+    "name": "Monday Munch - DSA Challenge 31",
+    "startTime": 1774873800,
+    "duration": 10800,
+    "url": "https://www.codechef.com/DSAMONDAY31"
+  },
+  {
+    "platform": "CodeChef",
     "name": "Starters 232",
     "startTime": 1775053800,
     "duration": 7200,
@@ -138,13 +145,6 @@
     "startTime": 1776513600,
     "duration": 6000,
     "url": "https://atcoder.jp/contests/abc454"
-  },
-  {
-    "platform": "CodeChef",
-    "name": "Starters 235",
-    "startTime": 1776868200,
-    "duration": 7200,
-    "url": "https://www.codechef.com/START235"
   },
   {
     "platform": "AtCoder",
