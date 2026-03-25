@@ -14,13 +14,6 @@
     "url": "https://www.topcoder.com/challenges/39c5f88b-14f1-40f0-938c-2529a8d22b26"
   },
   {
-    "platform": "CodeChef",
-    "name": "Starters 231 (Rated till 5 star)",
-    "startTime": 1774449000,
-    "duration": 7200,
-    "url": "https://www.codechef.com/START231"
-  },
-  {
     "platform": "AtCoder",
     "name": "\u24b6\u25c9 AtCoder Weekday Contest 0034 Beta",
     "startTime": 1774522800,
@@ -138,6 +131,13 @@
     "startTime": 1775917800,
     "duration": 5400,
     "url": "https://leetcode.com/contest/biweekly-contest-180"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Starters 234",
+    "startTime": 1776263400,
+    "duration": 7200,
+    "url": "https://www.codechef.com/START234"
   },
   {
     "platform": "AtCoder",
