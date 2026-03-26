@@ -1,24 +1,10 @@
 [
   {
-    "platform": "TopCoder",
-    "name": "Admin Challenge Curation  UI Prototype",
-    "startTime": 1774268968,
-    "duration": 259200,
-    "url": "https://www.topcoder.com/challenges/67ffad5a-fd94-47a0-9b20-80f7b6ed5b64"
-  },
-  {
-    "platform": "TopCoder",
-    "name": "Admin Challenge Curation  Backend Development",
-    "startTime": 1774268990,
-    "duration": 259200,
-    "url": "https://www.topcoder.com/challenges/39c5f88b-14f1-40f0-938c-2529a8d22b26"
-  },
-  {
     "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0034 Beta",
-    "startTime": 1774522800,
+    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0035 Beta",
+    "startTime": 1774609200,
     "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0034"
+    "url": "https://atcoder.jp/contests/awc0035"
   },
   {
     "platform": "CodeChef",
