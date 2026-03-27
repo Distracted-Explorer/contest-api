@@ -1,12 +1,5 @@
 [
   {
-    "platform": "CodeChef",
-    "name": "Weekend Dev Challenge 43: DevOps",
-    "startTime": 1774636200,
-    "duration": 172800,
-    "url": "https://www.codechef.com/DEVWEEKEND43"
-  },
-  {
     "platform": "AtCoder",
     "name": "\u24b6\u25c9 AtCoder Beginner Contest 451",
     "startTime": 1774699200,
@@ -138,6 +131,13 @@
     "startTime": 1776513600,
     "duration": 6000,
     "url": "https://atcoder.jp/contests/abc454"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Starters 235",
+    "startTime": 1776868200,
+    "duration": 7200,
+    "url": "https://www.codechef.com/START235"
   },
   {
     "platform": "AtCoder",
