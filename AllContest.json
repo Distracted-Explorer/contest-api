@@ -1,12 +1,5 @@
 [
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0035 Beta",
-    "startTime": 1774609200,
-    "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0035"
-  },
-  {
     "platform": "CodeChef",
     "name": "Weekend Dev Challenge 43: DevOps",
     "startTime": 1774636200,
@@ -54,6 +47,13 @@
     "startTime": 1774794900,
     "duration": 8100,
     "url": "https://codeforces.com/contestRegistration/2210"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0036 Beta",
+    "startTime": 1774868400,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0036"
   },
   {
     "platform": "CodeChef",
