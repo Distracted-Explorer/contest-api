@@ -1,12 +1,5 @@
 [
   {
-    "platform": "CodeForces",
-    "name": "Nebius Round 2 (Codeforces Round 1088, Div. 1 + Div. 2)",
-    "startTime": 1774709100,
-    "duration": 9000,
-    "url": "https://codeforces.com/contestRegistration/2211"
-  },
-  {
     "platform": "LeetCode",
     "name": "Weekly Contest 495",
     "startTime": 1774751400,
