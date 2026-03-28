@@ -1,22 +1,8 @@
 [
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Beginner Contest 451",
-    "startTime": 1774699200,
-    "duration": 6000,
-    "url": "https://atcoder.jp/contests/abc451"
-  },
-  {
-    "platform": "LeetCode",
-    "name": "Biweekly Contest 179",
-    "startTime": 1774708200,
-    "duration": 5400,
-    "url": "https://leetcode.com/contest/biweekly-contest-179"
-  },
-  {
     "platform": "CodeForces",
     "name": "Nebius Round 2 (Codeforces Round 1088, Div. 1 + Div. 2)",
-    "startTime": 1774708500,
+    "startTime": 1774709100,
     "duration": 9000,
     "url": "https://codeforces.com/contestRegistration/2211"
   },
