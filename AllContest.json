@@ -56,6 +56,13 @@
     "url": "https://www.codechef.com/DSAMONDAY32"
   },
   {
+    "platform": "CodeForces",
+    "name": "Codeforces Round (Div. 2)",
+    "startTime": 1775572500,
+    "duration": 8100,
+    "url": "https://codeforces.com/contestRegistration/2217"
+  },
+  {
     "platform": "CodeChef",
     "name": "Starters 233",
     "startTime": 1775658600,
