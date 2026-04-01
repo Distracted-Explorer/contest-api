@@ -1,5 +1,12 @@
 [
   {
+    "platform": "TopCoder",
+    "name": "Digital Ice Breaker Board Game",
+    "startTime": 1775076124,
+    "duration": 86400,
+    "url": "https://www.topcoder.com/challenges/66912d4f-9015-47b9-ae05-18a6398fb0aa"
+  },
+  {
     "platform": "AtCoder",
     "name": "\u24b6\u25c9 AtCoder Weekday Contest 0039 Beta",
     "startTime": 1775127600,
