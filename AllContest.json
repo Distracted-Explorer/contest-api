@@ -1,19 +1,5 @@
 [
   {
-    "platform": "CodeChef",
-    "name": "Starters 232 (Rated till 5 star)",
-    "startTime": 1775053800,
-    "duration": 7200,
-    "url": "https://www.codechef.com/START232"
-  },
-  {
-    "platform": "CodeForces",
-    "name": "April Fools Day Contest 2026",
-    "startTime": 1775054100,
-    "duration": 7200,
-    "url": "https://codeforces.com/contestRegistration/2214"
-  },
-  {
     "platform": "AtCoder",
     "name": "\u24b6\u25c9 AtCoder Weekday Contest 0039 Beta",
     "startTime": 1775127600,
@@ -103,6 +89,13 @@
     "startTime": 1776513600,
     "duration": 6000,
     "url": "https://atcoder.jp/contests/abc454"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Starters 235",
+    "startTime": 1776868200,
+    "duration": 7200,
+    "url": "https://www.codechef.com/START235"
   },
   {
     "platform": "AtCoder",
