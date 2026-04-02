@@ -1,143 +1,10 @@
 [
   {
-    "platform": "TopCoder",
-    "name": "AI CE Orchestration 3 Launching",
-    "startTime": 1773384751,
-    "duration": 205649,
-    "url": "https://www.topcoder.com/challenges/b7da4e96-52ed-4b22-a923-65c1fda7c09d"
-  },
-  {
-    "platform": "TopCoder",
-    "name": "TopCoder SOW  Proposal Creation Agent",
-    "startTime": 1773453340,
-    "duration": 172800,
-    "url": "https://www.topcoder.com/challenges/21d5ea84-dfa4-43ad-afd8-483942aff152"
-  },
-  {
     "platform": "AtCoder",
-    "name": "\u24bd\u25c9 UNIQUE VISION Programming Contest 2026 Spring (AtCoder Heuristic Contest 062)",
-    "startTime": 1773468000,
-    "duration": 14400,
-    "url": "https://atcoder.jp/contests/ahc062"
-  },
-  {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Beginner Contest 449",
-    "startTime": 1773489600,
-    "duration": 6000,
-    "url": "https://atcoder.jp/contests/abc449"
-  },
-  {
-    "platform": "LeetCode",
-    "name": "Biweekly Contest 178",
-    "startTime": 1773498600,
-    "duration": 5400,
-    "url": "https://leetcode.com/contest/biweekly-contest-178"
-  },
-  {
-    "platform": "CodeForces",
-    "name": "Codeforces Round 1086 (Div. 2)",
-    "startTime": 1773498900,
-    "duration": 7200,
-    "url": "https://codeforces.com/contestRegistration/2208"
-  },
-  {
-    "platform": "LeetCode",
-    "name": "Weekly Contest 493",
-    "startTime": 1773541800,
-    "duration": 5400,
-    "url": "https://leetcode.com/contest/weekly-contest-493"
-  },
-  {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0026 Beta",
-    "startTime": 1773658800,
+    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0039 Beta",
+    "startTime": 1775127600,
     "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0026"
-  },
-  {
-    "platform": "CodeChef",
-    "name": "Monday Munch - DSA Challenge 29",
-    "startTime": 1773664200,
-    "duration": 10800,
-    "url": "https://www.codechef.com/DSAMONDAY29"
-  },
-  {
-    "platform": "CodeForces",
-    "name": "Educational Codeforces Round 188 (Rated for Div. 2)",
-    "startTime": 1773671700,
-    "duration": 7200,
-    "url": "https://codeforces.com/contestRegistration/2204"
-  },
-  {
-    "platform": "CodeChef",
-    "name": "Starters 230",
-    "startTime": 1773844200,
-    "duration": 7200,
-    "url": "https://www.codechef.com/START230"
-  },
-  {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Beginner Contest 450",
-    "startTime": 1774094400,
-    "duration": 6000,
-    "url": "https://atcoder.jp/contests/abc450"
-  },
-  {
-    "platform": "CodeForces",
-    "name": "Codeforces Round (Div. 2)",
-    "startTime": 1774103700,
-    "duration": 7200,
-    "url": "https://codeforces.com/contestRegistration/2209"
-  },
-  {
-    "platform": "LeetCode",
-    "name": "Weekly Contest 494",
-    "startTime": 1774146600,
-    "duration": 5400,
-    "url": "https://leetcode.com/contest/weekly-contest-494"
-  },
-  {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Regular Contest++ 216",
-    "startTime": 1774180800,
-    "duration": 9000,
-    "url": "https://atcoder.jp/contests/arc216"
-  },
-  {
-    "platform": "CodeChef",
-    "name": "Starters 231",
-    "startTime": 1774449000,
-    "duration": 7200,
-    "url": "https://www.codechef.com/START231"
-  },
-  {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Beginner Contest 451",
-    "startTime": 1774699200,
-    "duration": 6000,
-    "url": "https://atcoder.jp/contests/abc451"
-  },
-  {
-    "platform": "LeetCode",
-    "name": "Biweekly Contest 179",
-    "startTime": 1774708200,
-    "duration": 5400,
-    "url": "https://leetcode.com/contest/biweekly-contest-179"
-  },
-  {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Grand Contest 077",
-    "startTime": 1774785600,
-    "duration": 10800,
-    "url": "https://atcoder.jp/contests/agc077"
-  },
-  {
-    "platform": "CodeChef",
-    "name": "Starters 232",
-    "startTime": 1775053800,
-    "duration": 7200,
-    "url": "https://www.codechef.com/START232"
+    "url": "https://atcoder.jp/contests/awc0039"
   },
   {
     "platform": "AtCoder",
@@ -147,11 +14,46 @@
     "url": "https://atcoder.jp/contests/ahc063"
   },
   {
+    "platform": "CodeChef",
+    "name": "Weekend Dev Challenge 44: Cybersecurity",
+    "startTime": 1775241000,
+    "duration": 172800,
+    "url": "https://www.codechef.com/DEVWEEKEND44"
+  },
+  {
     "platform": "AtCoder",
     "name": "\u24b6\u25c9 AtCoder Beginner Contest 452",
     "startTime": 1775304000,
     "duration": 6000,
     "url": "https://atcoder.jp/contests/abc452"
+  },
+  {
+    "platform": "LeetCode",
+    "name": "Weekly Contest 496",
+    "startTime": 1775356200,
+    "duration": 5400,
+    "url": "https://leetcode.com/contest/weekly-contest-496"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Regular Contest 217",
+    "startTime": 1775390400,
+    "duration": 7200,
+    "url": "https://atcoder.jp/contests/arc217"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Monday Munch - DSA Challenge 32",
+    "startTime": 1775478600,
+    "duration": 10800,
+    "url": "https://www.codechef.com/DSAMONDAY32"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Codeforces Round (Div. 2)",
+    "startTime": 1775572500,
+    "duration": 8100,
+    "url": "https://codeforces.com/contestRegistration/2217"
   },
   {
     "platform": "CodeChef",
@@ -168,10 +70,45 @@
     "url": "https://atcoder.jp/contests/abc453"
   },
   {
+    "platform": "LeetCode",
+    "name": "Biweekly Contest 180",
+    "startTime": 1775917800,
+    "duration": 5400,
+    "url": "https://leetcode.com/contest/biweekly-contest-180"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Starters 234",
+    "startTime": 1776263400,
+    "duration": 7200,
+    "url": "https://www.codechef.com/START234"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 Keysight Technologies Programming Contest\uff08AtCoder Beginner Contest 454\uff09",
+    "startTime": 1776513600,
+    "duration": 6000,
+    "url": "https://atcoder.jp/contests/abc454"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Starters 235",
+    "startTime": 1776868200,
+    "duration": 7200,
+    "url": "https://www.codechef.com/START235"
+  },
+  {
     "platform": "AtCoder",
     "name": "\u24b6\u25c9 \uff33\uff4b\uff59 Inc, Programming Contest 2026 (AtCoder Beginner Contest 455)",
     "startTime": 1777118400,
     "duration": 6000,
     "url": "https://atcoder.jp/contests/abc455"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24bd\u25c9 JR WEST and ALGO ARTIS Programming Contest  (AtCoder Heuristic Contest 064)",
+    "startTime": 1777183200,
+    "duration": 14400,
+    "url": "https://atcoder.jp/contests/ahc064"
   }
 ]
