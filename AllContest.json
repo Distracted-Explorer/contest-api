@@ -7,13 +7,6 @@
     "url": "https://atcoder.jp/contests/ahc063"
   },
   {
-    "platform": "CodeChef",
-    "name": "Weekend Dev Challenge 44: Cybersecurity",
-    "startTime": 1775241000,
-    "duration": 172800,
-    "url": "https://www.codechef.com/DEVWEEKEND44"
-  },
-  {
     "platform": "AtCoder",
     "name": "\u24b6\u25c9 AtCoder Beginner Contest 452",
     "startTime": 1775304000,
@@ -117,5 +110,12 @@
     "startTime": 1777183200,
     "duration": 14400,
     "url": "https://atcoder.jp/contests/ahc064"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Starters 236",
+    "startTime": 1777473000,
+    "duration": 7200,
+    "url": "https://www.codechef.com/START236"
   }
 ]
