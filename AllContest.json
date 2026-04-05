@@ -7,13 +7,6 @@
     "url": "https://atcoder.jp/contests/ahc063"
   },
   {
-    "platform": "LeetCode",
-    "name": "Weekly Contest 496",
-    "startTime": 1775356200,
-    "duration": 5400,
-    "url": "https://leetcode.com/contest/weekly-contest-496"
-  },
-  {
     "platform": "AtCoder",
     "name": "\u24b6\u25c9 AtCoder Regular Contest 217",
     "startTime": 1775390400,
@@ -61,6 +54,13 @@
     "startTime": 1775917800,
     "duration": 5400,
     "url": "https://leetcode.com/contest/biweekly-contest-180"
+  },
+  {
+    "platform": "LeetCode",
+    "name": "Weekly Contest 497",
+    "startTime": 1775961000,
+    "duration": 5400,
+    "url": "https://leetcode.com/contest/weekly-contest-497"
   },
   {
     "platform": "CodeChef",
