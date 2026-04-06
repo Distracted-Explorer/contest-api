@@ -8,17 +8,10 @@
   },
   {
     "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0041 Beta",
-    "startTime": 1775473200,
+    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0042 Beta",
+    "startTime": 1775559600,
     "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0041"
-  },
-  {
-    "platform": "CodeChef",
-    "name": "Monday Munch - DSA Challenge 32",
-    "startTime": 1775478600,
-    "duration": 10800,
-    "url": "https://www.codechef.com/DSAMONDAY32"
+    "url": "https://atcoder.jp/contests/awc0042"
   },
   {
     "platform": "CodeForces",
@@ -54,6 +47,20 @@
     "startTime": 1775961000,
     "duration": 5400,
     "url": "https://leetcode.com/contest/weekly-contest-497"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Codeforces Round (Div. 1)",
+    "startTime": 1775972100,
+    "duration": 10800,
+    "url": "https://codeforces.com/contestRegistration/2215"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Codeforces Round (Div. 2)",
+    "startTime": 1775972100,
+    "duration": 10800,
+    "url": "https://codeforces.com/contestRegistration/2216"
   },
   {
     "platform": "CodeChef",
