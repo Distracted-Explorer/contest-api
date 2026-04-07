@@ -7,6 +7,13 @@
     "url": "https://atcoder.jp/contests/ahc063"
   },
   {
+    "platform": "TopCoder",
+    "name": "Autonomous AI Architect MultiAgent Workflow for Topcoder Review Scorecards",
+    "startTime": 1775545200,
+    "duration": 172800,
+    "url": "https://www.topcoder.com/challenges/0f23c6b2-9a18-4e43-97d5-14a9a5dca5d8"
+  },
+  {
     "platform": "AtCoder",
     "name": "\u24b6\u25c9 AtCoder Weekday Contest 0042 Beta",
     "startTime": 1775559600,
@@ -61,6 +68,13 @@
     "startTime": 1775972100,
     "duration": 10800,
     "url": "https://codeforces.com/contestRegistration/2216"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Monday Munch - DSA Challenge 33",
+    "startTime": 1776083400,
+    "duration": 10800,
+    "url": "https://www.codechef.com/DSAMONDAY33"
   },
   {
     "platform": "CodeForces",
