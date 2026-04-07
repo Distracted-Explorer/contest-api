@@ -63,6 +63,20 @@
     "url": "https://codeforces.com/contestRegistration/2216"
   },
   {
+    "platform": "CodeForces",
+    "name": "Codeforces Round (Div. 1)",
+    "startTime": 1776090900,
+    "duration": 7200,
+    "url": "https://codeforces.com/contestRegistration/2219"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Codeforces Round (Div. 2)",
+    "startTime": 1776090900,
+    "duration": 7200,
+    "url": "https://codeforces.com/contestRegistration/2220"
+  },
+  {
     "platform": "CodeChef",
     "name": "Starters 234",
     "startTime": 1776263400,
