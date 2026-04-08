@@ -14,18 +14,25 @@
     "url": "https://www.topcoder.com/challenges/0f23c6b2-9a18-4e43-97d5-14a9a5dca5d8"
   },
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0043 Beta",
-    "startTime": 1775646000,
-    "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0043"
-  },
-  {
     "platform": "CodeChef",
     "name": "Starters 233 (Rated till 6 star)",
     "startTime": 1775658600,
     "duration": 7200,
     "url": "https://www.codechef.com/START233"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0044 Beta",
+    "startTime": 1775732400,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0044"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Weekend Dev Challenge 45: Cybersecurity",
+    "startTime": 1775845800,
+    "duration": 172800,
+    "url": "https://www.codechef.com/DEVWEEKEND45"
   },
   {
     "platform": "AtCoder",
@@ -117,12 +124,5 @@
     "startTime": 1777183200,
     "duration": 14400,
     "url": "https://atcoder.jp/contests/ahc064"
-  },
-  {
-    "platform": "CodeChef",
-    "name": "Starters 236",
-    "startTime": 1777473000,
-    "duration": 7200,
-    "url": "https://www.codechef.com/START236"
   }
 ]
