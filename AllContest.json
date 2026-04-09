@@ -8,13 +8,6 @@
   },
   {
     "platform": "TopCoder",
-    "name": "Autonomous AI Architect MultiAgent Workflow for Topcoder Review Scorecards",
-    "startTime": 1775545200,
-    "duration": 172800,
-    "url": "https://www.topcoder.com/challenges/0f23c6b2-9a18-4e43-97d5-14a9a5dca5d8"
-  },
-  {
-    "platform": "TopCoder",
     "name": "Digital Ice Breaker Game",
     "startTime": 1775696475,
     "duration": 86325,
@@ -22,10 +15,10 @@
   },
   {
     "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0044 Beta",
-    "startTime": 1775732400,
+    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0045 Beta",
+    "startTime": 1775818800,
     "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0044"
+    "url": "https://atcoder.jp/contests/awc0045"
   },
   {
     "platform": "CodeChef",
@@ -110,6 +103,13 @@
     "startTime": 1776868200,
     "duration": 7200,
     "url": "https://www.codechef.com/START235"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Codeforces Round (Div. 2)",
+    "startTime": 1776954900,
+    "duration": 7200,
+    "url": "https://codeforces.com/contestRegistration/2213"
   },
   {
     "platform": "AtCoder",
