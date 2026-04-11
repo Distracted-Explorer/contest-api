@@ -169,11 +169,20 @@ for c in tc:
             "url": f"https://www.topcoder.com/challenges/{c['id']}"
         })
 
-
 AllContests = (
     CodeForces + Leetcode + AtCoder +
     CodeChef + HackerRank + TopCoder
 )
+
+with open("AllContest.json","r") as f:
+    TempContest=json.load(f)
+
+for contest in TempContest:
+    if contest not in AllContests:
+        utc_time = int(datetime.now(timezone.utc).timestamp())
+        old_contest_cutoff=utc_time-(7*24*3600)
+        if old_contest_cutoff<contest['startTime']:
+            AllContests.append(contest)
 
 AllContests.sort(key=lambda x: x["startTime"])
 
