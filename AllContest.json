@@ -29,6 +29,20 @@
   },
   {
     "platform": "CodeForces",
+    "name": "Codeforces Round 1092 (Unrated, Div. 1, Based on THUPC 2026 \u2014 Finals)",
+    "startTime": 1775972100,
+    "duration": 10800,
+    "url": "https://codeforces.com/contestRegistration/2215"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Codeforces Round 1092 (Unrated, Div. 2, Based on THUPC 2026 \u2014 Finals)",
+    "startTime": 1775972100,
+    "duration": 10800,
+    "url": "https://codeforces.com/contestRegistration/2216"
+  },
+  {
+    "platform": "CodeForces",
     "name": "Codeforces Round 1092 (Div. 1, Based on THUPC 2026 \u2014 Finals)",
     "startTime": 1775972100,
     "duration": 10800,
@@ -131,6 +145,13 @@
     "startTime": 1777473000,
     "duration": 7200,
     "url": "https://www.codechef.com/START236"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Regular Contest 218",
+    "startTime": 1777809600,
+    "duration": 7200,
+    "url": "https://atcoder.jp/contests/arc218"
   },
   {
     "platform": "AtCoder",
