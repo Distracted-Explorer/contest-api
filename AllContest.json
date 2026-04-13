@@ -148,6 +148,13 @@
   },
   {
     "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Beginner Contest 456",
+    "startTime": 1777723200,
+    "duration": 6000,
+    "url": "https://atcoder.jp/contests/abc456"
+  },
+  {
+    "platform": "AtCoder",
     "name": "\u24b6\u25c9 AtCoder Regular Contest 218",
     "startTime": 1777809600,
     "duration": 7200,
@@ -159,5 +166,12 @@
     "startTime": 1778328000,
     "duration": 6000,
     "url": "https://atcoder.jp/contests/abc457"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 CodeQUEEN 2026 -qual- (AtCoder Beginner Contest 462)",
+    "startTime": 1781352000,
+    "duration": 6000,
+    "url": "https://atcoder.jp/contests/abc462"
   }
 ]
