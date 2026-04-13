@@ -11,7 +11,6 @@ CodeChef=[]
 CodeForces=[]
 HackerRank=[]
 Leetcode=[]
-TopCoder=[]
 
 headers = {"User-Agent": "Mozilla/5.0"}
 
@@ -144,34 +143,9 @@ for c in hr["models"]:
 
 
 
-#TopCoder
-
-tc=requests.get(
-    "https://api.topcoder.com/v6/challenges/?status=ACTIVE&perPage=100&page=1&sortBy=startDate&sortOrder=desc&tracks%5b%5d=Dev&tracks%5b%5d=Des&tracks%5b%5d=DS&tracks%5b%5d=QA&types%5b%5d=CH&types%5b%5d=F2F&types%5b%5d=MM&types%5b%5d=TSK",
-    headers=headers,
-    timeout=10
-).json()
-
-for c in tc:
-    if c["phases"][0]["isOpen"]:
-        dt_string=c["registrationStartDate"]
-        dt = datetime.fromisoformat(dt_string.replace("Z", "+00:00"))
-        registration_start = int(dt.timestamp())
-
-        dt_string=c["registrationEndDate"]
-        dt = datetime.fromisoformat(dt_string.replace("Z", "+00:00"))
-        registration_end = int(dt.timestamp())
-        TopCoder.append({
-            "platform": "TopCoder",
-            "name": c["name"],
-            "startTime": registration_start,
-            "duration": registration_end-registration_start,
-            "url": f"https://www.topcoder.com/challenges/{c['id']}"
-        })
-
 AllContests = (
     CodeForces + Leetcode + AtCoder +
-    CodeChef + HackerRank + TopCoder
+    CodeChef + HackerRank
 )
 
 with open("AllContest.json","r") as f:
