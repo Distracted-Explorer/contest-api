@@ -77,6 +77,13 @@
     "url": "https://codeforces.com/contestRegistration/2220"
   },
   {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0047 Beta",
+    "startTime": 1776164400,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0047"
+  },
+  {
     "platform": "CodeChef",
     "name": "Starters 234",
     "startTime": 1776263400,
