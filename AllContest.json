@@ -162,6 +162,13 @@
   },
   {
     "platform": "AtCoder",
+    "name": "\u24b6\u25c9 Next DP Contest",
+    "startTime": 1777953600,
+    "duration": 18000,
+    "url": "https://atcoder.jp/contests/ndpc2026"
+  },
+  {
+    "platform": "AtCoder",
     "name": "\u24b6\u25c9 Polaris.AI Programming Contest 2026\uff08AtCoder Beginner Contest 457\uff09",
     "startTime": 1778328000,
     "duration": 6000,
