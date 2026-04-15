@@ -56,6 +56,13 @@
     "url": "https://www.codechef.com/START234"
   },
   {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0049 Beta",
+    "startTime": 1776337200,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0049"
+  },
+  {
     "platform": "CodeChef",
     "name": "Weekend Dev Challenge 46: Cybersecurity",
     "startTime": 1776450600,
