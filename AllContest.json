@@ -154,6 +154,20 @@
     "url": "https://atcoder.jp/contests/ndpc2026"
   },
   {
+    "platform": "CodeForces",
+    "name": "Codeforces Round (Div. 1)",
+    "startTime": 1778047500,
+    "duration": 9000,
+    "url": "https://codeforces.com/contestRegistration/2223"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Codeforces Round (Div. 2)",
+    "startTime": 1778047500,
+    "duration": 9000,
+    "url": "https://codeforces.com/contestRegistration/2224"
+  },
+  {
     "platform": "AtCoder",
     "name": "\u24b6\u25c9 Polaris.AI Programming Contest 2026\uff08AtCoder Beginner Contest 457\uff09",
     "startTime": 1778328000,
