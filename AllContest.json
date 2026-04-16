@@ -140,6 +140,13 @@
     "url": "https://www.codechef.com/START236"
   },
   {
+    "platform": "HackerRank",
+    "name": "HackerRank Orchestrate",
+    "startTime": 1777613400,
+    "duration": 86400,
+    "url": "https://www.hackerrank.com/contests/hackerrank-orchestrate-may26/challenges"
+  },
+  {
     "platform": "AtCoder",
     "name": "\u24b6\u25c9 AtCoder Beginner Contest 456",
     "startTime": 1777723200,
