@@ -1,19 +1,5 @@
 [
   {
-    "platform": "CodeForces",
-    "name": "Codeforces Round 1093 (Div. 1)",
-    "startTime": 1776090900,
-    "duration": 7200,
-    "url": "https://codeforces.com/contestRegistration/2219"
-  },
-  {
-    "platform": "CodeForces",
-    "name": "Codeforces Round 1093 (Div. 2)",
-    "startTime": 1776090900,
-    "duration": 7200,
-    "url": "https://codeforces.com/contestRegistration/2220"
-  },
-  {
     "platform": "AtCoder",
     "name": "\u24b6\u25c9 AtCoder Weekday Contest 0047 Beta",
     "startTime": 1776164400,
@@ -117,6 +103,13 @@
     "startTime": 1777127400,
     "duration": 5400,
     "url": "https://leetcode.com/contest/biweekly-contest-181"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Codeforces Round (Div. 1 + Div. 2)",
+    "startTime": 1777127700,
+    "duration": 9000,
+    "url": "https://codeforces.com/contestRegistration/2222"
   },
   {
     "platform": "AtCoder",
