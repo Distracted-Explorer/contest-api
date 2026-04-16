@@ -119,6 +119,13 @@
     "url": "https://atcoder.jp/contests/ahc064"
   },
   {
+    "platform": "CodeForces",
+    "name": "Codeforces Round (Div. 2)",
+    "startTime": 1777386900,
+    "duration": 8100,
+    "url": "https://codeforces.com/contestRegistration/2226"
+  },
+  {
     "platform": "CodeChef",
     "name": "Starters 236",
     "startTime": 1777473000,
