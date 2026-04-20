@@ -35,6 +35,13 @@
     "url": "https://www.codechef.com/DSAMONDAY34"
   },
   {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0052 Beta",
+    "startTime": 1776769200,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0052"
+  },
+  {
     "platform": "CodeForces",
     "name": "Educational Codeforces Round 189 (Rated for Div. 2)",
     "startTime": 1776782100,
