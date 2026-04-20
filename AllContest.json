@@ -1,12 +1,5 @@
 [
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0050 Beta",
-    "startTime": 1776423600,
-    "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0050"
-  },
-  {
     "platform": "CodeChef",
     "name": "Weekend Dev Challenge 46: Cybersecurity",
     "startTime": 1776450600,
@@ -75,6 +68,13 @@
     "startTime": 1777127400,
     "duration": 5400,
     "url": "https://leetcode.com/contest/biweekly-contest-181"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Spectral::Cup 2026 Round 1 (Codeforces Round 1094, Div. 1 + Div. 2)",
+    "startTime": 1777127700,
+    "duration": 9000,
+    "url": "https://codeforces.com/contestRegistration/2222"
   },
   {
     "platform": "CodeForces",
