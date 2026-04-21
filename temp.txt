@@ -1,0 +1,30 @@
+sudo yum update -y
+sudo yum install python3-pip -y
+pip3 install flask numpy scikit-learn
+[ec2-user@ip-172-31-34-241 ~]$ sudo yum update -y
+[ec2-user@ip-172-31-34-241 ~]$ sudo yum install python3-pip -y
+[ec2-user@ip-172-31-34-241 ~]$ pip3 install flask numpy scikit-learn
+[ec2-user@ip-172-31-34-241 ~]$ sudo yum install git -y
+[ec2-user@ip-172-31-34-241 ~]$ git clone https://github.com/Distracted-Explorer/mlInstance.git
+[ec2-user@ip-172-31-34-241 ~]$ ls
+[ec2-user@ip-172-31-34-241 ~]$ cd mlInstance/
+[ec2-user@ip-172-31-34-241 mlInstance]$ ls
+[ec2-user@ip-172-31-34-241 mlInstance]$ pip3 install -r requirements.txt
+[ec2-user@ip-172-31-34-241 mlInstance]$ python3 app.py
+
+Last login: Mon Apr 20 17:13:56 2026 from 13.48.4.202
+[ec2-user@ip-172-31-32-249 ~]$ ls
+[ec2-user@ip-172-31-32-249 ~]$ sudo dnf update -y
+[ec2-user@ip-172-31-32-249 ~]$ sudo dnf install nodejs -y
+[ec2-user@ip-172-31-32-249 ~]$ sudo dnf install git -y
+[ec2-user@ip-172-31-32-249 ~]$ sudo dnf install nodejs -y
+[ec2-user@ip-172-31-32-249 ~]$ node -v
+[ec2-user@ip-172-31-32-249 ~]$ git clone https://github.com/AnujTanwar2004/azuredeployement.git
+[ec2-user@ip-172-31-32-249 ~]$ ls
+[ec2-user@ip-172-31-32-249 ~]$ cd azuredeployement/
+[ec2-user@ip-172-31-32-249 azuredeployement]$ ls
+[ec2-user@ip-172-31-32-249 azuredeployement]$ npm run server.js
+[ec2-user@ip-172-31-32-249 azuredeployement]$ npm install
+[ec2-user@ip-172-31-32-249 azuredeployement]$ npm start
+Server running on http://localhost:3000
+  
