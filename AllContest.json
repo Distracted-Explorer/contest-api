@@ -169,6 +169,13 @@
   },
   {
     "platform": "AtCoder",
+    "name": "\u24bd\u25c9 AtCoder Heuristic Contest 065",
+    "startTime": 1778911200,
+    "duration": 14400,
+    "url": "https://atcoder.jp/contests/ahc065"
+  },
+  {
+    "platform": "AtCoder",
     "name": "\u24b6\u25c9 CodeQUEEN 2026 -qual- (AtCoder Beginner Contest 462)",
     "startTime": 1781352000,
     "duration": 6000,
