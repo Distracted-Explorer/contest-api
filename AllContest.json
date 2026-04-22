@@ -49,6 +49,13 @@
     "url": "https://www.codechef.com/START235"
   },
   {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0054 Beta",
+    "startTime": 1776942000,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0054"
+  },
+  {
     "platform": "CodeForces",
     "name": "Codeforces Round (Div. 2)",
     "startTime": 1776954900,
@@ -117,6 +124,13 @@
     "startTime": 1777473000,
     "duration": 7200,
     "url": "https://www.codechef.com/START236"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Codeforces Round (Div. 3)",
+    "startTime": 1777559700,
+    "duration": 9000,
+    "url": "https://codeforces.com/contestRegistration/2227"
   },
   {
     "platform": "HackerRank",
