@@ -36,6 +36,13 @@
   },
   {
     "platform": "CodeChef",
+    "name": "Starters 235 (Rated till 6 star)",
+    "startTime": 1776868200,
+    "duration": 7200,
+    "url": "https://www.codechef.com/START235"
+  },
+  {
+    "platform": "CodeChef",
     "name": "Starters 235",
     "startTime": 1776868200,
     "duration": 7200,
@@ -126,6 +133,13 @@
     "url": "https://atcoder.jp/contests/abc456"
   },
   {
+    "platform": "LeetCode",
+    "name": "Weekly Contest 500",
+    "startTime": 1777775400,
+    "duration": 5400,
+    "url": "https://leetcode.com/contest/weekly-contest-500"
+  },
+  {
     "platform": "AtCoder",
     "name": "\u24b6\u25c9 AtCoder Regular Contest 218",
     "startTime": 1777809600,
@@ -148,6 +162,20 @@
   },
   {
     "platform": "CodeForces",
+    "name": "Codeforces Round (Div. 1,  Based on Zhili Cup 2026)",
+    "startTime": 1778047500,
+    "duration": 9000,
+    "url": "https://codeforces.com/contestRegistration/2223"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Codeforces Round (Div. 2,  Based on Zhili Cup 2026)",
+    "startTime": 1778047500,
+    "duration": 9000,
+    "url": "https://codeforces.com/contestRegistration/2224"
+  },
+  {
+    "platform": "CodeForces",
     "name": "Codeforces Round (Div. 1)",
     "startTime": 1778047500,
     "duration": 9000,
@@ -166,6 +194,13 @@
     "startTime": 1778328000,
     "duration": 6000,
     "url": "https://atcoder.jp/contests/abc457"
+  },
+  {
+    "platform": "LeetCode",
+    "name": "Biweekly Contest 182",
+    "startTime": 1778337000,
+    "duration": 5400,
+    "url": "https://leetcode.com/contest/biweekly-contest-182"
   },
   {
     "platform": "AtCoder",
