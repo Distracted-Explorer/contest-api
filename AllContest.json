@@ -1,12 +1,5 @@
 [
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0051 Beta",
-    "startTime": 1776682800,
-    "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0051"
-  },
-  {
     "platform": "CodeChef",
     "name": "Monday Munch - DSA Challenge 34",
     "startTime": 1776688200,
