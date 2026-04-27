@@ -1,12 +1,5 @@
 [
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0055 Beta",
-    "startTime": 1777028400,
-    "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0055"
-  },
-  {
     "platform": "CodeChef",
     "name": "Weekend Dev Challenge 47: Cybersecurity",
     "startTime": 1777055400,
@@ -68,6 +61,13 @@
     "startTime": 1777293000,
     "duration": 10800,
     "url": "https://www.codechef.com/DSAMONDAY35"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0057 Beta",
+    "startTime": 1777374000,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0057"
   },
   {
     "platform": "CodeForces",
