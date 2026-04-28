@@ -1,33 +1,5 @@
 [
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 \uff33\uff4b\uff59 Inc, Programming Contest 2026 (AtCoder Beginner Contest 455)",
-    "startTime": 1777118400,
-    "duration": 6000,
-    "url": "https://atcoder.jp/contests/abc455"
-  },
-  {
-    "platform": "LeetCode",
-    "name": "Biweekly Contest 181",
-    "startTime": 1777127400,
-    "duration": 5400,
-    "url": "https://leetcode.com/contest/biweekly-contest-181"
-  },
-  {
-    "platform": "CodeForces",
-    "name": "Spectral::Cup 2026 Round 1 (Codeforces Round 1094, Div. 1 + Div. 2)",
-    "startTime": 1777127700,
-    "duration": 9000,
-    "url": "https://codeforces.com/contestRegistration/2222"
-  },
-  {
-    "platform": "CodeForces",
-    "name": "Codeforces Round (Div. 1 + Div. 2)",
-    "startTime": 1777127700,
-    "duration": 9000,
-    "url": "https://codeforces.com/contestRegistration/2222"
-  },
-  {
     "platform": "LeetCode",
     "name": "Weekly Contest 499",
     "startTime": 1777170600,
@@ -77,11 +49,25 @@
     "url": "https://codeforces.com/contestRegistration/2226"
   },
   {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0058 Beta",
+    "startTime": 1777460400,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0058"
+  },
+  {
     "platform": "CodeChef",
     "name": "Starters 236",
     "startTime": 1777473000,
     "duration": 7200,
     "url": "https://www.codechef.com/START236"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Codeforces Round 1096 (Div. 3)",
+    "startTime": 1777559700,
+    "duration": 9000,
+    "url": "https://codeforces.com/contestRegistration/2227"
   },
   {
     "platform": "CodeForces",
