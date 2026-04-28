@@ -211,6 +211,13 @@
   },
   {
     "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Regular Contest++ 221",
+    "startTime": 1780228800,
+    "duration": 9000,
+    "url": "https://atcoder.jp/contests/arc221"
+  },
+  {
+    "platform": "AtCoder",
     "name": "\u24b6\u25c9 CodeQUEEN 2026 -qual- (AtCoder Beginner Contest 462)",
     "startTime": 1781352000,
     "duration": 6000,
