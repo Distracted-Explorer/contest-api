@@ -56,6 +56,13 @@
     "url": "https://www.codechef.com/START236"
   },
   {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0059 Beta",
+    "startTime": 1777546800,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0059"
+  },
+  {
     "platform": "CodeForces",
     "name": "Codeforces Round 1096 (Div. 3)",
     "startTime": 1777559700,
@@ -75,6 +82,13 @@
     "startTime": 1777613400,
     "duration": 86400,
     "url": "https://www.hackerrank.com/contests/hackerrank-orchestrate-may26/challenges"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Weekend Dev Challenge 48: Golang Projects",
+    "startTime": 1777660200,
+    "duration": 172800,
+    "url": "https://www.codechef.com/DEVWEEKEND48"
   },
   {
     "platform": "AtCoder",
@@ -138,6 +152,13 @@
     "startTime": 1778047500,
     "duration": 9000,
     "url": "https://codeforces.com/contestRegistration/2224"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Starters 237",
+    "startTime": 1778077800,
+    "duration": 7200,
+    "url": "https://www.codechef.com/START237"
   },
   {
     "platform": "AtCoder",
