@@ -1,12 +1,5 @@
 [
   {
-    "platform": "LeetCode",
-    "name": "Weekly Contest 499",
-    "startTime": 1777170600,
-    "duration": 5400,
-    "url": "https://leetcode.com/contest/weekly-contest-499"
-  },
-  {
     "platform": "AtCoder",
     "name": "\u24bd\u25c9 JR WEST and ALGO ARTIS Programming Contest  (AtCoder Heuristic Contest 064)",
     "startTime": 1777183200,
