@@ -224,6 +224,13 @@
     "url": "https://atcoder.jp/contests/abc459"
   },
   {
+    "platform": "CodeForces",
+    "name": "Spectral::Cup 2026 Round 2 (Codeforces Round, Div. 1 + Div. 2)",
+    "startTime": 1779546900,
+    "duration": 10800,
+    "url": "https://codeforces.com/contestRegistration/2229"
+  },
+  {
     "platform": "CodeChef",
     "name": "Starters 240",
     "startTime": 1779892200,
