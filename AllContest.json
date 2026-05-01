@@ -113,6 +113,20 @@
   },
   {
     "platform": "CodeForces",
+    "name": "Codeforces Round 1097 (Div. 1,  Based on Zhili Cup 2026)",
+    "startTime": 1778047500,
+    "duration": 9000,
+    "url": "https://codeforces.com/contestRegistration/2223"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Codeforces Round 1097 (Div. 2,  Based on Zhili Cup 2026)",
+    "startTime": 1778047500,
+    "duration": 9000,
+    "url": "https://codeforces.com/contestRegistration/2224"
+  },
+  {
+    "platform": "CodeForces",
     "name": "Codeforces Round (Div. 1,  Based on Zhili Cup 2026)",
     "startTime": 1778047500,
     "duration": 9000,
