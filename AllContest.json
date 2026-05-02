@@ -1,12 +1,5 @@
 [
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0058 Beta",
-    "startTime": 1777460400,
-    "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0058"
-  },
-  {
     "platform": "CodeChef",
     "name": "Starters 236 (Rated till 5 star)",
     "startTime": 1777473000,
