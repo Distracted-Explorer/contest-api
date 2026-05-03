@@ -1,12 +1,5 @@
 [
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0059 Beta",
-    "startTime": 1777546800,
-    "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0059"
-  },
-  {
     "platform": "CodeForces",
     "name": "Codeforces Round 1096 (Div. 3)",
     "startTime": 1777559700,
