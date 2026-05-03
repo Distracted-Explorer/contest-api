@@ -1,19 +1,5 @@
 [
   {
-    "platform": "CodeForces",
-    "name": "Codeforces Round 1096 (Div. 3)",
-    "startTime": 1777559700,
-    "duration": 9000,
-    "url": "https://codeforces.com/contestRegistration/2227"
-  },
-  {
-    "platform": "CodeForces",
-    "name": "Codeforces Round (Div. 3)",
-    "startTime": 1777559700,
-    "duration": 9000,
-    "url": "https://codeforces.com/contestRegistration/2227"
-  },
-  {
     "platform": "HackerRank",
     "name": "HackerRank Orchestrate",
     "startTime": 1777613400,
