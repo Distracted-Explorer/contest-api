@@ -154,6 +154,13 @@
     "url": "https://leetcode.com/contest/biweekly-contest-182"
   },
   {
+    "platform": "LeetCode",
+    "name": "Weekly Contest 501",
+    "startTime": 1778380200,
+    "duration": 5400,
+    "url": "https://leetcode.com/contest/weekly-contest-501"
+  },
+  {
     "platform": "AtCoder",
     "name": "\u24b6\u25c9 AtCoder Regular Contest-- 219",
     "startTime": 1778414400,
