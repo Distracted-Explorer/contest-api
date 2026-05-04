@@ -1,12 +1,5 @@
 [
   {
-    "platform": "HackerRank",
-    "name": "HackerRank Orchestrate",
-    "startTime": 1777613400,
-    "duration": 86400,
-    "url": "https://www.hackerrank.com/contests/hackerrank-orchestrate-may26/challenges"
-  },
-  {
     "platform": "AtCoder",
     "name": "\u24b6\u25c9 AtCoder Weekday Contest 0060 Beta",
     "startTime": 1777633200,
