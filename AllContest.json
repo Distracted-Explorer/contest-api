@@ -1,12 +1,5 @@
 [
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Beginner Contest 456",
-    "startTime": 1777723200,
-    "duration": 6000,
-    "url": "https://atcoder.jp/contests/abc456"
-  },
-  {
     "platform": "LeetCode",
     "name": "Weekly Contest 500",
     "startTime": 1777775400,
@@ -96,6 +89,13 @@
     "startTime": 1778047500,
     "duration": 9000,
     "url": "https://codeforces.com/contestRegistration/2224"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0063 Beta",
+    "startTime": 1778065200,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0063"
   },
   {
     "platform": "CodeChef",
