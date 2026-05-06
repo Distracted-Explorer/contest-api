@@ -168,6 +168,13 @@
     "url": "https://atcoder.jp/contests/arc220"
   },
   {
+    "platform": "CodeForces",
+    "name": "Educational Codeforces Round 190 (Rated for Div. 2)",
+    "startTime": 1779114900,
+    "duration": 7200,
+    "url": "https://codeforces.com/contestRegistration/2230"
+  },
+  {
     "platform": "CodeChef",
     "name": "Starters 239",
     "startTime": 1779287400,
