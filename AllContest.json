@@ -1,12 +1,5 @@
 [
   {
-    "platform": "LeetCode",
-    "name": "Weekly Contest 500",
-    "startTime": 1777775400,
-    "duration": 5400,
-    "url": "https://leetcode.com/contest/weekly-contest-500"
-  },
-  {
     "platform": "AtCoder",
     "name": "\u24b6\u25c9 AtCoder Regular Contest 218",
     "startTime": 1777809600,
