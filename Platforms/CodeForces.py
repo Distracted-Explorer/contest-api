@@ -21,7 +21,7 @@ cf = requests.get(
 
 for c in cf["result"]:
     if utc_time<c["startTimeSeconds"]+c["durationSeconds"]:
-        if utc_time+14*24*3600 >= ["startTimeSeconds"] :
+        if utc_time+14*24*3600 >= c["startTimeSeconds"] :
             CodeForces.append({
                 "platform": "CodeForces",
                 "name": c["name"],

@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 from bs4 import BeautifulSoup
 from datetime import datetime, timezone
 
-Leetcode=[]
+LeetCode=[]
 
 headers = {"User-Agent": "Mozilla/5.0"}
 
@@ -33,7 +33,7 @@ lc = requests.post(
 
 for c in lc["data"]["allContests"]:
     if utc_time<c["startTime"]+c["duration"]:
-        Leetcode.append({
+        LeetCode.append({
             "platform": "LeetCode",
             "name": c["title"],
             "startTime": c["startTime"],
