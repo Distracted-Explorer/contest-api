@@ -28,23 +28,24 @@ for c in hr["models"]:
                 "duration": c["epoch_endtime"] - c["epoch_starttime"],
                 "url": f"https://www.hackerrank.com/contests/{c['slug']}/challenges"
             })
-
 AllContests = []
 
-with open("AllContest.json","r") as f:
-    TempContest=json.load(f)
+with open("AllContest.json", "r") as f:
+    TempContest = json.load(f)
 
-AllValidContest=[]
+utc_time = int(datetime.now(timezone.utc).timestamp())
+old_contest_cutoff = utc_time - (3 * 24 * 3600)
 
 for contest in TempContest:
-    if contest["platform"] is not "HackerRank" :
-      utc_time = int(datetime.now(timezone.utc).timestamp())
-      old_contest_cutoff=utc_time-(3*24*3600)
-      if old_contest_cutoff<contest['startTime']:
-        AllValidContest.append(contest)
+    if contest["platform"] != "HackerRank":
+        if old_contest_cutoff < contest["startTime"]:
+            AllContests.append(contest)
 
-AllContests.append(AllValidContest)
-AllContests.append(HackerRank)
+# add new contests
+AllContests.extend(HackerRank)
+
+# sort by start time
+AllContests.sort(key=lambda x: x["startTime"])
 
 with open("AllContest.json", "w") as f:
     json.dump(AllContests, f, indent=2)

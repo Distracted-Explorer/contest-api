@@ -46,20 +46,22 @@ for table_id in ["contest-table-daily", "contest-table-action", "contest-table-u
 
 AllContests = []
 
-with open("AllContest.json","r") as f:
-    TempContest=json.load(f)
+with open("AllContest.json", "r") as f:
+    TempContest = json.load(f)
 
-AllValidContest=[]
+utc_time = int(datetime.now(timezone.utc).timestamp())
+old_contest_cutoff = utc_time - (3 * 24 * 3600)
 
 for contest in TempContest:
-    if contest["platform"] is not "AtCoder" :
-      utc_time = int(datetime.now(timezone.utc).timestamp())
-      old_contest_cutoff=utc_time-(3*24*3600)
-      if old_contest_cutoff<contest['startTime']:
-        AllValidContest.append(contest)
+    if contest["platform"] != "AtCoder":
+        if old_contest_cutoff < contest["startTime"]:
+            AllContests.append(contest)
 
-AllContests.append(AllValidContest)
-AllContests.append(AtCoder)
+# add new contests
+AllContests.extend(AtCoder)
+
+# sort by start time
+AllContests.sort(key=lambda x: x["startTime"])
 
 with open("AllContest.json", "w") as f:
     json.dump(AllContests, f, indent=2)

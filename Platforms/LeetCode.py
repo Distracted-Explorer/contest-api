@@ -46,17 +46,24 @@ AllContests = []
 with open("AllContest.json", "r") as f:
     TempContest=json.load(f)
 
-AllValidContest=[]
+AllContests = []
+
+with open("AllContest.json", "r") as f:
+    TempContest = json.load(f)
+
+utc_time = int(datetime.now(timezone.utc).timestamp())
+old_contest_cutoff = utc_time - (3 * 24 * 3600)
 
 for contest in TempContest:
-    if contest["platform"] is not "Leetcode" :
-      utc_time = int(datetime.now(timezone.utc).timestamp())
-      old_contest_cutoff=utc_time-(3*24*3600)
-      if old_contest_cutoff<contest['startTime']:
-        AllValidContest.append(contest)
+    if contest["platform"] != "LeetCode":
+        if old_contest_cutoff < contest["startTime"]:
+            AllContests.append(contest)
 
-AllContests.append(AllValidContest)
-AllContests.append(Leetcode)
+# add new contests
+AllContests.extend(LeetCode)
+
+# sort by start time
+AllContests.sort(key=lambda x: x["startTime"])
 
 with open("AllContest.json", "w") as f:
     json.dump(AllContests, f, indent=2)
