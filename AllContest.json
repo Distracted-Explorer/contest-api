@@ -1,254 +1,338 @@
 [
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0061 Beta",
-    "startTime": 1777892400,
-    "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0061"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 1",
+    "startTime": 1778158089,
+    "duration": 1800,
+    "url": "https://example.com/event/1"
   },
   {
-    "platform": "CodeChef",
-    "name": "Monday Munch - DSA Challenge 001 (Rated)",
-    "startTime": 1777897800,
-    "duration": 10800,
-    "url": "https://www.codechef.com/DSAMONDAY001"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 2",
+    "startTime": 1778159889,
+    "duration": 1800,
+    "url": "https://example.com/event/2"
   },
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 Next DP Contest",
-    "startTime": 1777953600,
-    "duration": 18000,
-    "url": "https://atcoder.jp/contests/ndpc"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 3",
+    "startTime": 1778161689,
+    "duration": 1800,
+    "url": "https://example.com/event/3"
   },
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 Next DP Contest",
-    "startTime": 1777953600,
-    "duration": 18000,
-    "url": "https://atcoder.jp/contests/ndpc2026"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 4",
+    "startTime": 1778163489,
+    "duration": 1800,
+    "url": "https://example.com/event/4"
   },
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0062 Beta",
-    "startTime": 1777978800,
-    "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0062"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 5",
+    "startTime": 1778165289,
+    "duration": 1800,
+    "url": "https://example.com/event/5"
   },
   {
-    "platform": "CodeForces",
-    "name": "Codeforces Round 1097 (Div. 1,  Based on Zhili Cup 2026)",
-    "startTime": 1778047500,
-    "duration": 9000,
-    "url": "https://codeforces.com/contestRegistration/2223"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 6",
+    "startTime": 1778167089,
+    "duration": 1800,
+    "url": "https://example.com/event/6"
   },
   {
-    "platform": "CodeForces",
-    "name": "Codeforces Round 1097 (Div. 2,  Based on Zhili Cup 2026)",
-    "startTime": 1778047500,
-    "duration": 9000,
-    "url": "https://codeforces.com/contestRegistration/2224"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 7",
+    "startTime": 1778168889,
+    "duration": 1800,
+    "url": "https://example.com/event/7"
   },
   {
-    "platform": "CodeForces",
-    "name": "Codeforces Round (Div. 1,  Based on Zhili Cup 2026)",
-    "startTime": 1778047500,
-    "duration": 9000,
-    "url": "https://codeforces.com/contestRegistration/2223"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 8",
+    "startTime": 1778170689,
+    "duration": 1800,
+    "url": "https://example.com/event/8"
   },
   {
-    "platform": "CodeForces",
-    "name": "Codeforces Round (Div. 2,  Based on Zhili Cup 2026)",
-    "startTime": 1778047500,
-    "duration": 9000,
-    "url": "https://codeforces.com/contestRegistration/2224"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 9",
+    "startTime": 1778172489,
+    "duration": 1800,
+    "url": "https://example.com/event/9"
   },
   {
-    "platform": "CodeForces",
-    "name": "Codeforces Round (Div. 1)",
-    "startTime": 1778047500,
-    "duration": 9000,
-    "url": "https://codeforces.com/contestRegistration/2223"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 10",
+    "startTime": 1778174289,
+    "duration": 1800,
+    "url": "https://example.com/event/10"
   },
   {
-    "platform": "CodeForces",
-    "name": "Codeforces Round (Div. 2)",
-    "startTime": 1778047500,
-    "duration": 9000,
-    "url": "https://codeforces.com/contestRegistration/2224"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 11",
+    "startTime": 1778176089,
+    "duration": 1800,
+    "url": "https://example.com/event/11"
   },
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0063 Beta",
-    "startTime": 1778065200,
-    "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0063"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 12",
+    "startTime": 1778177889,
+    "duration": 1800,
+    "url": "https://example.com/event/12"
   },
   {
-    "platform": "CodeChef",
-    "name": "Starters 237 (Rated till 5 star)",
-    "startTime": 1778077800,
-    "duration": 7200,
-    "url": "https://www.codechef.com/START237"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 13",
+    "startTime": 1778179689,
+    "duration": 1800,
+    "url": "https://example.com/event/13"
   },
   {
-    "platform": "CodeChef",
-    "name": "Starters 237",
-    "startTime": 1778077800,
-    "duration": 7200,
-    "url": "https://www.codechef.com/START237"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 14",
+    "startTime": 1778181489,
+    "duration": 1800,
+    "url": "https://example.com/event/14"
   },
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0064 Beta",
-    "startTime": 1778151600,
-    "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0064"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 15",
+    "startTime": 1778183289,
+    "duration": 1800,
+    "url": "https://example.com/event/15"
   },
   {
-    "platform": "CodeChef",
-    "name": "Weekend Dev Challenge 49: Golang Projects",
-    "startTime": 1778265000,
-    "duration": 172800,
-    "url": "https://www.codechef.com/DEVWEEKEND49"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 16",
+    "startTime": 1778185089,
+    "duration": 1800,
+    "url": "https://example.com/event/16"
   },
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 Polaris.AI Programming Contest 2026\uff08AtCoder Beginner Contest 457\uff09",
-    "startTime": 1778328000,
-    "duration": 6000,
-    "url": "https://atcoder.jp/contests/abc457"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 17",
+    "startTime": 1778186889,
+    "duration": 1800,
+    "url": "https://example.com/event/17"
   },
   {
-    "platform": "LeetCode",
-    "name": "Biweekly Contest 182",
-    "startTime": 1778337000,
-    "duration": 5400,
-    "url": "https://leetcode.com/contest/biweekly-contest-182"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 18",
+    "startTime": 1778188689,
+    "duration": 1800,
+    "url": "https://example.com/event/18"
   },
   {
-    "platform": "LeetCode",
-    "name": "Weekly Contest 501",
-    "startTime": 1778380200,
-    "duration": 5400,
-    "url": "https://leetcode.com/contest/weekly-contest-501"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 19",
+    "startTime": 1778190489,
+    "duration": 1800,
+    "url": "https://example.com/event/19"
   },
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Regular Contest-- 219",
-    "startTime": 1778414400,
-    "duration": 7200,
-    "url": "https://atcoder.jp/contests/arc219"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 20",
+    "startTime": 1778192289,
+    "duration": 1800,
+    "url": "https://example.com/event/20"
   },
   {
-    "platform": "CodeChef",
-    "name": "Starters 238",
-    "startTime": 1778682600,
-    "duration": 7200,
-    "url": "https://www.codechef.com/START238"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 21",
+    "startTime": 1778194089,
+    "duration": 1800,
+    "url": "https://example.com/event/21"
   },
   {
-    "platform": "AtCoder",
-    "name": "\u24bd\u25c9 AtCoder Heuristic Contest 065",
-    "startTime": 1778911200,
-    "duration": 14400,
-    "url": "https://atcoder.jp/contests/ahc065"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 22",
+    "startTime": 1778195889,
+    "duration": 1800,
+    "url": "https://example.com/event/22"
   },
   {
-    "platform": "CodeForces",
-    "name": "Codeforces Round (Div. 2)",
-    "startTime": 1778942100,
-    "duration": 7200,
-    "url": "https://codeforces.com/contestRegistration/2228"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 23",
+    "startTime": 1778197689,
+    "duration": 1800,
+    "url": "https://example.com/event/23"
   },
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Regular Contest++ 220",
-    "startTime": 1779019200,
-    "duration": 7200,
-    "url": "https://atcoder.jp/contests/arc220"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 24",
+    "startTime": 1778199489,
+    "duration": 1800,
+    "url": "https://example.com/event/24"
   },
   {
-    "platform": "CodeForces",
-    "name": "Educational Codeforces Round 190 (Rated for Div. 2)",
-    "startTime": 1779114900,
-    "duration": 7200,
-    "url": "https://codeforces.com/contestRegistration/2230"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 25",
+    "startTime": 1778201289,
+    "duration": 1800,
+    "url": "https://example.com/event/25"
   },
   {
-    "platform": "CodeChef",
-    "name": "Starters 239",
-    "startTime": 1779287400,
-    "duration": 7200,
-    "url": "https://www.codechef.com/START239"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 26",
+    "startTime": 1778203089,
+    "duration": 1800,
+    "url": "https://example.com/event/26"
   },
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 Tokio Marine & Nichido Fire Insurance Programming Contest 2026  (AtCoder Beginner Contest 459)",
-    "startTime": 1779537600,
-    "duration": 6000,
-    "url": "https://atcoder.jp/contests/abc459"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 27",
+    "startTime": 1778204889,
+    "duration": 1800,
+    "url": "https://example.com/event/27"
   },
   {
-    "platform": "CodeForces",
-    "name": "Spectral::Cup 2026 Round 2 (Codeforces Round, Div. 1 + Div. 2)",
-    "startTime": 1779546900,
-    "duration": 10800,
-    "url": "https://codeforces.com/contestRegistration/2229"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 28",
+    "startTime": 1778206689,
+    "duration": 1800,
+    "url": "https://example.com/event/28"
   },
   {
-    "platform": "CodeChef",
-    "name": "Starters 240",
-    "startTime": 1779892200,
-    "duration": 7200,
-    "url": "https://www.codechef.com/START240"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 29",
+    "startTime": 1778208489,
+    "duration": 1800,
+    "url": "https://example.com/event/29"
   },
   {
-    "platform": "AtCoder",
-    "name": "\u24bd\u25c9 AtCoder Heuristic Contest 066",
-    "startTime": 1780048800,
-    "duration": 864000,
-    "url": "https://atcoder.jp/contests/ahc066"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 30",
+    "startTime": 1778210289,
+    "duration": 1800,
+    "url": "https://example.com/event/30"
   },
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Regular Contest++ 221",
-    "startTime": 1780228800,
-    "duration": 9000,
-    "url": "https://atcoder.jp/contests/arc221"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 31",
+    "startTime": 1778212089,
+    "duration": 1800,
+    "url": "https://example.com/event/31"
   },
   {
-    "platform": "CodeChef",
-    "name": "Starters 241",
-    "startTime": 1780497000,
-    "duration": 7200,
-    "url": "https://www.codechef.com/START241"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 32",
+    "startTime": 1778213889,
+    "duration": 1800,
+    "url": "https://example.com/event/32"
   },
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Beginner Contest 461",
-    "startTime": 1780747200,
-    "duration": 6000,
-    "url": "https://atcoder.jp/contests/abc461"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 33",
+    "startTime": 1778215689,
+    "duration": 1800,
+    "url": "https://example.com/event/33"
   },
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 CodeQUEEN 2026 -qual- (AtCoder Beginner Contest 462)",
-    "startTime": 1781352000,
-    "duration": 6000,
-    "url": "https://atcoder.jp/contests/abc462"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 34",
+    "startTime": 1778217489,
+    "duration": 1800,
+    "url": "https://example.com/event/34"
   },
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Regular Contest 222",
-    "startTime": 1781438400,
-    "duration": 7200,
-    "url": "https://atcoder.jp/contests/arc222"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 35",
+    "startTime": 1778219289,
+    "duration": 1800,
+    "url": "https://example.com/event/35"
   },
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 \u7b2c\u4e03\u56de\u65e5\u672c\u6700\u5f37\u30d7\u30ed\u30b0\u30e9\u30de\u30fc\u5b66\u751f\u9078\u624b\u6a29\uff5eAdvance\uff5e -\u4e88\u9078- \uff08AtCoder Beginner Contest 464\uff09",
-    "startTime": 1782561600,
-    "duration": 6000,
-    "url": "https://atcoder.jp/contests/abc464"
+    "platform": "DemoPlatform",
+    "name": "Sample Event 36",
+    "startTime": 1778221089,
+    "duration": 1800,
+    "url": "https://example.com/event/36"
+  },
+  {
+    "platform": "DemoPlatform",
+    "name": "Sample Event 37",
+    "startTime": 1778222889,
+    "duration": 1800,
+    "url": "https://example.com/event/37"
+  },
+  {
+    "platform": "DemoPlatform",
+    "name": "Sample Event 38",
+    "startTime": 1778224689,
+    "duration": 1800,
+    "url": "https://example.com/event/38"
+  },
+  {
+    "platform": "DemoPlatform",
+    "name": "Sample Event 39",
+    "startTime": 1778226489,
+    "duration": 1800,
+    "url": "https://example.com/event/39"
+  },
+  {
+    "platform": "DemoPlatform",
+    "name": "Sample Event 40",
+    "startTime": 1778228289,
+    "duration": 1800,
+    "url": "https://example.com/event/40"
+  },
+  {
+    "platform": "DemoPlatform",
+    "name": "Sample Event 41",
+    "startTime": 1778230089,
+    "duration": 1800,
+    "url": "https://example.com/event/41"
+  },
+  {
+    "platform": "DemoPlatform",
+    "name": "Sample Event 42",
+    "startTime": 1778231889,
+    "duration": 1800,
+    "url": "https://example.com/event/42"
+  },
+  {
+    "platform": "DemoPlatform",
+    "name": "Sample Event 43",
+    "startTime": 1778233689,
+    "duration": 1800,
+    "url": "https://example.com/event/43"
+  },
+  {
+    "platform": "DemoPlatform",
+    "name": "Sample Event 44",
+    "startTime": 1778235489,
+    "duration": 1800,
+    "url": "https://example.com/event/44"
+  },
+  {
+    "platform": "DemoPlatform",
+    "name": "Sample Event 45",
+    "startTime": 1778237289,
+    "duration": 1800,
+    "url": "https://example.com/event/45"
+  },
+  {
+    "platform": "DemoPlatform",
+    "name": "Sample Event 46",
+    "startTime": 1778239089,
+    "duration": 1800,
+    "url": "https://example.com/event/46"
+  },
+  {
+    "platform": "DemoPlatform",
+    "name": "Sample Event 47",
+    "startTime": 1778240889,
+    "duration": 1800,
+    "url": "https://example.com/event/47"
+  },
+  {
+    "platform": "DemoPlatform",
+    "name": "Sample Event 48",
+    "startTime": 1778242689,
+    "duration": 1800,
+    "url": "https://example.com/event/48"
   }
 ]
