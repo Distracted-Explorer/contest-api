@@ -1,1 +1,86 @@
-[]
+[
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0065 Beta",
+    "startTime": 1778238000,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0065"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Weekend Dev Challenge 49: Golang Projects",
+    "startTime": 1778265000,
+    "duration": 172800,
+    "url": "https://www.codechef.com/DEVWEEKEND49"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 Polaris.AI Programming Contest 2026\uff08AtCoder Beginner Contest 457\uff09",
+    "startTime": 1778328000,
+    "duration": 6000,
+    "url": "https://atcoder.jp/contests/abc457"
+  },
+  {
+    "platform": "LeetCode",
+    "name": "Biweekly Contest 182",
+    "startTime": 1778337000,
+    "duration": 5400,
+    "url": "https://leetcode.com/contest/biweekly-contest-182"
+  },
+  {
+    "platform": "LeetCode",
+    "name": "Weekly Contest 501",
+    "startTime": 1778380200,
+    "duration": 5400,
+    "url": "https://leetcode.com/contest/weekly-contest-501"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Regular Contest-- 219",
+    "startTime": 1778414400,
+    "duration": 7200,
+    "url": "https://atcoder.jp/contests/arc219"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Starters 238",
+    "startTime": 1778682600,
+    "duration": 7200,
+    "url": "https://www.codechef.com/START238"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24bd\u25c9 AtCoder Heuristic Contest 065",
+    "startTime": 1778911200,
+    "duration": 14400,
+    "url": "https://atcoder.jp/contests/ahc065"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Codeforces Round (Div. 2)",
+    "startTime": 1778942100,
+    "duration": 7200,
+    "url": "https://codeforces.com/contestRegistration/2228"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Regular Contest++ 220",
+    "startTime": 1779019200,
+    "duration": 7200,
+    "url": "https://atcoder.jp/contests/arc220"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Educational Codeforces Round 190 (Rated for Div. 2)",
+    "startTime": 1779114900,
+    "duration": 7200,
+    "url": "https://codeforces.com/contestRegistration/2230"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Starters 239",
+    "startTime": 1779287400,
+    "duration": 7200,
+    "url": "https://www.codechef.com/START239"
+  }
+]
