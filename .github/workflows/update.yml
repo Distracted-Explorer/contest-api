@@ -24,55 +24,13 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run AtCoder fetcher
-        id: AtCoder
-        run: python Platforms/AtCoder.py
-        continue-on-error: true
-
-      - name: Notify AtCoder failure
-        if: steps.AtCoder.outcome == 'failure'
-        run: echo "AtCoder scraper failed!"
-
-      - name: Run CodeChef fetcher
-        id: CodeChef
-        run: python Platforms/CodeChef.py  
-        continue-on-error: true
-
-      - name: Notify CodeChef failure
-        if: steps.CodeChef.outcome == 'failure'
-        run: echo "CodeChef scraper failed!"
-
-      - name: Run CodeForces fetcher
-        id: CodeForces
-        run: python Platforms/CodeForces.py  
-        continue-on-error: true
-
-      - name: Notify CodeForces failure
-        if: steps.CodeForces.outcome == 'failure'
-        run: echo "CodeForces scraper failed!"
-
-      - name: Run HackerRank fetcher
-        id: HackerRank
-        run: python Platforms/HackerRank.py  
-        continue-on-error: true
-
-      - name: Notify HackerRank failure
-        if: steps.HackerRank.outcome == 'failure'
-        run: echo "HackerRank scraper failed!"
-      
-      - name: Run LeetCode fetcher
-        id: LeetCode
-        run: python Platforms/LeetCode.py  
-        continue-on-error: true
-
-      - name: Notify LeetCode failure
-        if: steps.LeetCode.outcome == 'failure'
-        run: echo "LeetCode scraper failed!"
+      - name: Run all platform fetchers
+        run: python update_all.py
 
       - name: Commit updated files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add *.json
-          git commit -m "Update contest data" || echo "No changes"
+          git add AllContest.json
+          git diff --cached --quiet || git commit -m "Update contest data [$(date -u '+%Y-%m-%d %H:%M UTC')]"
           git push

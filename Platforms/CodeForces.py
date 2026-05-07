@@ -1,53 +1,36 @@
 import requests
-import json
-from datetime import datetime, timezone
-from bs4 import BeautifulSoup
 from datetime import datetime, timezone
 
-CodeForces=[]
 
-headers = {"User-Agent": "Mozilla/5.0"}
+def fetch():
+    contests = []
+    headers = {"User-Agent": "Mozilla/5.0"}
+    utc_time = int(datetime.now(timezone.utc).timestamp())
 
-utc_time = int(datetime.now(timezone.utc).timestamp())
+    try:
+        cf = requests.get(
+            "https://codeforces.com/api/contest.list",
+            headers=headers,
+            timeout=10
+        ).json()
 
-# CODEFORCES
-headers = {"User-Agent": "Mozilla/5.0"}
+        for c in cf.get("result", []):
+            start = c.get("startTimeSeconds")
+            duration = c.get("durationSeconds")
+            if start is None or duration is None:
+                continue
+            # Include if not yet ended and starts within 14 days
+            if utc_time < start + duration and utc_time + 14 * 24 * 3600 >= start:
+                contests.append({
+                    "platform": "CodeForces",
+                    "name": c["name"],
+                    "startTime": start,
+                    "duration": duration,
+                    "url": f"https://codeforces.com/contestRegistration/{c['id']}"
+                })
 
-cf = requests.get(
-    "https://codeforces.com/api/contest.list",
-    headers=headers,
-    timeout=10
-).json()
+        print(f"[CodeForces] Fetched {len(contests)} contests.")
+    except Exception as e:
+        print(f"[CodeForces] FAILED: {e}")
 
-for c in cf["result"]:
-    if utc_time<c["startTimeSeconds"]+c["durationSeconds"]:
-        if utc_time+14*24*3600 >= c["startTimeSeconds"] :
-            CodeForces.append({
-                "platform": "CodeForces",
-                "name": c["name"],
-                "startTime": c["startTimeSeconds"],
-                "duration": c["durationSeconds"],
-                "url": f"https://codeforces.com/contestRegistration/{c['id']}"
-            })
-
-AllContests = []
-
-with open("AllContest.json", "r") as f:
-    TempContest = json.load(f)
-
-utc_time = int(datetime.now(timezone.utc).timestamp())
-old_contest_cutoff = utc_time - (3 * 24 * 3600)
-
-for contest in TempContest:
-    if contest["platform"] != "CodeForces":
-        if old_contest_cutoff < contest["startTime"]:
-            AllContests.append(contest)
-
-# add new contests
-AllContests.extend(CodeForces)
-
-# sort by start time
-AllContests.sort(key=lambda x: x["startTime"])
-
-with open("AllContest.json", "w") as f:
-    json.dump(AllContests, f, indent=2)
+    return contests

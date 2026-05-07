@@ -1,51 +1,35 @@
 import requests
-import json
-from datetime import datetime, timezone
-from bs4 import BeautifulSoup
 from datetime import datetime, timezone
 
-HackerRank=[]
 
-headers = {"User-Agent": "Mozilla/5.0"}
+def fetch():
+    contests = []
+    headers = {"User-Agent": "Mozilla/5.0"}
+    utc_time = int(datetime.now(timezone.utc).timestamp())
 
-utc_time = int(datetime.now(timezone.utc).timestamp())
+    try:
+        hr = requests.get(
+            "https://www.hackerrank.com/rest/contests/upcoming",
+            headers=headers,
+            timeout=10
+        ).json()
 
+        for c in hr.get("models", []):
+            if c.get("ended") or c.get("name") == "ProjectEuler+":
+                continue
+            start = c["epoch_starttime"]
+            duration = c["epoch_endtime"] - start
+            if utc_time + 14 * 24 * 3600 >= start:
+                contests.append({
+                    "platform": "HackerRank",
+                    "name": c["name"],
+                    "startTime": start,
+                    "duration": duration,
+                    "url": f"https://www.hackerrank.com/contests/{c['slug']}/challenges"
+                })
 
-#HackerRank
-hr = requests.get(
-    "https://www.hackerrank.com/rest/contests/upcoming",
-    headers=headers,
-    timeout=10
-).json()    
+        print(f"[HackerRank] Fetched {len(contests)} contests.")
+    except Exception as e:
+        print(f"[HackerRank] FAILED: {e}")
 
-for c in hr["models"]:
-    if not c["ended"] and c["name"] != "ProjectEuler+":
-        if utc_time+14*24*3600 >= c["epoch_starttime"]:
-            HackerRank.append({
-                "platform": "HackerRank",
-                "name": c["name"],
-                "startTime": c["epoch_starttime"],
-                "duration": c["epoch_endtime"] - c["epoch_starttime"],
-                "url": f"https://www.hackerrank.com/contests/{c['slug']}/challenges"
-            })
-AllContests = []
-
-with open("AllContest.json", "r") as f:
-    TempContest = json.load(f)
-
-utc_time = int(datetime.now(timezone.utc).timestamp())
-old_contest_cutoff = utc_time - (3 * 24 * 3600)
-
-for contest in TempContest:
-    if contest["platform"] != "HackerRank":
-        if old_contest_cutoff < contest["startTime"]:
-            AllContests.append(contest)
-
-# add new contests
-AllContests.extend(HackerRank)
-
-# sort by start time
-AllContests.sort(key=lambda x: x["startTime"])
-
-with open("AllContest.json", "w") as f:
-    json.dump(AllContests, f, indent=2)
+    return contests
