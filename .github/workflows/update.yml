@@ -24,8 +24,50 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run contest fetcher
-        run: python fetch_contests.py
+      - name: Run AtCoder fetcher
+        id: AtCoder
+        run: python AtCoder.py
+        continue-on-error: true
+
+      - name: Notify AtCoder failure
+        if: steps.AtCoder.outcome == 'failure'
+        run: echo "AtCoder scraper failed!"
+
+      - name: Run CodeChef fetcher
+        id: CodeChef
+        run: python CodeChef.py  
+        continue-on-error: true
+
+      - name: Notify CodeChef failure
+        if: steps.CodeChef.outcome == 'failure'
+        run: echo "CodeChef scraper failed!"
+
+      - name: Run CodeForces fetcher
+        id: CodeForces
+        run: python CodeForces.py  
+        continue-on-error: true
+
+      - name: Notify CodeForces failure
+        if: steps.CodeForces.outcome == 'failure'
+        run: echo "CodeForces scraper failed!"
+
+      - name: Run HackerRank fetcher
+        id: HackerRank
+        run: python HackerRank.py  
+        continue-on-error: true
+
+      - name: Notify HackerRank failure
+        if: steps.HackerRank.outcome == 'failure'
+        run: echo "HackerRank scraper failed!"
+      
+      - name: Run LeetCode fetcher
+        id: LeetCode
+        run: python LeetCode.py  
+        continue-on-error: true
+
+      - name: Notify LeetCode failure
+        if: steps.LeetCode.outcome == 'failure'
+        run: echo "LeetCode scraper failed!"
 
       - name: Commit updated files
         run: |
