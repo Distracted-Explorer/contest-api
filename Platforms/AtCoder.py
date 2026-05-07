@@ -32,13 +32,15 @@ for table_id in ["contest-table-daily", "contest-table-action", "contest-table-u
         duration_str = cols[2].text.strip()
         h, m = map(int, duration_str.split(":"))
         duration_seconds = h*3600 + m*60
-        AtCoder.append({
-            "platform": "AtCoder",
-            "name": name,
-            "startTime": timestamp,
-            "duration": duration_seconds,
-            "url": link
-        })
+        utc_time = int(datetime.now(timezone.utc).timestamp())
+        if utc_time+14*24*3600>=timestamp:
+            AtCoder.append({
+                "platform": "AtCoder",
+                "name": name,
+                "startTime": timestamp,
+                "duration": duration_seconds,
+                "url": link
+            })
         seen.add(link)
 
 

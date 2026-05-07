@@ -21,13 +21,14 @@ for c in cc["future_contests"]:
     dt = datetime.fromisoformat(c["contest_start_date_iso"])
     timestamp = int(dt.timestamp())
     if utc_time<timestamp+(int(c["contest_duration"])*60):
-        CodeChef.append({
-            "platform": "CodeChef",
-            "name": c["contest_name"],
-            "startTime": timestamp,
-            "duration": int(c["contest_duration"])*60,
-            "url": f"https://www.codechef.com/{c['contest_code']}"
-        })
+        if utc_time+14*24*3600>=timestamp :
+            CodeChef.append({
+                "platform": "CodeChef",
+                "name": c["contest_name"],
+                "startTime": timestamp,
+                "duration": int(c["contest_duration"])*60,
+                "url": f"https://www.codechef.com/{c['contest_code']}"
+            })
 
 AllContests = []
 

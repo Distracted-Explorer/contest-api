@@ -21,13 +21,14 @@ cf = requests.get(
 
 for c in cf["result"]:
     if utc_time<c["startTimeSeconds"]+c["durationSeconds"]:
-        CodeForces.append({
-            "platform": "CodeForces",
-            "name": c["name"],
-            "startTime": c["startTimeSeconds"],
-            "duration": c["durationSeconds"],
-            "url": f"https://codeforces.com/contestRegistration/{c['id']}"
-        })
+        if utc_time+14*24*3600 >= ["startTimeSeconds"] :
+            CodeForces.append({
+                "platform": "CodeForces",
+                "name": c["name"],
+                "startTime": c["startTimeSeconds"],
+                "duration": c["durationSeconds"],
+                "url": f"https://codeforces.com/contestRegistration/{c['id']}"
+            })
 
 AllContests = []
 

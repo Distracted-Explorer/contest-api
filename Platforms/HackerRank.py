@@ -20,13 +20,14 @@ hr = requests.get(
 
 for c in hr["models"]:
     if not c["ended"] and c["name"] != "ProjectEuler+":
-        HackerRank.append({
-            "platform": "HackerRank",
-            "name": c["name"],
-            "startTime": c["epoch_starttime"],
-            "duration": c["epoch_endtime"] - c["epoch_starttime"],
-            "url": f"https://www.hackerrank.com/contests/{c['slug']}/challenges"
-        })
+        if utc_time+14*24*3600 >= c["epoch_starttime"]:
+            HackerRank.append({
+                "platform": "HackerRank",
+                "name": c["name"],
+                "startTime": c["epoch_starttime"],
+                "duration": c["epoch_endtime"] - c["epoch_starttime"],
+                "url": f"https://www.hackerrank.com/contests/{c['slug']}/challenges"
+            })
 
 AllContests = []
 
