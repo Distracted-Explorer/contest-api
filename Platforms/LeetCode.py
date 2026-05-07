@@ -4,34 +4,46 @@ from datetime import datetime, timezone
 from bs4 import BeautifulSoup
 from datetime import datetime, timezone
 
-CodeChef=[]
+Leetcode=[]
 
 headers = {"User-Agent": "Mozilla/5.0"}
 
 utc_time = int(datetime.now(timezone.utc).timestamp())
 
-# CodeChef
-cc = requests.get(
-    "https://www.codechef.com/api/list/contests/all",
+# LEETCODE
+query = {
+ "query": """
+ query {
+  allContests {
+   title
+   titleSlug
+   startTime
+   duration
+  }
+ }
+ """
+}
+
+lc = requests.post(
+    "https://leetcode.com/graphql",
+    json=query,
     headers=headers,
     timeout=10
 ).json()
 
-for c in cc["future_contests"]:
-    dt = datetime.fromisoformat(c["contest_start_date_iso"])
-    timestamp = int(dt.timestamp())
-    if utc_time<timestamp+(int(c["contest_duration"])*60):
-        CodeChef.append({
-            "platform": "CodeChef",
-            "name": c["contest_name"],
-            "startTime": timestamp,
-            "duration": int(c["contest_duration"])*60,
-            "url": f"https://www.codechef.com/{c['contest_code']}"
+for c in lc["data"]["allContests"]:
+    if utc_time<c["startTime"]+c["duration"]:
+        Leetcode.append({
+            "platform": "LeetCode",
+            "name": c["title"],
+            "startTime": c["startTime"],
+            "duration": c["duration"],
+            "url": f"https://leetcode.com/contest/{c['titleSlug']}"
         })
 
 AllContests = []
 
-with open("AllContest.json","r") as f:
+with open("../AllContest.json", "r") as f:
     TempContest=json.load(f)
 
 AllValidContest=[]
@@ -44,7 +56,7 @@ for contest in TempContest:
         AllValidContest.append(contest)
 
 AllContests.append(AllValidContest)
-AllContests.append(CodeChef)
+AllContests.append(Leetcode)
 
-with open("AllContest.json", "w") as f:
+with open("../AllContest.json", "w") as f:
     json.dump(AllContests, f, indent=2)
