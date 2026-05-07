@@ -31,7 +31,7 @@ for c in hr["models"]:
 
 AllContests = []
 
-with open("../AllContest.json","r") as f:
+with open("AllContest.json","r") as f:
     TempContest=json.load(f)
 
 AllValidContest=[]
@@ -46,5 +46,5 @@ for contest in TempContest:
 AllContests.append(AllValidContest)
 AllContests.append(HackerRank)
 
-with open("../AllContest.json", "w") as f:
+with open("AllContest.json", "w") as f:
     json.dump(AllContests, f, indent=2)

@@ -32,20 +32,21 @@ for c in cc["future_contests"]:
 
 AllContests = []
 
-with open("../AllContest.json","r") as f:
+with open("AllContest.json","r") as f:
     TempContest=json.load(f)
 
 AllValidContest=[]
 
 for contest in TempContest:
-    if contest["platform"] is not "Leetcode" :
+    if contest["platform"] != "CodeChef" :
       utc_time = int(datetime.now(timezone.utc).timestamp())
       old_contest_cutoff=utc_time-(3*24*3600)
+
       if old_contest_cutoff<contest['startTime']:
         AllValidContest.append(contest)
 
 AllContests.append(AllValidContest)
 AllContests.append(CodeChef)
 
-with open("../AllContest.json", "w") as f:
+with open("AllContest.json", "w") as f:
     json.dump(AllContests, f, indent=2)
