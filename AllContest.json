@@ -204,6 +204,13 @@
   },
   {
     "platform": "AtCoder",
+    "name": "\u24bd\u25c9 AtCoder Heuristic Contest 066",
+    "startTime": 1780048800,
+    "duration": 864000,
+    "url": "https://atcoder.jp/contests/ahc066"
+  },
+  {
+    "platform": "AtCoder",
     "name": "\u24b6\u25c9 AtCoder Regular Contest++ 221",
     "startTime": 1780228800,
     "duration": 9000,
@@ -215,6 +222,13 @@
     "startTime": 1780497000,
     "duration": 7200,
     "url": "https://www.codechef.com/START241"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Beginner Contest 461",
+    "startTime": 1780747200,
+    "duration": 6000,
+    "url": "https://atcoder.jp/contests/abc461"
   },
   {
     "platform": "AtCoder",
