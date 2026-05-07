@@ -1,143 +1,17 @@
 [
   {
     "platform": "AtCoder",
-    "name": "\u24b6\u25c9 Keysight Technologies Programming Contest\uff08AtCoder Beginner Contest 454\uff09",
-    "startTime": 1776513600,
-    "duration": 6000,
-    "url": "https://atcoder.jp/contests/abc454"
-  },
-  {
-    "platform": "LeetCode",
-    "name": "Weekly Contest 498",
-    "startTime": 1776565800,
-    "duration": 5400,
-    "url": "https://leetcode.com/contest/weekly-contest-498"
-  },
-  {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0051 Beta",
-    "startTime": 1776682800,
+    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0061 Beta",
+    "startTime": 1777892400,
     "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0051"
+    "url": "https://atcoder.jp/contests/awc0061"
   },
   {
     "platform": "CodeChef",
-    "name": "Monday Munch - DSA Challenge 34",
-    "startTime": 1776688200,
+    "name": "Monday Munch - DSA Challenge 001 (Rated)",
+    "startTime": 1777897800,
     "duration": 10800,
-    "url": "https://www.codechef.com/DSAMONDAY34"
-  },
-  {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0052 Beta",
-    "startTime": 1776769200,
-    "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0052"
-  },
-  {
-    "platform": "CodeForces",
-    "name": "Educational Codeforces Round 189 (Rated for Div. 2)",
-    "startTime": 1776782100,
-    "duration": 7200,
-    "url": "https://codeforces.com/contestRegistration/2225"
-  },
-  {
-    "platform": "CodeChef",
-    "name": "Starters 235",
-    "startTime": 1776868200,
-    "duration": 7200,
-    "url": "https://www.codechef.com/START235"
-  },
-  {
-    "platform": "CodeForces",
-    "name": "Codeforces Round (Div. 2)",
-    "startTime": 1776954900,
-    "duration": 7200,
-    "url": "https://codeforces.com/contestRegistration/2213"
-  },
-  {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 \uff33\uff4b\uff59 Inc, Programming Contest 2026 (AtCoder Beginner Contest 455)",
-    "startTime": 1777118400,
-    "duration": 6000,
-    "url": "https://atcoder.jp/contests/abc455"
-  },
-  {
-    "platform": "LeetCode",
-    "name": "Biweekly Contest 181",
-    "startTime": 1777127400,
-    "duration": 5400,
-    "url": "https://leetcode.com/contest/biweekly-contest-181"
-  },
-  {
-    "platform": "CodeForces",
-    "name": "Spectral::Cup 2026 Round 1 (Codeforces Round 1094, Div. 1 + Div. 2)",
-    "startTime": 1777127700,
-    "duration": 9000,
-    "url": "https://codeforces.com/contestRegistration/2222"
-  },
-  {
-    "platform": "CodeForces",
-    "name": "Codeforces Round (Div. 1 + Div. 2)",
-    "startTime": 1777127700,
-    "duration": 9000,
-    "url": "https://codeforces.com/contestRegistration/2222"
-  },
-  {
-    "platform": "LeetCode",
-    "name": "Weekly Contest 499",
-    "startTime": 1777170600,
-    "duration": 5400,
-    "url": "https://leetcode.com/contest/weekly-contest-499"
-  },
-  {
-    "platform": "AtCoder",
-    "name": "\u24bd\u25c9 JR WEST and ALGO ARTIS Programming Contest  (AtCoder Heuristic Contest 064)",
-    "startTime": 1777183200,
-    "duration": 14400,
-    "url": "https://atcoder.jp/contests/ahc064"
-  },
-  {
-    "platform": "CodeChef",
-    "name": "Monday Munch - DSA Challenge 35",
-    "startTime": 1777293000,
-    "duration": 10800,
-    "url": "https://www.codechef.com/DSAMONDAY35"
-  },
-  {
-    "platform": "CodeForces",
-    "name": "Codeforces Round (Div. 2)",
-    "startTime": 1777386900,
-    "duration": 8100,
-    "url": "https://codeforces.com/contestRegistration/2226"
-  },
-  {
-    "platform": "CodeChef",
-    "name": "Starters 236",
-    "startTime": 1777473000,
-    "duration": 7200,
-    "url": "https://www.codechef.com/START236"
-  },
-  {
-    "platform": "HackerRank",
-    "name": "HackerRank Orchestrate",
-    "startTime": 1777613400,
-    "duration": 86400,
-    "url": "https://www.hackerrank.com/contests/hackerrank-orchestrate-may26/challenges"
-  },
-  {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Beginner Contest 456",
-    "startTime": 1777723200,
-    "duration": 6000,
-    "url": "https://atcoder.jp/contests/abc456"
-  },
-  {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Regular Contest 218",
-    "startTime": 1777809600,
-    "duration": 7200,
-    "url": "https://atcoder.jp/contests/arc218"
+    "url": "https://www.codechef.com/DSAMONDAY001"
   },
   {
     "platform": "AtCoder",
@@ -152,6 +26,41 @@
     "startTime": 1777953600,
     "duration": 18000,
     "url": "https://atcoder.jp/contests/ndpc2026"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0062 Beta",
+    "startTime": 1777978800,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0062"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Codeforces Round 1097 (Div. 1,  Based on Zhili Cup 2026)",
+    "startTime": 1778047500,
+    "duration": 9000,
+    "url": "https://codeforces.com/contestRegistration/2223"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Codeforces Round 1097 (Div. 2,  Based on Zhili Cup 2026)",
+    "startTime": 1778047500,
+    "duration": 9000,
+    "url": "https://codeforces.com/contestRegistration/2224"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Codeforces Round (Div. 1,  Based on Zhili Cup 2026)",
+    "startTime": 1778047500,
+    "duration": 9000,
+    "url": "https://codeforces.com/contestRegistration/2223"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Codeforces Round (Div. 2,  Based on Zhili Cup 2026)",
+    "startTime": 1778047500,
+    "duration": 9000,
+    "url": "https://codeforces.com/contestRegistration/2224"
   },
   {
     "platform": "CodeForces",
@@ -169,10 +78,157 @@
   },
   {
     "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0063 Beta",
+    "startTime": 1778065200,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0063"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Starters 237 (Rated till 5 star)",
+    "startTime": 1778077800,
+    "duration": 7200,
+    "url": "https://www.codechef.com/START237"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Starters 237",
+    "startTime": 1778077800,
+    "duration": 7200,
+    "url": "https://www.codechef.com/START237"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0064 Beta",
+    "startTime": 1778151600,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0064"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Weekend Dev Challenge 49: Golang Projects",
+    "startTime": 1778265000,
+    "duration": 172800,
+    "url": "https://www.codechef.com/DEVWEEKEND49"
+  },
+  {
+    "platform": "AtCoder",
     "name": "\u24b6\u25c9 Polaris.AI Programming Contest 2026\uff08AtCoder Beginner Contest 457\uff09",
     "startTime": 1778328000,
     "duration": 6000,
     "url": "https://atcoder.jp/contests/abc457"
+  },
+  {
+    "platform": "LeetCode",
+    "name": "Biweekly Contest 182",
+    "startTime": 1778337000,
+    "duration": 5400,
+    "url": "https://leetcode.com/contest/biweekly-contest-182"
+  },
+  {
+    "platform": "LeetCode",
+    "name": "Weekly Contest 501",
+    "startTime": 1778380200,
+    "duration": 5400,
+    "url": "https://leetcode.com/contest/weekly-contest-501"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Regular Contest-- 219",
+    "startTime": 1778414400,
+    "duration": 7200,
+    "url": "https://atcoder.jp/contests/arc219"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Starters 238",
+    "startTime": 1778682600,
+    "duration": 7200,
+    "url": "https://www.codechef.com/START238"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24bd\u25c9 AtCoder Heuristic Contest 065",
+    "startTime": 1778911200,
+    "duration": 14400,
+    "url": "https://atcoder.jp/contests/ahc065"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Codeforces Round (Div. 2)",
+    "startTime": 1778942100,
+    "duration": 7200,
+    "url": "https://codeforces.com/contestRegistration/2228"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Regular Contest++ 220",
+    "startTime": 1779019200,
+    "duration": 7200,
+    "url": "https://atcoder.jp/contests/arc220"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Educational Codeforces Round 190 (Rated for Div. 2)",
+    "startTime": 1779114900,
+    "duration": 7200,
+    "url": "https://codeforces.com/contestRegistration/2230"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Starters 239",
+    "startTime": 1779287400,
+    "duration": 7200,
+    "url": "https://www.codechef.com/START239"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 Tokio Marine & Nichido Fire Insurance Programming Contest 2026  (AtCoder Beginner Contest 459)",
+    "startTime": 1779537600,
+    "duration": 6000,
+    "url": "https://atcoder.jp/contests/abc459"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Spectral::Cup 2026 Round 2 (Codeforces Round, Div. 1 + Div. 2)",
+    "startTime": 1779546900,
+    "duration": 10800,
+    "url": "https://codeforces.com/contestRegistration/2229"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Starters 240",
+    "startTime": 1779892200,
+    "duration": 7200,
+    "url": "https://www.codechef.com/START240"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24bd\u25c9 AtCoder Heuristic Contest 066",
+    "startTime": 1780048800,
+    "duration": 864000,
+    "url": "https://atcoder.jp/contests/ahc066"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Regular Contest++ 221",
+    "startTime": 1780228800,
+    "duration": 9000,
+    "url": "https://atcoder.jp/contests/arc221"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Starters 241",
+    "startTime": 1780497000,
+    "duration": 7200,
+    "url": "https://www.codechef.com/START241"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 AtCoder Beginner Contest 461",
+    "startTime": 1780747200,
+    "duration": 6000,
+    "url": "https://atcoder.jp/contests/abc461"
   },
   {
     "platform": "AtCoder",
