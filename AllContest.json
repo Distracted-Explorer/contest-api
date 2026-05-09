@@ -91,6 +91,13 @@
     "url": "https://www.codechef.com/START239"
   },
   {
+    "platform": "AtCoder",
+    "name": "\u24b6\u25c9 Tokio Marine & Nichido Fire Insurance Programming Contest 2026  (AtCoder Beginner Contest 459)",
+    "startTime": 1779537600,
+    "duration": 6000,
+    "url": "https://atcoder.jp/contests/abc459"
+  },
+  {
     "platform": "LeetCode",
     "name": "Biweekly Contest 183",
     "startTime": 1779546600,
