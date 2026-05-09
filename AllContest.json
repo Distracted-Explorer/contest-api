@@ -1,12 +1,5 @@
 [
   {
-    "platform": "AtCoder",
-    "name": "\u24b6\u25c9 Polaris.AI Programming Contest 2026\uff08AtCoder Beginner Contest 457\uff09",
-    "startTime": 1778328000,
-    "duration": 6000,
-    "url": "https://atcoder.jp/contests/abc457"
-  },
-  {
     "platform": "LeetCode",
     "name": "Biweekly Contest 182",
     "startTime": 1778337000,
@@ -103,5 +96,12 @@
     "startTime": 1779546600,
     "duration": 5400,
     "url": "https://leetcode.com/contest/biweekly-contest-183"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Spectral::Cup 2026 Round 2 (Codeforces Round, Div. 1 + Div. 2)",
+    "startTime": 1779546900,
+    "duration": 10800,
+    "url": "https://codeforces.com/contestRegistration/2229"
   }
 ]
