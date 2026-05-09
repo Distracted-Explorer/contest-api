@@ -1,13 +1,6 @@
 [
   {
     "platform": "LeetCode",
-    "name": "Biweekly Contest 182",
-    "startTime": 1778337000,
-    "duration": 5400,
-    "url": "https://leetcode.com/contest/biweekly-contest-182"
-  },
-  {
-    "platform": "LeetCode",
     "name": "Weekly Contest 501",
     "startTime": 1778380200,
     "duration": 5400,
