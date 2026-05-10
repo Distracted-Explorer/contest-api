@@ -1,12 +1,5 @@
 [
   {
-    "platform": "LeetCode",
-    "name": "Weekly Contest 501",
-    "startTime": 1778380200,
-    "duration": 5400,
-    "url": "https://leetcode.com/contest/weekly-contest-501"
-  },
-  {
     "platform": "AtCoder",
     "name": "\u24b6\u25c9 AtCoder Regular Contest-- 219",
     "startTime": 1778414400,
@@ -45,7 +38,7 @@
     "platform": "CodeForces",
     "name": "Codeforces Round (Div. 2)",
     "startTime": 1778942100,
-    "duration": 7200,
+    "duration": 8100,
     "url": "https://codeforces.com/contestRegistration/2228"
   },
   {
