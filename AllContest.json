@@ -1,17 +1,10 @@
 [
   {
     "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0066 Beta",
-    "startTime": 1778497200,
+    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0067 Beta",
+    "startTime": 1778583600,
     "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0066"
-  },
-  {
-    "platform": "CodeChef",
-    "name": "Monday Munch - DSA Challenge 002 (Rated)",
-    "startTime": 1778502600,
-    "duration": 10800,
-    "url": "https://www.codechef.com/DSAMONDAY002"
+    "url": "https://atcoder.jp/contests/awc0067"
   },
   {
     "platform": "CodeChef",
