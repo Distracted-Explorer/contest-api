@@ -89,5 +89,12 @@
     "startTime": 1779546900,
     "duration": 10800,
     "url": "https://codeforces.com/contestRegistration/2229"
+  },
+  {
+    "platform": "LeetCode",
+    "name": "Weekly Contest 503",
+    "startTime": 1779589800,
+    "duration": 5400,
+    "url": "https://leetcode.com/contest/weekly-contest-503"
   }
 ]
