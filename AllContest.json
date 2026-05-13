@@ -1,17 +1,10 @@
 [
   {
     "platform": "AtCoder",
-    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0068 Beta",
-    "startTime": 1778670000,
+    "name": "\u24b6\u25c9 AtCoder Weekday Contest 0069 Beta",
+    "startTime": 1778756400,
     "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0068"
-  },
-  {
-    "platform": "CodeChef",
-    "name": "Starters 238 (Rated till 6 star)",
-    "startTime": 1778682600,
-    "duration": 9000,
-    "url": "https://www.codechef.com/START238"
+    "url": "https://atcoder.jp/contests/awc0069"
   },
   {
     "platform": "CodeChef",
@@ -36,7 +29,7 @@
   },
   {
     "platform": "CodeForces",
-    "name": "Codeforces Round (Div. 2)",
+    "name": "Codeforces Round 1098 (Div. 2)",
     "startTime": 1778942100,
     "duration": 8100,
     "url": "https://codeforces.com/contestRegistration/2228"
@@ -70,6 +63,13 @@
     "url": "https://www.codechef.com/START239"
   },
   {
+    "platform": "CodeForces",
+    "name": "Codeforces Round (Div. 2)",
+    "startTime": 1779374100,
+    "duration": 7200,
+    "url": "https://codeforces.com/contestRegistration/2231"
+  },
+  {
     "platform": "AtCoder",
     "name": "\u24b6\u25c9 Tokio Marine & Nichido Fire Insurance Programming Contest 2026  (AtCoder Beginner Contest 459)",
     "startTime": 1779537600,
@@ -96,5 +96,12 @@
     "startTime": 1779589800,
     "duration": 5400,
     "url": "https://leetcode.com/contest/weekly-contest-503"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Starters 240",
+    "startTime": 1779892200,
+    "duration": 7200,
+    "url": "https://www.codechef.com/START240"
   }
 ]
