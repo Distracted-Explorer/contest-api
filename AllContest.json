@@ -1,6 +1,342 @@
 [
   {
     "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -001",
+    "startTime": 1778821800,
+    "duration": 3600,
+    "url": "https://www.hackerrank.com/demo-contest-001"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -002",
+    "startTime": 1778823600,
+    "duration": 5400,
+    "url": "https://www.hackerrank.com/demo-contest-002"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -003",
+    "startTime": 1778825400,
+    "duration": 2700,
+    "url": "https://www.hackerrank.com/demo-contest-003"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -004",
+    "startTime": 1778827200,
+    "duration": 7200,
+    "url": "https://www.hackerrank.com/demo-contest-004"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -005",
+    "startTime": 1778829000,
+    "duration": 4500,
+    "url": "https://www.hackerrank.com/demo-contest-005"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -006",
+    "startTime": 1778830800,
+    "duration": 3000,
+    "url": "https://www.hackerrank.com/demo-contest-006"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -007",
+    "startTime": 1778832600,
+    "duration": 6600,
+    "url": "https://www.hackerrank.com/demo-contest-007"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -008",
+    "startTime": 1778834400,
+    "duration": 3900,
+    "url": "https://www.hackerrank.com/demo-contest-008"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -009",
+    "startTime": 1778836200,
+    "duration": 4800,
+    "url": "https://www.hackerrank.com/demo-contest-009"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -010",
+    "startTime": 1778838000,
+    "duration": 3600,
+    "url": "https://www.hackerrank.com/demo-contest-010"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -011",
+    "startTime": 1778839800,
+    "duration": 4200,
+    "url": "https://www.hackerrank.com/demo-contest-011"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -012",
+    "startTime": 1778841600,
+    "duration": 6000,
+    "url": "https://www.hackerrank.com/demo-contest-012"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -013",
+    "startTime": 1778843400,
+    "duration": 2400,
+    "url": "https://www.hackerrank.com/demo-contest-013"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -014",
+    "startTime": 1778845200,
+    "duration": 5100,
+    "url": "https://www.hackerrank.com/demo-contest-014"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -015",
+    "startTime": 1778847000,
+    "duration": 7800,
+    "url": "https://www.hackerrank.com/demo-contest-015"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -016",
+    "startTime": 1778848800,
+    "duration": 3300,
+    "url": "https://www.hackerrank.com/demo-contest-016"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -017",
+    "startTime": 1778850600,
+    "duration": 7200,
+    "url": "https://www.hackerrank.com/demo-contest-017"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -018",
+    "startTime": 1778852400,
+    "duration": 1800,
+    "url": "https://www.hackerrank.com/demo-contest-018"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -019",
+    "startTime": 1778854200,
+    "duration": 5700,
+    "url": "https://www.hackerrank.com/demo-contest-019"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -020",
+    "startTime": 1778856000,
+    "duration": 3600,
+    "url": "https://www.hackerrank.com/demo-contest-020"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -021",
+    "startTime": 1778857800,
+    "duration": 6600,
+    "url": "https://www.hackerrank.com/demo-contest-021"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -022",
+    "startTime": 1778859600,
+    "duration": 3000,
+    "url": "https://www.hackerrank.com/demo-contest-022"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -023",
+    "startTime": 1778861400,
+    "duration": 8400,
+    "url": "https://www.hackerrank.com/demo-contest-023"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -024",
+    "startTime": 1778863200,
+    "duration": 2700,
+    "url": "https://www.hackerrank.com/demo-contest-024"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -025",
+    "startTime": 1778865000,
+    "duration": 5400,
+    "url": "https://www.hackerrank.com/demo-contest-025"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -026",
+    "startTime": 1778866800,
+    "duration": 3900,
+    "url": "https://www.hackerrank.com/demo-contest-026"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -027",
+    "startTime": 1778868600,
+    "duration": 7500,
+    "url": "https://www.hackerrank.com/demo-contest-027"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -028",
+    "startTime": 1778870400,
+    "duration": 3600,
+    "url": "https://www.hackerrank.com/demo-contest-028"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -029",
+    "startTime": 1778872200,
+    "duration": 6300,
+    "url": "https://www.hackerrank.com/demo-contest-029"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -030",
+    "startTime": 1778874000,
+    "duration": 4200,
+    "url": "https://www.hackerrank.com/demo-contest-030"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -031",
+    "startTime": 1778875800,
+    "duration": 1800,
+    "url": "https://www.hackerrank.com/demo-contest-031"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -032",
+    "startTime": 1778877600,
+    "duration": 9000,
+    "url": "https://www.hackerrank.com/demo-contest-032"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -033",
+    "startTime": 1778879400,
+    "duration": 3000,
+    "url": "https://www.hackerrank.com/demo-contest-033"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -034",
+    "startTime": 1778881200,
+    "duration": 6000,
+    "url": "https://www.hackerrank.com/demo-contest-034"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -035",
+    "startTime": 1778883000,
+    "duration": 4500,
+    "url": "https://www.hackerrank.com/demo-contest-035"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -036",
+    "startTime": 1778884800,
+    "duration": 7800,
+    "url": "https://www.hackerrank.com/demo-contest-036"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -037",
+    "startTime": 1778886600,
+    "duration": 2400,
+    "url": "https://www.hackerrank.com/demo-contest-037"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -038",
+    "startTime": 1778888400,
+    "duration": 5700,
+    "url": "https://www.hackerrank.com/demo-contest-038"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -039",
+    "startTime": 1778890200,
+    "duration": 3600,
+    "url": "https://www.hackerrank.com/demo-contest-039"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -040",
+    "startTime": 1778892000,
+    "duration": 6600,
+    "url": "https://www.hackerrank.com/demo-contest-040"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -041",
+    "startTime": 1778893800,
+    "duration": 3000,
+    "url": "https://www.hackerrank.com/demo-contest-041"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -042",
+    "startTime": 1778895600,
+    "duration": 8400,
+    "url": "https://www.hackerrank.com/demo-contest-042"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -043",
+    "startTime": 1778897400,
+    "duration": 3900,
+    "url": "https://www.hackerrank.com/demo-contest-043"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -044",
+    "startTime": 1778899200,
+    "duration": 5400,
+    "url": "https://www.hackerrank.com/demo-contest-044"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -045",
+    "startTime": 1778901000,
+    "duration": 7200,
+    "url": "https://www.hackerrank.com/demo-contest-045"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -046",
+    "startTime": 1778902800,
+    "duration": 2700,
+    "url": "https://www.hackerrank.com/demo-contest-046"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -047",
+    "startTime": 1778904600,
+    "duration": 6300,
+    "url": "https://www.hackerrank.com/demo-contest-047"
+  },
+  {
+    "platform": "HackerRank",
+    "name": "HackerRank Demo Contest -048",
+    "startTime": 1778906400,
+    "duration": 3600,
+    "url": "https://www.hackerrank.com/demo-contest-048"
+  },
+  {
+    "platform": "HackerRank",
     "name": "HackerRank Demo Contest 001",
     "startTime": 1778821800,
     "duration": 3600,
