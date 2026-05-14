@@ -6,6 +6,7 @@ def fetch():
     contests = []
     headers = {"User-Agent": "Mozilla/5.0"}
     utc_time = int(datetime.now(timezone.utc).timestamp())
+    three_days = 3 * 24 * 3600
 
     try:
         cf = requests.get(
@@ -19,8 +20,9 @@ def fetch():
             duration = c.get("durationSeconds")
             if start is None or duration is None:
                 continue
-            # Include if not yet ended and starts within 14 days
-            if utc_time < start + duration and utc_time + 14 * 24 * 3600 >= start:
+            end = start + duration
+            # Include: upcoming (within 14 days), running, or ended within last 3 days
+            if utc_time + 14 * 24 * 3600 >= start and utc_time < end + three_days:
                 contests.append({
                     "platform": "CodeForces",
                     "name": c["name"],

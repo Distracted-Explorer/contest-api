@@ -1,7 +1,11 @@
 """
 Single aggregator — runs all platform fetchers, merges with existing
 AllContest.json (dropping stale entries), then writes the file ONCE.
-This replaces the old pattern of each script reading+writing the file.
+
+Contests are kept in 3 categories:
+  - "future"  : not yet started
+  - "running" : currently ongoing
+  - "recent"  : ended within the last 3 days
 """
 import json
 import sys
@@ -27,12 +31,28 @@ PLATFORMS = {
 
 ALLCONTEST_PATH = os.path.join(os.path.dirname(__file__), "AllContest.json")
 
-utc_time = int(datetime.now(timezone.utc).timestamp())
-old_contest_cutoff = utc_time - (3 * 24 * 3600)  # keep contests up to 3 days old
+THREE_DAYS = 3 * 24 * 3600
+
+
+def get_status(contest, now):
+    """Return 'future', 'running', or 'recent' -- or None if too old to keep."""
+    start = contest["startTime"]
+    end = start + contest["duration"]
+    if now < start:
+        return "future"
+    elif now < end:
+        return "running"
+    elif now < end + THREE_DAYS:
+        return "recent"
+    else:
+        return None  # older than 3 days -- drop it
+
 
 # --- Load existing data ---
 with open(ALLCONTEST_PATH, "r") as f:
     existing = json.load(f)
+
+utc_time = int(datetime.now(timezone.utc).timestamp())
 
 # --- Fetch fresh data from each platform (failures are isolated) ---
 fresh = {}
@@ -44,23 +64,27 @@ for name, fn in PLATFORMS.items():
     else:
         failed.append(name)
 
-# --- Merge: keep old entries for platforms that FAILED (so we don't lose data) ---
-#           drop old entries for platforms that SUCCEEDED (replaced by fresh data)
+# --- Merge: keep old entries for platforms that FAILED (so we don't lose data)
+#            drop old entries for platforms that SUCCEEDED (replaced by fresh data)
 merged = []
 
 for contest in existing:
     platform = contest["platform"]
     if platform in failed:
-        # Platform scraper failed — keep old entry if not too stale
-        if contest["startTime"] > old_contest_cutoff:
+        # Platform scraper failed -- keep old entry only if still in a valid category
+        status = get_status(contest, utc_time)
+        if status is not None:
+            contest["status"] = status
             merged.append(contest)
-    else:
-        # Platform scraper succeeded — old entry will be replaced; skip it
-        pass
+    # else: platform succeeded -- old entries will be replaced; skip them
 
-# Add all freshly fetched contests
+# Add all freshly fetched contests, assigning status
 for name, contests in fresh.items():
-    merged.extend(contests)
+    for contest in contests:
+        status = get_status(contest, utc_time)
+        if status is not None:
+            contest["status"] = status
+            merged.append(contest)
 
 # Deduplicate by URL
 seen_urls = set()
@@ -70,13 +94,31 @@ for c in merged:
         deduped.append(c)
         seen_urls.add(c["url"])
 
-# Sort by start time
-deduped.sort(key=lambda x: x["startTime"])
+# Sort: running first, then future (by startTime), then recent (by end time desc)
+STATUS_ORDER = {"running": 0, "future": 1, "recent": 2}
+
+def sort_key(c):
+    status = c.get("status", "future")
+    order = STATUS_ORDER.get(status, 3)
+    if status == "recent":
+        # Most recently ended first
+        return (order, -(c["startTime"] + c["duration"]))
+    return (order, c["startTime"])
+
+deduped.sort(key=sort_key)
+
+# --- Summary counts ---
+counts = {"future": 0, "running": 0, "recent": 0}
+for c in deduped:
+    counts[c.get("status", "future")] += 1
 
 # --- Write once ---
 with open(ALLCONTEST_PATH, "w") as f:
     json.dump(deduped, f, indent=2)
 
 print(f"\n✅ AllContest.json updated: {len(deduped)} contests total.")
+print(f"   🟢 Running : {counts['running']}")
+print(f"   🔵 Future  : {counts['future']}")
+print(f"   🕐 Recent  : {counts['recent']} (ended within last 3 days)")
 if failed:
     print(f"⚠️  Failed platforms (old data kept): {', '.join(failed)}")

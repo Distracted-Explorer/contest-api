@@ -6,6 +6,7 @@ def fetch():
     contests = []
     headers = {"User-Agent": "Mozilla/5.0"}
     utc_time = int(datetime.now(timezone.utc).timestamp())
+    three_days = 3 * 24 * 3600
 
     try:
         hr = requests.get(
@@ -15,11 +16,13 @@ def fetch():
         ).json()
 
         for c in hr.get("models", []):
-            if c.get("ended") or c.get("name") == "ProjectEuler+":
+            if c.get("name") == "ProjectEuler+":
                 continue
             start = c["epoch_starttime"]
-            duration = c["epoch_endtime"] - start
-            if utc_time + 14 * 24 * 3600 >= start:
+            end = c["epoch_endtime"]
+            duration = end - start
+            # Include: upcoming (within 14 days), running, or ended within last 3 days
+            if utc_time + 14 * 24 * 3600 >= start and utc_time < end + three_days:
                 contests.append({
                     "platform": "HackerRank",
                     "name": c["name"],

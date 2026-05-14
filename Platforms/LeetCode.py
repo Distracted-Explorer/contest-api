@@ -6,6 +6,7 @@ def fetch():
     contests = []
     headers = {"User-Agent": "Mozilla/5.0"}
     utc_time = int(datetime.now(timezone.utc).timestamp())
+    three_days = 3 * 24 * 3600
 
     query = {
         "query": """
@@ -31,8 +32,9 @@ def fetch():
         for c in lc["data"]["allContests"]:
             start = c["startTime"]
             duration = c["duration"]
-            # Include if not yet ended
-            if utc_time < start + duration:
+            end = start + duration
+            # Include: upcoming, running, or ended within last 3 days
+            if utc_time < end + three_days:
                 contests.append({
                     "platform": "LeetCode",
                     "name": c["title"],

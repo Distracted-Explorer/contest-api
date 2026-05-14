@@ -7,6 +7,7 @@ def fetch():
     contests = []
     headers = {"User-Agent": "Mozilla/5.0"}
     utc_time = int(datetime.now(timezone.utc).timestamp())
+    three_days = 3 * 24 * 3600
     seen = set()
 
     try:
@@ -14,7 +15,8 @@ def fetch():
         html = requests.get(url, headers=headers, timeout=10).text
         soup = BeautifulSoup(html, "html.parser")
 
-        for table_id in ["contest-table-daily", "contest-table-action", "contest-table-upcoming"]:
+        # contest-table-recent covers ended contests shown on AtCoder's page
+        for table_id in ["contest-table-recent", "contest-table-daily", "contest-table-action", "contest-table-upcoming"]:
             table = soup.find("div", id=table_id)
             if not table:
                 continue
@@ -33,8 +35,9 @@ def fetch():
                 duration_str = cols[2].text.strip()
                 h, m = map(int, duration_str.split(":"))
                 duration_seconds = h * 3600 + m * 60
-                # Include contests within next 14 days OR currently running
-                if utc_time < timestamp + duration_seconds and utc_time + 14 * 24 * 3600 >= timestamp:
+                end = timestamp + duration_seconds
+                # Include: upcoming (within 14 days), running, or ended within last 3 days
+                if utc_time + 14 * 24 * 3600 >= timestamp and utc_time < end + three_days:
                     contests.append({
                         "platform": "AtCoder",
                         "name": name,
