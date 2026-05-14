@@ -4,127 +4,104 @@
     "name": "\u24b6\u25c9 AtCoder Weekday Contest 0070 Beta",
     "startTime": 1778842800,
     "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0070",
-    "status": "future"
+    "url": "https://atcoder.jp/contests/awc0070"
   },
   {
     "platform": "CodeChef",
     "name": "Weekend Dev Challenge 50: Golang Projects",
     "startTime": 1778869800,
     "duration": 172800,
-    "url": "https://www.codechef.com/DEVWEEKEND50",
-    "status": "future"
+    "url": "https://www.codechef.com/DEVWEEKEND50"
   },
   {
     "platform": "AtCoder",
     "name": "\u24bd\u25c9 AtCoder Heuristic Contest 065",
     "startTime": 1778911200,
     "duration": 14400,
-    "url": "https://atcoder.jp/contests/ahc065",
-    "status": "future"
+    "url": "https://atcoder.jp/contests/ahc065"
   },
   {
     "platform": "AtCoder",
     "name": "\u24b6\u25c9 AtCoder Beginner Contest 458",
     "startTime": 1778932800,
     "duration": 6000,
-    "url": "https://atcoder.jp/contests/abc458",
-    "status": "future"
+    "url": "https://atcoder.jp/contests/abc458"
   },
   {
     "platform": "CodeForces",
     "name": "Codeforces Round 1098 (Div. 2)",
     "startTime": 1778942100,
     "duration": 8100,
-    "url": "https://codeforces.com/contestRegistration/2228",
-    "status": "future"
+    "url": "https://codeforces.com/contestRegistration/2228"
   },
   {
     "platform": "LeetCode",
     "name": "Weekly Contest 502",
     "startTime": 1778985000,
     "duration": 5400,
-    "url": "https://leetcode.com/contest/weekly-contest-502",
-    "status": "future"
+    "url": "https://leetcode.com/contest/weekly-contest-502"
   },
   {
     "platform": "AtCoder",
     "name": "\u24b6\u25c9 AtCoder Regular Contest++ 220",
     "startTime": 1779019200,
     "duration": 9000,
-    "url": "https://atcoder.jp/contests/arc220",
-    "status": "future"
+    "url": "https://atcoder.jp/contests/arc220"
   },
   {
     "platform": "CodeForces",
     "name": "Educational Codeforces Round 190 (Rated for Div. 2)",
     "startTime": 1779114900,
     "duration": 7200,
-    "url": "https://codeforces.com/contestRegistration/2230",
-    "status": "future"
+    "url": "https://codeforces.com/contestRegistration/2230"
   },
   {
     "platform": "CodeChef",
     "name": "Starters 239",
     "startTime": 1779287400,
     "duration": 7200,
-    "url": "https://www.codechef.com/START239",
-    "status": "future"
+    "url": "https://www.codechef.com/START239"
   },
   {
     "platform": "CodeForces",
     "name": "Codeforces Round (Div. 2)",
     "startTime": 1779374100,
     "duration": 7200,
-    "url": "https://codeforces.com/contestRegistration/2231",
-    "status": "future"
+    "url": "https://codeforces.com/contestRegistration/2231"
   },
   {
     "platform": "AtCoder",
     "name": "\u24b6\u25c9 Tokio Marine & Nichido Fire Insurance Programming Contest 2026  (AtCoder Beginner Contest 459)",
     "startTime": 1779537600,
     "duration": 6000,
-    "url": "https://atcoder.jp/contests/abc459",
-    "status": "future"
+    "url": "https://atcoder.jp/contests/abc459"
   },
   {
     "platform": "LeetCode",
     "name": "Biweekly Contest 183",
     "startTime": 1779546600,
     "duration": 5400,
-    "url": "https://leetcode.com/contest/biweekly-contest-183",
-    "status": "future"
+    "url": "https://leetcode.com/contest/biweekly-contest-183"
   },
   {
     "platform": "CodeForces",
     "name": "Spectral::Cup 2026 Round 2 (Codeforces Round, Div. 1 + Div. 2)",
     "startTime": 1779546900,
     "duration": 10800,
-    "url": "https://codeforces.com/contestRegistration/2229",
-    "status": "future"
+    "url": "https://codeforces.com/contestRegistration/2229"
   },
   {
     "platform": "LeetCode",
     "name": "Weekly Contest 503",
     "startTime": 1779589800,
     "duration": 5400,
-    "url": "https://leetcode.com/contest/weekly-contest-503",
-    "status": "future"
+    "url": "https://leetcode.com/contest/weekly-contest-503"
   },
   {
     "platform": "CodeChef",
     "name": "Starters 240",
     "startTime": 1779892200,
     "duration": 7200,
-    "url": "https://www.codechef.com/START240",
-    "status": "future"
-  },
-  {
-    "platform": "CodeChef",
-    "name": "Starters 238 (Rated till 6 star)",
-    "startTime": 1778682600,
-    "duration": 9000,
-    "url": "https://www.codechef.com/START238",
-    "status": "recent"
+    "url": "https://www.codechef.com/START240"
   }
 ]
