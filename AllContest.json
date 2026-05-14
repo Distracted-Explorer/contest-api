@@ -636,6 +636,7 @@
     "duration": 9000,
     "url": "https://www.hackerrank.com/demo-contest-091"
   },
+
   {
     "platform": "HackerRank",
     "name": "HackerRank Demo Contest 092",
@@ -1002,7 +1003,7 @@
   },
   {
     "platform": "HackerRank",
-    "name": "HackerRank Demo Contest 144",
+    "name": "HackerRank Demo Contest 145",
     "startTime": 1778887800,
     "duration": 1800,
     "url": "https://www.hackerrank.com/demo-contest-144"
