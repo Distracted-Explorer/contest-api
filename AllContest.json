@@ -120,6 +120,14 @@
     "status": "future"
   },
   {
+    "platform": "AtCoder",
+    "name": "Ⓗ◉ AtCoder Heuristic Contest 066",
+    "startTime": 1780048800,
+    "duration": 864000,
+    "url": "https://atcoder.jp/contests/ahc066",
+    "status": "future"
+  },
+  {
     "platform": "CodeChef",
     "name": "Starters 238 (Rated till 6 star)",
     "startTime": 1778682600,
