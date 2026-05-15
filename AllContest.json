@@ -1,13 +1,5 @@
 [
   {
-    "platform": "AtCoder",
-    "name": "Ⓐ◉ AtCoder Weekday Contest 0070 Beta",
-    "startTime": 1778842800,
-    "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0070",
-    "status": "future"
-  },
-  {
     "platform": "CodeChef",
     "name": "Weekend Dev Challenge 50: Golang Projects",
     "startTime": 1778869800,
@@ -53,6 +45,14 @@
     "startTime": 1779019200,
     "duration": 9000,
     "url": "https://atcoder.jp/contests/arc220",
+    "status": "future"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "Ⓐ◉ AtCoder Weekday Contest 0071 Beta",
+    "startTime": 1779102000,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0071",
     "status": "future"
   },
   {
@@ -126,6 +126,14 @@
     "duration": 864000,
     "url": "https://atcoder.jp/contests/ahc066",
     "status": "future"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "Ⓐ◉ AtCoder Weekday Contest 0070 Beta",
+    "startTime": 1778842800,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0070",
+    "status": "recent"
   },
   {
     "platform": "CodeChef",
