@@ -1,45 +1,74 @@
+"""
+CodeChef platform fetcher.
+
+Returns ONLY:
+  - Contests currently running (live)
+  - Contests starting within the next 14 days (upcoming)
+
+Ended contests are NOT returned here; update_all.py handles
+preserving recently-ended contests for up to 3 days.
+"""
+
 import requests
 from datetime import datetime, timezone
 
+PLATFORM = "CodeChef"
+FOURTEEN_DAYS_SEC = 14 * 24 * 3600
 
-def fetch():
+
+def fetch() -> list[dict]:
+    """
+    Fetch live and upcoming (within 14 days) contests from CodeChef.
+
+    Returns a list of contest dicts with keys:
+        platform, name, startTime (Unix timestamp), duration (seconds), url
+    """
     contests = []
     headers = {"User-Agent": "Mozilla/5.0"}
-    utc_time = int(datetime.now(timezone.utc).timestamp())
-    three_days = 3 * 24 * 3600
+    now = int(datetime.now(timezone.utc).timestamp())
+    cutoff = now + FOURTEEN_DAYS_SEC
 
     try:
-        cc = requests.get(
+        data = requests.get(
             "https://www.codechef.com/api/list/contests/all",
             headers=headers,
-            timeout=10
+            timeout=10,
         ).json()
 
-        # future_contests + present_contests cover upcoming and running
-        # past_contests covers recently ended ones
-        all_buckets = (
-            cc.get("future_contests", []) +
-            cc.get("present_contests", []) +
-            cc.get("past_contests", [])
+        # present_contests = running now; future_contests = upcoming
+        # We intentionally skip past_contests — update_all.py preserves recents.
+        relevant_buckets = (
+            data.get("present_contests", [])
+            + data.get("future_contests", [])
         )
 
-        for c in all_buckets:
-            dt = datetime.fromisoformat(c["contest_start_date_iso"])
-            timestamp = int(dt.timestamp())
-            duration_sec = int(c["contest_duration"]) * 60
-            end = timestamp + duration_sec
-            # Include: upcoming (within 14 days), running, or ended within last 3 days
-            if utc_time + 14 * 24 * 3600 >= timestamp and utc_time < end + three_days:
-                contests.append({
-                    "platform": "CodeChef",
-                    "name": c["contest_name"],
-                    "startTime": timestamp,
-                    "duration": duration_sec,
-                    "url": f"https://www.codechef.com/{c['contest_code']}"
-                })
+        for c in relevant_buckets:
+            try:
+                dt = datetime.fromisoformat(c["contest_start_date_iso"])
+            except (KeyError, ValueError):
+                continue
 
-        print(f"[CodeChef] Fetched {len(contests)} contests.")
-    except Exception as e:
-        print(f"[CodeChef] FAILED: {e}")
+            start = int(dt.timestamp())
+            duration = int(c.get("contest_duration", 0)) * 60
+            end = start + duration
+
+            is_running = start <= now < end
+            is_upcoming = now < start <= cutoff
+            if is_running or is_upcoming:
+                contests.append(
+                    {
+                        "platform": PLATFORM,
+                        "name": c["contest_name"],
+                        "startTime": start,
+                        "duration": duration,
+                        "url": f"https://www.codechef.com/{c['contest_code']}",
+                    }
+                )
+
+        print(f"[{PLATFORM}] Fetched {len(contests)} contests "
+              f"(live + upcoming ≤14 days).")
+    except Exception as exc:
+        print(f"[{PLATFORM}] FAILED: {exc}")
+        return []
 
     return contests
