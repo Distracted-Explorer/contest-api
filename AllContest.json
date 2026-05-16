@@ -9,14 +9,6 @@
   },
   {
     "platform": "AtCoder",
-    "name": "Ⓗ◉ AtCoder Heuristic Contest 065",
-    "startTime": 1778911200,
-    "duration": 14400,
-    "url": "https://atcoder.jp/contests/ahc065",
-    "status": "running"
-  },
-  {
-    "platform": "AtCoder",
     "name": "Ⓐ◉ AtCoder Beginner Contest 458",
     "startTime": 1778932800,
     "duration": 6000,
@@ -134,6 +126,14 @@
     "duration": 864000,
     "url": "https://atcoder.jp/contests/ahc066",
     "status": "future"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "Ⓗ◉ AtCoder Heuristic Contest 065",
+    "startTime": 1778911200,
+    "duration": 14400,
+    "url": "https://atcoder.jp/contests/ahc065",
+    "status": "recent"
   },
   {
     "platform": "AtCoder",
