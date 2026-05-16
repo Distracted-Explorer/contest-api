@@ -8,14 +8,6 @@
     "status": "running"
   },
   {
-    "platform": "CodeForces",
-    "name": "Codeforces Round 1098 (Div. 2)",
-    "startTime": 1778942100,
-    "duration": 8100,
-    "url": "https://codeforces.com/contestRegistration/2228",
-    "status": "running"
-  },
-  {
     "platform": "LeetCode",
     "name": "Weekly Contest 502",
     "startTime": 1778985000,
@@ -134,6 +126,14 @@
     "duration": 7200,
     "url": "https://codeforces.com/contestRegistration/2232",
     "status": "future"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Codeforces Round 1098 (Div. 2)",
+    "startTime": 1778942100,
+    "duration": 8100,
+    "url": "https://codeforces.com/contestRegistration/2228",
+    "status": "recent"
   },
   {
     "platform": "AtCoder",
