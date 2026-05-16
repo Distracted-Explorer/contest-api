@@ -13,7 +13,7 @@
     "startTime": 1778932800,
     "duration": 6000,
     "url": "https://atcoder.jp/contests/abc458",
-    "status": "future"
+    "status": "running"
   },
   {
     "platform": "CodeForces",
@@ -125,6 +125,14 @@
     "startTime": 1780048800,
     "duration": 864000,
     "url": "https://atcoder.jp/contests/ahc066",
+    "status": "future"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "Ⓐ◉ AtCoder Beginner Contest 460",
+    "startTime": 1780142400,
+    "duration": 6000,
+    "url": "https://atcoder.jp/contests/abc460",
     "status": "future"
   },
   {
