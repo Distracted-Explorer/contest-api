@@ -1,13 +1,5 @@
 [
   {
-    "platform": "CodeChef",
-    "name": "Weekend Dev Challenge 50: Golang Projects",
-    "startTime": 1778869800,
-    "duration": 172800,
-    "url": "https://www.codechef.com/DEVWEEKEND50",
-    "status": "running"
-  },
-  {
     "platform": "AtCoder",
     "name": "Ⓐ◉ AtCoder Weekday Contest 0071 Beta",
     "startTime": 1779102000,
@@ -118,6 +110,14 @@
     "duration": 9000,
     "url": "https://atcoder.jp/contests/arc221",
     "status": "future"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Weekend Dev Challenge 50: Golang Projects",
+    "startTime": 1778869800,
+    "duration": 172800,
+    "url": "https://www.codechef.com/DEVWEEKEND50",
+    "status": "recent"
   },
   {
     "platform": "AtCoder",
