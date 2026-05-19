@@ -150,13 +150,5 @@
     "duration": 5400,
     "url": "https://leetcode.com/contest/weekly-contest-502",
     "status": "recent"
-  },
-  {
-    "platform": "CodeForces",
-    "name": "Codeforces Round 1098 (Div. 2)",
-    "startTime": 1778942100,
-    "duration": 8100,
-    "url": "https://codeforces.com/contestRegistration/2228",
-    "status": "recent"
   }
 ]
