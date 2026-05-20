@@ -32,27 +32,11 @@
     "status": "future"
   },
   {
-    "platform": "LeetCode",
-    "name": "Biweekly Contest 183",
-    "startTime": 1779546600,
-    "duration": 5400,
-    "url": "https://leetcode.com/contest/biweekly-contest-183",
-    "status": "future"
-  },
-  {
     "platform": "CodeForces",
     "name": "Spectral::Cup 2026 Round 2 (Codeforces Round 1100, Div. 1 + Div. 2)",
     "startTime": 1779546900,
     "duration": 10800,
     "url": "https://codeforces.com/contestRegistration/2229",
-    "status": "future"
-  },
-  {
-    "platform": "LeetCode",
-    "name": "Weekly Contest 503",
-    "startTime": 1779589800,
-    "duration": 5400,
-    "url": "https://leetcode.com/contest/weekly-contest-503",
     "status": "future"
   },
   {
