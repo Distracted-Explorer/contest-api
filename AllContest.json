@@ -9,7 +9,7 @@
   },
   {
     "platform": "CodeChef",
-    "name": "Starters 239",
+    "name": "Starters 239 (Rated till 5 star)",
     "startTime": 1779287400,
     "duration": 7200,
     "url": "https://www.codechef.com/START239",
@@ -32,11 +32,27 @@
     "status": "future"
   },
   {
+    "platform": "LeetCode",
+    "name": "Biweekly Contest 183",
+    "startTime": 1779546600,
+    "duration": 5400,
+    "url": "https://leetcode.com/contest/biweekly-contest-183",
+    "status": "future"
+  },
+  {
     "platform": "CodeForces",
     "name": "Spectral::Cup 2026 Round 2 (Codeforces Round 1100, Div. 1 + Div. 2)",
     "startTime": 1779546900,
     "duration": 10800,
     "url": "https://codeforces.com/contestRegistration/2229",
+    "status": "future"
+  },
+  {
+    "platform": "LeetCode",
+    "name": "Weekly Contest 503",
+    "startTime": 1779589800,
+    "duration": 5400,
+    "url": "https://leetcode.com/contest/weekly-contest-503",
     "status": "future"
   },
   {
@@ -125,14 +141,6 @@
     "startTime": 1779019200,
     "duration": 9000,
     "url": "https://atcoder.jp/contests/arc220",
-    "status": "recent"
-  },
-  {
-    "platform": "LeetCode",
-    "name": "Weekly Contest 502",
-    "startTime": 1778985000,
-    "duration": 5400,
-    "url": "https://leetcode.com/contest/weekly-contest-502",
     "status": "recent"
   }
 ]
