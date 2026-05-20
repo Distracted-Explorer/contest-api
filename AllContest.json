@@ -150,13 +150,5 @@
     "duration": 3600,
     "url": "https://atcoder.jp/contests/awc0071",
     "status": "recent"
-  },
-  {
-    "platform": "CodeChef",
-    "name": "Weekend Dev Challenge 50: Golang Projects",
-    "startTime": 1778869800,
-    "duration": 172800,
-    "url": "https://www.codechef.com/DEVWEEKEND50",
-    "status": "recent"
   }
 ]
