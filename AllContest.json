@@ -1,13 +1,5 @@
 [
   {
-    "platform": "CodeChef",
-    "name": "Starters 239 (Rated till 5 star)",
-    "startTime": 1779287400,
-    "duration": 7200,
-    "url": "https://www.codechef.com/START239",
-    "status": "running"
-  },
-  {
     "platform": "AtCoder",
     "name": "Ⓐ◉ AtCoder Weekday Contest 0074 Beta",
     "startTime": 1779361200,
@@ -110,6 +102,14 @@
     "duration": 7200,
     "url": "https://www.codechef.com/START241",
     "status": "future"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Starters 239 (Rated till 5 star)",
+    "startTime": 1779287400,
+    "duration": 7200,
+    "url": "https://www.codechef.com/START239",
+    "status": "recent"
   },
   {
     "platform": "AtCoder",
