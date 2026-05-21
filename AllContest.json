@@ -1,18 +1,18 @@
 [
   {
-    "platform": "AtCoder",
-    "name": "Ⓐ◉ AtCoder Weekday Contest 0074 Beta",
-    "startTime": 1779361200,
-    "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0074",
-    "status": "running"
-  },
-  {
     "platform": "CodeForces",
     "name": "Codeforces Round 1099 (Div. 2)",
     "startTime": 1779374100,
     "duration": 7200,
     "url": "https://codeforces.com/contestRegistration/2231",
+    "status": "running"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "Ⓐ◉ AtCoder Weekday Contest 0075 Beta",
+    "startTime": 1779447600,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0075",
     "status": "future"
   },
   {
@@ -104,6 +104,14 @@
     "status": "future"
   },
   {
+    "platform": "AtCoder",
+    "name": "Ⓐ◉ AtCoder Weekday Contest 0074 Beta",
+    "startTime": 1779361200,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0074",
+    "status": "recent"
+  },
+  {
     "platform": "CodeChef",
     "name": "Starters 239 (Rated till 5 star)",
     "startTime": 1779287400,
@@ -141,14 +149,6 @@
     "startTime": 1779107400,
     "duration": 10800,
     "url": "https://www.codechef.com/DSAMONDAY003",
-    "status": "recent"
-  },
-  {
-    "platform": "AtCoder",
-    "name": "Ⓐ◉ AtCoder Weekday Contest 0071 Beta",
-    "startTime": 1779102000,
-    "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0071",
     "status": "recent"
   }
 ]
