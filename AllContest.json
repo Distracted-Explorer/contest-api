@@ -1,13 +1,5 @@
 [
   {
-    "platform": "CodeForces",
-    "name": "Codeforces Round 1099 (Div. 2)",
-    "startTime": 1779374100,
-    "duration": 7200,
-    "url": "https://codeforces.com/contestRegistration/2231",
-    "status": "running"
-  },
-  {
     "platform": "AtCoder",
     "name": "Ⓐ◉ AtCoder Weekday Contest 0075 Beta",
     "startTime": 1779447600,
@@ -104,6 +96,14 @@
     "status": "future"
   },
   {
+    "platform": "CodeForces",
+    "name": "Codeforces Round 1099 (Div. 2)",
+    "startTime": 1779374100,
+    "duration": 7200,
+    "url": "https://codeforces.com/contestRegistration/2231",
+    "status": "recent"
+  },
+  {
     "platform": "AtCoder",
     "name": "Ⓐ◉ AtCoder Weekday Contest 0074 Beta",
     "startTime": 1779361200,
@@ -133,22 +133,6 @@
     "startTime": 1779188400,
     "duration": 3600,
     "url": "https://atcoder.jp/contests/awc0072",
-    "status": "recent"
-  },
-  {
-    "platform": "CodeForces",
-    "name": "Educational Codeforces Round 190 (Rated for Div. 2)",
-    "startTime": 1779114900,
-    "duration": 7200,
-    "url": "https://codeforces.com/contestRegistration/2230",
-    "status": "recent"
-  },
-  {
-    "platform": "CodeChef",
-    "name": "Monday Munch - DSA Challenge 003 (Rated)",
-    "startTime": 1779107400,
-    "duration": 10800,
-    "url": "https://www.codechef.com/DSAMONDAY003",
     "status": "recent"
   }
 ]
