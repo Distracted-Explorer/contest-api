@@ -1,352 +1,189 @@
+# contest-api
 
-# Wecome To Contest API
-> I coudn't think of a good name then and now so Contest API
-
-A self-updating aggregator that collects upcoming and live competitive programming contests from multiple platforms and exposes them as a single JSON file — refreshed automatically every 2 hours via GitHub Actions.
-
->If you use this in your project, a star is appreciated!
+A Python-based contest aggregator that fetches live and upcoming competitive programming contests from multiple platforms, merges them into a single unified JSON file (`AllContest.json`), and keeps that file up to date over time.
 
 ---
 
-##  Table of Contents
+## What it does
 
-- [Wecome To Contest API](#wecome-to-contest-api)
-  - [Table of Contents](#table-of-contents)
-  - [What It Does](#what-it-does)
-  - [Supported Platforms](#supported-platforms)
-  - [Repository Structure](#repository-structure)
-  - [How It Works](#how-it-works)
-    - [System Flow](#system-flow)
-    - [Platform Fetcher Contract](#platform-fetcher-contract)
-    - [Merge Strategy](#merge-strategy)
-    - [Time Window](#time-window)
-  - [The Data Format](#the-data-format)
-  - [Consuming the API](#consuming-the-api)
-  - [Contributing — Adding a New Platform](#contributing--adding-a-new-platform)
-    - [Step 1 — Create `Platforms/<PlatformName>.py`](#step-1--create-platformsplatformnamepy)
-    - [Step 2 — Register the fetcher in `update_all.py`](#step-2--register-the-fetcher-in-update_allpy)
-    - [Step 3 — Add a logo to `Logos/`](#step-3--add-a-logo-to-logos)
-    - [Step 4 — Open a Pull Request](#step-4--open-a-pull-request)
-  - [Constraints \& Design Decisions](#constraints--design-decisions)
-  - [Local Development](#local-development)
-  - [License](#license)
+Running `update_all.py` performs the following in sequence:
+
+1. **Loads** the existing `AllContest.json` as a persistent store.
+2. **Fetches** fresh contest data from every supported platform.
+3. **Merges** new and updated contests into the store (using the contest URL as the unique key).
+4. **Preserves** recently-ended contests for a 3-day grace period.
+5. **Evicts** contests that ended more than 3 days ago.
+6. **Deduplicates** by URL.
+7. **Sorts** results: running → future (soonest first) → recent (most-recently-ended first).
+8. **Saves** the final list back to `AllContest.json`.
 
 ---
 
-## What It Does
-
-Every 2 hours, a GitHub Actions workflow:
-1. Spins up a fresh Ubuntu runner
-2. Runs each platform scraper in `Platforms/`
-3. Merges results with existing data (preserving stale entries for any platform that failed)
-4. Deduplicates by URL and sorts by start time
-5. Writes the final list to `AllContest.json` and commits it back to the repo
-
-The output is a raw JSON file you can `fetch()` directly from any app.
-
----
-
-## Supported Platforms
-
-
-| Codeforces|LeetCode| AtCoder| CodeChef | HackerRank |
-|---|---|---|---|---|
-
-Platform SVG logos are stored in `Logos/<Platform>.json` for convenience — each file contains the platform name, an inline SVG string, and a `tint` boolean.
-
----
-
-## Repository Structure
+## Project structure
 
 ```
 contest-api/
-│
-├── AllContest.json          # ← The output. Fetch this in your app.
-├── update_all.py            # Central orchestrator — the only script you run
-├── requirements.txt         # Python deps (requests, beautifulsoup4)
-│
-├── Platforms/               # One file per platform
+├── update_all.py          # Entry point — orchestrates all fetchers and writes AllContest.json
+├── AllContest.json        # Output file — the merged, filtered, sorted contest list
+├── requirements.txt       # Python dependencies
+├── Platforms/             # One fetcher module per platform
 │   ├── AtCoder.py
 │   ├── CodeChef.py
 │   ├── CodeForces.py
 │   ├── HackerRank.py
 │   └── LeetCode.py
-│
-├── Logos/                   # Inline SVG logos for each platform
-│   ├── AtCoder.json
-│   ├── CodeChef.json
-│   ├── CodeForces.json
-│   ├── HackerRank.json
-│   └── LeetCode.json
-│
-└── .github/
-    └── workflows/
-        └── update.yml       # GitHub Actions: runs every 2 hours
+└── Logos/                 # SVG logo data for each platform (JSON format)
+    ├── AtCoder.json
+    ├── CodeChef.json
+    ├── CodeForces.json
+    ├── HackerRank.json
+    ├── LeetCode.json
+    └── TopCoder.json
 ```
 
 ---
 
-## How It Works
+## Output format
 
-### System Flow
+`AllContest.json` is a JSON array. Each entry has the following fields:
 
-```mermaid
-flowchart TD
-    GHA["GitHub Actions\n(every 2 hours)"] --> UA["update_all.py"]
+| Field       | Type    | Description                                      |
+|-------------|---------|--------------------------------------------------|
+| `platform`  | string  | Platform name (e.g. `"CodeForces"`)              |
+| `name`      | string  | Contest name                                     |
+| `startTime` | integer | Unix timestamp (UTC) of the contest start        |
+| `duration`  | integer | Contest length in seconds                        |
+| `url`       | string  | Direct link to the contest page                  |
+| `status`    | string  | One of `"running"`, `"future"`, or `"recent"`    |
 
-    UA --> CF["Platforms/CodeForces.py\nREST API"]
-    UA --> LC["Platforms/LeetCode.py\nGraphQL"]
-    UA --> AC["Platforms/AtCoder.py\nHTML Scrape"]
-    UA --> CC["Platforms/CodeChef.py\nREST API"]
-    UA --> HR["Platforms/HackerRank.py\nREST API"]
+**Status values:**
+- `running` — contest has started but not yet ended
+- `future` — contest has not started yet (within the next 14 days)
+- `recent` — contest ended within the last 3 days (grace period; dropped after)
 
-    CF -->|"List of contests or None"| UA
-    LC -->|"List of contests or None"| UA
-    AC -->|"List of contests or None"| UA
-    CC -->|"List of contests or None"| UA
-    HR -->|"List of contests or None"| UA
-
-    UA --> M["Merge & Deduplicate\n• Keep old entries if platform failed\n• Drop old entries if platform succeeded\n• Dedupe by URL\n• Sort by startTime"]
-
-    M --> AJ["AllContest.json"]
-
-    AJ --> APP["Your App"]
-```
-
-### Platform Fetcher Contract
-
-Every file in `Platforms/` must export a single `fetch()` function with this signature:
-
-```python
-def fetch() -> list[dict] | None:
-    # Returns a list of contest dicts on success
-    # Returns None (implicitly, via exception) on failure
-    ...
-```
-
-Each contest dict must have these exact keys:
-
-| Key | Type | Description |
-|---|---|---|
-| `platform` | `str` | Platform name (must match the file name, case-sensitive) |
-| `name` | `str` | Human-readable contest name |
-| `startTime` | `int` | Unix timestamp (UTC) of contest start |
-| `duration` | `int` | Duration in **seconds** |
-| `url` | `str` | Direct link to the contest page |
-
-### Merge Strategy
-
-```mermaid
-flowchart LR
-    subgraph "For each platform"
-        direction TB
-        F{"Did fetch()\nsucceed?"}
-        F -->|Yes| REPLACE["Use fresh data\nDrop old entries for this platform"]
-        F -->|No| KEEP["Keep old entries\n(if < 3 days old)"]
-    end
-```
-
-This means a single scraper going down doesn't wipe previously-fetched data.
-
-### Time Window
-
-| Platform | Window Logic |
-|---|---|
-| Codeforces, AtCoder, CodeChef | Show contests starting within **14 days** and not yet ended |
-| LeetCode | Show all contests not yet ended |
-| HackerRank | Show upcoming contests not yet started, within **14 days** |
-| Stale entry cutoff | Entries older than **3 days** past their start time are dropped on next run |
-
----
-
-## The Data Format
-
-`AllContest.json` is a flat JSON array, sorted ascending by `startTime`.
-
+**Example entry:**
 ```json
-[
-  {
-    "platform": "LeetCode",
-    "name": "Weekly Contest 400",
-    "startTime": 1714800000,
-    "duration": 5400,
-    "url": "https://leetcode.com/contest/weekly-contest-400"
-  },
-  {
-    "platform": "CodeForces",
-    "name": "Codeforces Round 942 (Div. 1)",
-    "startTime": 1714900000,
-    "duration": 7200,
-    "url": "https://codeforces.com/contestRegistration/1942"
-  }
-]
-```
-
----
-
-## Consuming the API
-
-Point your app at the raw `AllContest.json` URL:
-
-```
-https://raw.githubusercontent.com/<your-username>/contest-api/main/AllContest.json
-```
-
-**JavaScript example:**
-
-```js
-const res = await fetch(
-  "https://raw.githubusercontent.com/<your-username>/contest-api/main/AllContest.json"
-);
-const contests = await res.json();
-
-// Filter to only upcoming contests
-const now = Math.floor(Date.now() / 1000);
-const upcoming = contests.filter(c => c.startTime > now);
-```
-
-**Derived fields you may want to compute client-side:**
-
-```js
-const contest = contests[0];
-
-// End time
-const endTime = contest.startTime + contest.duration;
-
-// Is it live right now?
-const isLive = now >= contest.startTime && now < endTime;
-
-// Duration in hours
-const hours = contest.duration / 3600;
-```
-
----
-
-## Contributing — Adding a New Platform
-
-### Step 1 — Create `Platforms/<PlatformName>.py`
-
-The file must export a `fetch()` function. Use this template:
-
-```python
-import requests
-from datetime import datetime, timezone
-
-
-def fetch():
-    contests = []
-    headers = {"User-Agent": "Mozilla/5.0"}
-    utc_time = int(datetime.now(timezone.utc).timestamp())
-    window = utc_time + 14 * 24 * 3600  # 14-day lookahead
-
-    try:
-        # --- Replace everything in this block ---
-        data = requests.get(
-            "https://example-platform.com/api/contests",
-            headers=headers,
-            timeout=10
-        ).json()
-
-        for c in data.get("contests", []):
-            start = c["start_timestamp"]        # Unix seconds
-            duration = c["duration_seconds"]
-            if utc_time < start + duration and window >= start:
-                contests.append({
-                    "platform": "ExamplePlatform",   # Must match filename exactly
-                    "name": c["title"],
-                    "startTime": start,
-                    "duration": duration,
-                    "url": f"https://example-platform.com/contests/{c['id']}"
-                })
-        # --- End of platform-specific block ---
-
-        print(f"[ExamplePlatform] Fetched {len(contests)} contests.")
-    except Exception as e:
-        print(f"[ExamplePlatform] FAILED: {e}")
-
-    return contests
-```
-
-> **Important:** Never raise exceptions — catch them and return whatever you have (even an empty list). A `None` return tells the orchestrator the fetch failed and it will preserve old data instead.
-
-### Step 2 — Register the fetcher in `update_all.py`
-
-Add two lines:
-
-```python
-# At the top with the other imports:
-import ExamplePlatform
-
-# In the PLATFORMS dict:
-PLATFORMS = {
-    "AtCoder":         AtCoder.fetch,
-    "CodeChef":        CodeChef.fetch,
-    "CodeForces":      CodeForces.fetch,
-    "HackerRank":      HackerRank.fetch,
-    "LeetCode":        LeetCode.fetch,
-    "ExamplePlatform": ExamplePlatform.fetch,   # ← add this
+{
+  "platform": "CodeForces",
+  "name": "Codeforces Round 1098 (Div. 2)",
+  "startTime": 1778942100,
+  "duration": 8100,
+  "url": "https://codeforces.com/contestRegistration/2228",
+  "status": "future"
 }
 ```
 
-### Step 3 — Add a logo to `Logos/`
+---
 
-Create `Logos/ExamplePlatform.json`:
+## Supported platforms
+
+| Platform    | Data source                  | Method          |
+|-------------|------------------------------|-----------------|
+| AtCoder     | `atcoder.jp/contests/`       | HTML scraping   |
+| CodeChef    | `codechef.com/api/list/contests/all` | REST API |
+| CodeForces  | `codeforces.com/api/contest.list`    | REST API |
+| HackerRank  | `hackerrank.com/rest/contests/upcoming` | REST API |
+| LeetCode    | `leetcode.com/graphql`       | GraphQL API     |
+
+Each fetcher returns only **currently running** contests and contests **starting within the next 14 days**. Historical data is intentionally excluded at the fetcher level; `update_all.py` handles retention of recently-ended contests separately.
+
+---
+
+## How each platform fetcher works
+
+### AtCoder (`Platforms/AtCoder.py`)
+Scrapes the AtCoder contests page with `requests` and `BeautifulSoup`. It looks for four specific HTML `<div>` sections by ID (`contest-table-recent`, `contest-table-daily`, `contest-table-action`, `contest-table-upcoming`) and parses contest name, start time, and duration from each table row. A `seen` set prevents duplicate URLs across sections.
+
+### CodeChef (`Platforms/CodeChef.py`)
+Calls the CodeChef REST API and reads two keys from the response: `present_contests` (currently running) and `future_contests` (upcoming). Duration is given in minutes by the API and converted to seconds.
+
+### CodeForces (`Platforms/CodeForces.py`)
+Calls the Codeforces `contest.list` REST API, which returns all contests including historical ones. The fetcher filters to only those that are currently running or start within 14 days. Start time and duration are provided directly as Unix seconds.
+
+### HackerRank (`Platforms/HackerRank.py`)
+Calls the HackerRank upcoming contests REST endpoint. A hardcoded `SKIP_NAMES` set filters out permanent/non-competitive events (e.g. `ProjectEuler+`). Duration is derived as `epoch_endtime − epoch_starttime`.
+
+### LeetCode (`Platforms/LeetCode.py`)
+Calls the LeetCode GraphQL API with a query for `allContests` (which returns all contests including historical). The same running/upcoming filter is applied. The contest URL is built from the `titleSlug` field.
+
+---
+
+## Merge and retention logic
+
+`update_all.py` uses the contest **URL as the deduplication key** across all operations.
+
+**On each run:**
+- Fresh contests from a successful fetch are **upserted** (added if new, updated if existing).
+- If a platform fetch succeeds but no longer returns a URL that was previously stored, that entry is **kept only if it is in the 3-day recent grace period**, then dropped.
+- If a platform fetch **fails** (network error, API error, parse error), all existing entries for that platform are **kept untouched** to avoid data loss on a transient error.
+- After all merges, every entry is re-evaluated: contests older than 3 days are **dropped**, all others get their `status` recalculated from the current time.
+
+This means `AllContest.json` always reflects the current state of contests, with a soft landing for very recently ended ones.
+
+---
+
+## Logos
+
+The `Logos/` directory contains one JSON file per platform. Each file holds:
 
 ```json
 {
-  "platform": "ExamplePlatform",
-  "svg": "<svg ...your inline SVG here...></svg>",
+  "platform": "CodeForces",
+  "svg": "<svg ...>...</svg>",
   "tint": false
 }
 ```
 
-Set `"tint": true` if the SVG is a monochrome shape that should be colorized by the consuming app.
-
-### Step 4 — Open a Pull Request
-
-- Title format: `feat: add ExamplePlatform scraper`
-- Verify the script runs locally without errors: `python update_all.py`
-- Confirm `AllContest.json` contains your platform's contests after the run
+The `svg` field is an inline SVG string ready to embed in a frontend. The `tint` boolean indicates whether the SVG should be tinted (useful for monochrome logos). These files are static assets used by downstream consumers of this API (e.g. a frontend app) and are not updated by `update_all.py`.
 
 ---
 
-## Constraints & Design Decisions
+## Setup
 
-| Constraint | Reason |
-|---|---|
-| **No external database** | `AllContest.json` in the repo is the entire data store — zero infrastructure needed |
-| **Each `fetch()` is independent** | A broken scraper can't crash the others; failures are isolated by try/except |
-| **Platform name must be consistent** | The merge logic keys on `contest["platform"]` matching the dict key in `PLATFORMS` — a mismatch means old entries are never cleaned up |
-| **`update_all.py` owns the write** | Previously each script read+wrote `AllContest.json` itself, causing race conditions and data loss. Now only the orchestrator writes, once, at the end |
-| **URL is the deduplication key** | URLs are stable and unique per contest; using names would cause duplicates across refreshes |
-| **14-day lookahead window** | Keeps the file small enough for a direct browser `fetch()` without pagination |
-| **3-day stale cutoff** | Old contests are kept briefly after they end (useful if a downstream app hasn't refreshed yet) |
-
----
-
-## Local Development
+**Requirements:** Python 3.10+
 
 ```bash
-# Clone
-git clone https://github.com/<your-username>/contest-api.git
-cd contest-api
-
-# Install deps
 pip install -r requirements.txt
-
-# Run the full pipeline
-python update_all.py
-
-# Check the output
-cat AllContest.json
 ```
 
-The GitHub Actions workflow (`update.yml`) runs the exact same `python update_all.py` command, so local output should match what the CI produces.
-
-You can also trigger a manual run from the **Actions** tab on GitHub → select **Update Contests** → click **Run workflow**.
+`requirements.txt` contains:
+```
+requests
+beautifulsoup4
+```
 
 ---
 
-## License
+## Running
 
-MIT — use it however you like. Attribution appreciated but not required.
+```bash
+python update_all.py
+```
+
+On completion, the script prints a summary:
+
+```
+Loaded 42 contests from AllContest.json.
+[AtCoder] Fetched 8 contests (live + upcoming ≤14 days).
+[CodeChef] Fetched 3 contests (live + upcoming ≤14 days).
+[CodeForces] Fetched 5 contests (live + upcoming ≤14 days).
+[HackerRank] Fetched 2 contests (live + upcoming ≤14 days).
+[LeetCode] Fetched 2 contests (live + upcoming ≤14 days).
+
+AllContest.json updated — 44 contest(s) kept.
+  Running : 1
+  Future  : 40  (within next 14 days)
+  Recent  : 3   (ended within last 3 days)
+```
+
+To keep `AllContest.json` fresh, run this script on a schedule — for example as a GitHub Actions workflow, a cron job, or any CI/CD pipeline that commits the updated file back to the repository.
+
+---
+
+## Adding a new platform
+
+1. Create `Platforms/<PlatformName>.py`.
+2. Implement a `fetch() -> list[dict]` function that returns a list of contest dicts with keys: `platform`, `name`, `startTime` (Unix timestamp), `duration` (seconds), `url`.
+3. Return only **running or upcoming (≤14 days)** contests. Return `[]` on any error (after printing a message).
+4. Import and register the fetcher in `update_all.py`'s `PLATFORMS` dict.
+5. Optionally add a logo JSON to `Logos/`.
