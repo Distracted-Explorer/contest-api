@@ -1,13 +1,5 @@
 [
   {
-    "platform": "AtCoder",
-    "name": "Ⓐ◉ AtCoder Weekday Contest 0075 Beta",
-    "startTime": 1779447600,
-    "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0075",
-    "status": "future"
-  },
-  {
     "platform": "CodeChef",
     "name": "Weekend Dev Challenge 51: Golang Projects",
     "startTime": 1779474600,
@@ -45,6 +37,14 @@
     "startTime": 1779589800,
     "duration": 5400,
     "url": "https://leetcode.com/contest/weekly-contest-503",
+    "status": "future"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "Ⓐ◉ AtCoder Weekday Contest 0076 Beta",
+    "startTime": 1779706800,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0076",
     "status": "future"
   },
   {
@@ -96,6 +96,14 @@
     "status": "future"
   },
   {
+    "platform": "AtCoder",
+    "name": "Ⓐ◉ AtCoder Weekday Contest 0075 Beta",
+    "startTime": 1779447600,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0075",
+    "status": "recent"
+  },
+  {
     "platform": "CodeForces",
     "name": "Codeforces Round 1099 (Div. 2)",
     "startTime": 1779374100,
@@ -125,14 +133,6 @@
     "startTime": 1779274800,
     "duration": 3600,
     "url": "https://atcoder.jp/contests/awc0073",
-    "status": "recent"
-  },
-  {
-    "platform": "AtCoder",
-    "name": "Ⓐ◉ AtCoder Weekday Contest 0072 Beta",
-    "startTime": 1779188400,
-    "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0072",
     "status": "recent"
   }
 ]
