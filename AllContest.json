@@ -8,20 +8,12 @@
     "status": "running"
   },
   {
-    "platform": "AtCoder",
-    "name": "Ⓐ◉ Tokio Marine & Nichido Fire Insurance Programming Contest 2026  (AtCoder Beginner Contest 459)",
-    "startTime": 1779537600,
-    "duration": 6000,
-    "url": "https://atcoder.jp/contests/abc459",
-    "status": "running"
-  },
-  {
     "platform": "LeetCode",
     "name": "Biweekly Contest 183",
     "startTime": 1779546600,
     "duration": 5400,
     "url": "https://leetcode.com/contest/biweekly-contest-183",
-    "status": "future"
+    "status": "running"
   },
   {
     "platform": "CodeForces",
@@ -29,7 +21,7 @@
     "startTime": 1779546900,
     "duration": 10800,
     "url": "https://codeforces.com/contestRegistration/2229",
-    "status": "future"
+    "status": "running"
   },
   {
     "platform": "LeetCode",
@@ -102,6 +94,14 @@
     "duration": 6000,
     "url": "https://atcoder.jp/contests/abc461",
     "status": "future"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "Ⓐ◉ Tokio Marine & Nichido Fire Insurance Programming Contest 2026  (AtCoder Beginner Contest 459)",
+    "startTime": 1779537600,
+    "duration": 6000,
+    "url": "https://atcoder.jp/contests/abc459",
+    "status": "recent"
   },
   {
     "platform": "AtCoder",
