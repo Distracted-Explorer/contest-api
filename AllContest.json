@@ -13,7 +13,7 @@
     "startTime": 1779537600,
     "duration": 6000,
     "url": "https://atcoder.jp/contests/abc459",
-    "status": "future"
+    "status": "running"
   },
   {
     "platform": "LeetCode",
@@ -97,6 +97,14 @@
   },
   {
     "platform": "AtCoder",
+    "name": "Ⓐ◉ AtCoder Beginner Contest 461",
+    "startTime": 1780747200,
+    "duration": 6000,
+    "url": "https://atcoder.jp/contests/abc461",
+    "status": "future"
+  },
+  {
+    "platform": "AtCoder",
     "name": "Ⓐ◉ AtCoder Weekday Contest 0075 Beta",
     "startTime": 1779447600,
     "duration": 3600,
@@ -125,14 +133,6 @@
     "startTime": 1779287400,
     "duration": 7200,
     "url": "https://www.codechef.com/START239",
-    "status": "recent"
-  },
-  {
-    "platform": "AtCoder",
-    "name": "Ⓐ◉ AtCoder Weekday Contest 0073 Beta",
-    "startTime": 1779274800,
-    "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0073",
     "status": "recent"
   }
 ]
