@@ -1,24 +1,16 @@
 [
   {
     "platform": "AtCoder",
-    "name": "Ⓐ◉ Practice Contest - 4:00 PM",
-    "startTime": 1748088000,
+    "name": "Ⓐ◉ Evening Practice Contest - 4:30 PM",
+    "startTime": 1779620400,
     "duration": 3600,
     "url": "https://atcoder.jp/contests/awc0075",
     "status": "future"
   },
   {
     "platform": "AtCoder",
-    "name": "Ⓐ◉ Practice Contest - 4:30 PM",
-    "startTime": 1748089800,
-    "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0075",
-    "status": "future"
-  },
-  {
-    "platform": "AtCoder",
-    "name": "Ⓐ◉ Practice Contest - 5:00 PM",
-    "startTime": 1748091600,
+    "name": "Ⓐ◉ Evening Practice Contest - 5:00 PM",
+    "startTime": 1779622200,
     "duration": 3600,
     "url": "https://atcoder.jp/contests/awc0075",
     "status": "future"
