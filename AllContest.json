@@ -1,13 +1,5 @@
 [
   {
-    "platform": "CodeChef",
-    "name": "Weekend Dev Challenge 51: Golang Projects",
-    "startTime": 1779474600,
-    "duration": 172800,
-    "url": "https://www.codechef.com/DEVWEEKEND51",
-    "status": "running"
-  },
-  {
     "platform": "AtCoder",
     "name": "Ⓐ◉ AtCoder Weekday Contest 0076 Beta",
     "startTime": 1779706800,
@@ -94,6 +86,14 @@
     "duration": 5400,
     "url": "https://leetcode.com/contest/biweekly-contest-184",
     "status": "future"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Weekend Dev Challenge 51: Golang Projects",
+    "startTime": 1779474600,
+    "duration": 172800,
+    "url": "https://www.codechef.com/DEVWEEKEND51",
+    "status": "recent"
   },
   {
     "platform": "LeetCode",
