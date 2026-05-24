@@ -134,13 +134,5 @@
     "duration": 3600,
     "url": "https://atcoder.jp/contests/awc0075",
     "status": "recent"
-  },
-  {
-    "platform": "CodeForces",
-    "name": "Codeforces Round 1099 (Div. 2)",
-    "startTime": 1779374100,
-    "duration": 7200,
-    "url": "https://codeforces.com/contestRegistration/2231",
-    "status": "recent"
   }
 ]
