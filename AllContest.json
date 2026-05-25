@@ -1,13 +1,5 @@
 [
   {
-    "platform": "CodeChef",
-    "name": "Monday Munch - DSA Challenge 004 (Rated)",
-    "startTime": 1779712200,
-    "duration": 10800,
-    "url": "https://www.codechef.com/DSAMONDAY004",
-    "status": "running"
-  },
-  {
     "platform": "AtCoder",
     "name": "Ⓐ◉ AtCoder Weekday Contest 0077 Beta",
     "startTime": 1779793200,
@@ -94,6 +86,14 @@
     "duration": 5400,
     "url": "https://leetcode.com/contest/weekly-contest-505",
     "status": "future"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Monday Munch - DSA Challenge 004 (Rated)",
+    "startTime": 1779712200,
+    "duration": 10800,
+    "url": "https://www.codechef.com/DSAMONDAY004",
+    "status": "recent"
   },
   {
     "platform": "AtCoder",
