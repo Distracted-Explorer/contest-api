@@ -1,18 +1,18 @@
 [
   {
-    "platform": "AtCoder",
-    "name": "Ⓐ◉ AtCoder Weekday Contest 0076 Beta",
-    "startTime": 1779706800,
-    "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0076",
-    "status": "future"
-  },
-  {
     "platform": "CodeChef",
     "name": "Monday Munch - DSA Challenge 004 (Rated)",
     "startTime": 1779712200,
     "duration": 10800,
     "url": "https://www.codechef.com/DSAMONDAY004",
+    "status": "running"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "Ⓐ◉ AtCoder Weekday Contest 0077 Beta",
+    "startTime": 1779793200,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0077",
     "status": "future"
   },
   {
@@ -88,6 +88,22 @@
     "status": "future"
   },
   {
+    "platform": "LeetCode",
+    "name": "Weekly Contest 505",
+    "startTime": 1780799400,
+    "duration": 5400,
+    "url": "https://leetcode.com/contest/weekly-contest-505",
+    "status": "future"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "Ⓐ◉ AtCoder Weekday Contest 0076 Beta",
+    "startTime": 1779706800,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0076",
+    "status": "recent"
+  },
+  {
     "platform": "CodeChef",
     "name": "Weekend Dev Challenge 51: Golang Projects",
     "startTime": 1779474600,
@@ -125,14 +141,6 @@
     "startTime": 1779537600,
     "duration": 6000,
     "url": "https://atcoder.jp/contests/abc459",
-    "status": "recent"
-  },
-  {
-    "platform": "AtCoder",
-    "name": "Ⓐ◉ AtCoder Weekday Contest 0075 Beta",
-    "startTime": 1779447600,
-    "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0075",
     "status": "recent"
   }
 ]
