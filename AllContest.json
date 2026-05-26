@@ -1,10 +1,10 @@
 [
   {
     "platform": "AtCoder",
-    "name": "Ⓐ◉ AtCoder Weekday Contest 0077 Beta",
-    "startTime": 1779793200,
+    "name": "Ⓐ◉ AtCoder Weekday Contest 0078 Beta",
+    "startTime": 1779879600,
     "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0077",
+    "url": "https://atcoder.jp/contests/awc0078",
     "status": "future"
   },
   {
@@ -88,6 +88,22 @@
     "status": "future"
   },
   {
+    "platform": "CodeForces",
+    "name": "Educational Codeforces Round 191 (Rated for Div. 2)",
+    "startTime": 1781015700,
+    "duration": 7200,
+    "url": "https://codeforces.com/contestRegistration/2233",
+    "status": "future"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "Ⓐ◉ AtCoder Weekday Contest 0077 Beta",
+    "startTime": 1779793200,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0077",
+    "status": "recent"
+  },
+  {
     "platform": "CodeChef",
     "name": "Monday Munch - DSA Challenge 004 (Rated)",
     "startTime": 1779712200,
@@ -133,14 +149,6 @@
     "startTime": 1779546600,
     "duration": 5400,
     "url": "https://leetcode.com/contest/biweekly-contest-183",
-    "status": "recent"
-  },
-  {
-    "platform": "AtCoder",
-    "name": "Ⓐ◉ Tokio Marine & Nichido Fire Insurance Programming Contest 2026  (AtCoder Beginner Contest 459)",
-    "startTime": 1779537600,
-    "duration": 6000,
-    "url": "https://atcoder.jp/contests/abc459",
     "status": "recent"
   }
 ]
