@@ -1,13 +1,5 @@
 [
   {
-    "platform": "CodeChef",
-    "name": "Starters 240 (Rated till 6 star)",
-    "startTime": 1779892200,
-    "duration": 7200,
-    "url": "https://www.codechef.com/START240",
-    "status": "future"
-  },
-  {
     "platform": "AtCoder",
     "name": "Ⓐ◉ AtCoder Weekday Contest 0079 Beta",
     "startTime": 1779966000,
@@ -102,6 +94,22 @@
     "duration": 7200,
     "url": "https://codeforces.com/contestRegistration/2233",
     "status": "future"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Starters 242",
+    "startTime": 1781101800,
+    "duration": 7200,
+    "url": "https://www.codechef.com/START242",
+    "status": "future"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Starters 240 (Rated till 6 star)",
+    "startTime": 1779892200,
+    "duration": 7200,
+    "url": "https://www.codechef.com/START240",
+    "status": "recent"
   },
   {
     "platform": "AtCoder",
