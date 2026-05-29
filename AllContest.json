@@ -8,14 +8,6 @@
     "status": "running"
   },
   {
-    "platform": "AtCoder",
-    "name": "Ⓐ◉ AtCoder Weekday Contest 0080 Beta",
-    "startTime": 1780052400,
-    "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0080",
-    "status": "running"
-  },
-  {
     "platform": "CodeChef",
     "name": "Weekend Dev Challenge 52: Golang Projects",
     "startTime": 1780079400,
@@ -56,6 +48,14 @@
     "status": "future"
   },
   {
+    "platform": "AtCoder",
+    "name": "Ⓐ◉ AtCoder Weekday Contest 0081 Beta",
+    "startTime": 1780311600,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0081",
+    "status": "future"
+  },
+  {
     "platform": "CodeChef",
     "name": "Starters 241",
     "startTime": 1780497000,
@@ -89,6 +89,14 @@
   },
   {
     "platform": "CodeForces",
+    "name": "Codeforces Round (Div. 2)",
+    "startTime": 1780842900,
+    "duration": 8100,
+    "url": "https://codeforces.com/contestRegistration/2234",
+    "status": "future"
+  },
+  {
+    "platform": "CodeForces",
     "name": "Educational Codeforces Round 191 (Rated for Div. 2)",
     "startTime": 1781015700,
     "duration": 7200,
@@ -102,6 +110,14 @@
     "duration": 7200,
     "url": "https://www.codechef.com/START242",
     "status": "future"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "Ⓐ◉ AtCoder Weekday Contest 0080 Beta",
+    "startTime": 1780052400,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0080",
+    "status": "recent"
   },
   {
     "platform": "AtCoder",
@@ -125,14 +141,6 @@
     "startTime": 1779879600,
     "duration": 3600,
     "url": "https://atcoder.jp/contests/awc0078",
-    "status": "recent"
-  },
-  {
-    "platform": "AtCoder",
-    "name": "Ⓐ◉ AtCoder Weekday Contest 0077 Beta",
-    "startTime": 1779793200,
-    "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0077",
     "status": "recent"
   }
 ]
