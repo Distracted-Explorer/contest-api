@@ -2,10 +2,10 @@
   {
     "platform": "AtCoder",
     "name": "Ⓗ◉ AtCoder Heuristic Contest 066",
-    "startTime": 1780048800,
-    "duration": 864000,
+    "startTime": 1780052400,
+    "duration": 860400,
     "url": "https://atcoder.jp/contests/ahc066",
-    "status": "future"
+    "status": "running"
   },
   {
     "platform": "AtCoder",
@@ -13,7 +13,7 @@
     "startTime": 1780052400,
     "duration": 3600,
     "url": "https://atcoder.jp/contests/awc0080",
-    "status": "future"
+    "status": "running"
   },
   {
     "platform": "CodeChef",
