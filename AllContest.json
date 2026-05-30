@@ -16,20 +16,12 @@
     "status": "running"
   },
   {
-    "platform": "AtCoder",
-    "name": "Ⓐ◉ AtCoder Beginner Contest 460",
-    "startTime": 1780142400,
-    "duration": 6000,
-    "url": "https://atcoder.jp/contests/abc460",
-    "status": "running"
-  },
-  {
     "platform": "CodeForces",
     "name": "Codeforces Round 1101 (Div. 2)",
     "startTime": 1780151700,
     "duration": 7200,
     "url": "https://codeforces.com/contestRegistration/2232",
-    "status": "future"
+    "status": "running"
   },
   {
     "platform": "LeetCode",
@@ -118,6 +110,14 @@
     "duration": 6000,
     "url": "https://atcoder.jp/contests/abc462",
     "status": "future"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "Ⓐ◉ AtCoder Beginner Contest 460",
+    "startTime": 1780142400,
+    "duration": 6000,
+    "url": "https://atcoder.jp/contests/abc460",
+    "status": "recent"
   },
   {
     "platform": "AtCoder",
