@@ -16,14 +16,6 @@
     "status": "running"
   },
   {
-    "platform": "LeetCode",
-    "name": "Weekly Contest 504",
-    "startTime": 1780194600,
-    "duration": 5400,
-    "url": "https://leetcode.com/contest/weekly-contest-504",
-    "status": "running"
-  },
-  {
     "platform": "AtCoder",
     "name": "Ⓐ◉ AtCoder Regular Contest++ 221",
     "startTime": 1780228800,
@@ -37,6 +29,14 @@
     "startTime": 1780311600,
     "duration": 3600,
     "url": "https://atcoder.jp/contests/awc0081",
+    "status": "future"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Monday Munch - DSA Challenge 004 (Rated)",
+    "startTime": 1780317000,
+    "duration": 10800,
+    "url": "https://www.codechef.com/DSAMONDAY005",
     "status": "future"
   },
   {
@@ -102,6 +102,14 @@
     "duration": 6000,
     "url": "https://atcoder.jp/contests/abc462",
     "status": "future"
+  },
+  {
+    "platform": "LeetCode",
+    "name": "Weekly Contest 504",
+    "startTime": 1780194600,
+    "duration": 5400,
+    "url": "https://leetcode.com/contest/weekly-contest-504",
+    "status": "recent"
   },
   {
     "platform": "CodeForces",
