@@ -17,7 +17,7 @@
   },
   {
     "platform": "CodeChef",
-    "name": "Monday Munch - DSA Challenge 004 (Rated)",
+    "name": "Monday Munch - DSA Challenge 005 (Rated)",
     "startTime": 1780317000,
     "duration": 10800,
     "url": "https://www.codechef.com/DSAMONDAY005",
@@ -85,6 +85,14 @@
     "startTime": 1781352000,
     "duration": 6000,
     "url": "https://atcoder.jp/contests/abc462",
+    "status": "future"
+  },
+  {
+    "platform": "LeetCode",
+    "name": "Weekly Contest 506",
+    "startTime": 1781404200,
+    "duration": 5400,
+    "url": "https://leetcode.com/contest/weekly-contest-506",
     "status": "future"
   },
   {
