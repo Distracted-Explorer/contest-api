@@ -142,13 +142,5 @@
     "duration": 5400,
     "url": "https://leetcode.com/contest/weekly-contest-504",
     "status": "recent"
-  },
-  {
-    "platform": "CodeForces",
-    "name": "Codeforces Round 1101 (Div. 2)",
-    "startTime": 1780151700,
-    "duration": 7200,
-    "url": "https://codeforces.com/contestRegistration/2232",
-    "status": "recent"
   }
 ]
