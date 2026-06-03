@@ -17,10 +17,18 @@
   },
   {
     "platform": "CodeChef",
-    "name": "Starters 241",
+    "name": "Starters 241 (Rated till 5 star)",
     "startTime": 1780497000,
     "duration": 7200,
     "url": "https://www.codechef.com/START241",
+    "status": "future"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Weekend Dev Challenge 53: .NET projects",
+    "startTime": 1780684200,
+    "duration": 172800,
+    "url": "https://www.codechef.com/DEVWEEKEND53",
     "status": "future"
   },
   {
