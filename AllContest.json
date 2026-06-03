@@ -134,13 +134,5 @@
     "duration": 9000,
     "url": "https://atcoder.jp/contests/arc221",
     "status": "recent"
-  },
-  {
-    "platform": "LeetCode",
-    "name": "Weekly Contest 504",
-    "startTime": 1780194600,
-    "duration": 5400,
-    "url": "https://leetcode.com/contest/weekly-contest-504",
-    "status": "recent"
   }
 ]
