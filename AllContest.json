@@ -1,11 +1,27 @@
 [
   {
+    "platform": "AtCoder",
+    "name": "Ⓗ◉ AtCoder Heuristic Contest 066",
+    "startTime": 1780052400,
+    "duration": 860400,
+    "url": "https://atcoder.jp/contests/ahc066",
+    "status": "running"
+  },
+  {
     "platform": "CodeChef",
     "name": "Weekend Dev Challenge 53: .NET projects",
     "startTime": 1780684200,
     "duration": 172800,
     "url": "https://www.codechef.com/DEVWEEKEND53",
     "status": "running"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "Ⓐ◉ AtCoder Beginner Contest 461",
+    "startTime": 1780747200,
+    "duration": 6000,
+    "url": "https://atcoder.jp/contests/abc461",
+    "status": "future"
   },
   {
     "platform": "LeetCode",
@@ -32,6 +48,14 @@
     "status": "future"
   },
   {
+    "platform": "AtCoder",
+    "name": "Ⓐ◉ AtCoder Weekday Contest 0086 Beta",
+    "startTime": 1780916400,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0086",
+    "status": "future"
+  },
+  {
     "platform": "CodeForces",
     "name": "Educational Codeforces Round 191 (Rated for Div. 2)",
     "startTime": 1781015700,
@@ -48,11 +72,27 @@
     "status": "future"
   },
   {
+    "platform": "AtCoder",
+    "name": "Ⓐ◉ CodeQUEEN 2026 -qual- (AtCoder Beginner Contest 462)",
+    "startTime": 1781352000,
+    "duration": 6000,
+    "url": "https://atcoder.jp/contests/abc462",
+    "status": "future"
+  },
+  {
     "platform": "LeetCode",
     "name": "Weekly Contest 506",
     "startTime": 1781404200,
     "duration": 5400,
     "url": "https://leetcode.com/contest/weekly-contest-506",
+    "status": "future"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "Ⓐ◉ AtCoder Regular Contest 222",
+    "startTime": 1781438400,
+    "duration": 7200,
+    "url": "https://atcoder.jp/contests/arc222",
     "status": "future"
   },
   {
