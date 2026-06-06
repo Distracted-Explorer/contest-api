@@ -1,5 +1,13 @@
 [
   {
+    "platform": "AtCoder",
+    "name": "Ⓗ◉ AtCoder Heuristic Contest 066",
+    "startTime": 1780052400,
+    "duration": 860400,
+    "url": "https://atcoder.jp/contests/ahc066",
+    "status": "running"
+  },
+  {
     "platform": "CodeChef",
     "name": "Weekend Dev Challenge 53: .NET projects",
     "startTime": 1780684200,
@@ -13,7 +21,7 @@
     "startTime": 1780756200,
     "duration": 5400,
     "url": "https://leetcode.com/contest/biweekly-contest-184",
-    "status": "future"
+    "status": "running"
   },
   {
     "platform": "LeetCode",
@@ -29,6 +37,14 @@
     "startTime": 1780842900,
     "duration": 8100,
     "url": "https://codeforces.com/contestRegistration/2234",
+    "status": "future"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "Ⓐ◉ AtCoder Weekday Contest 0086 Beta",
+    "startTime": 1780916400,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0086",
     "status": "future"
   },
   {
@@ -48,11 +64,27 @@
     "status": "future"
   },
   {
+    "platform": "AtCoder",
+    "name": "Ⓐ◉ CodeQUEEN 2026 -qual- (AtCoder Beginner Contest 462)",
+    "startTime": 1781352000,
+    "duration": 6000,
+    "url": "https://atcoder.jp/contests/abc462",
+    "status": "future"
+  },
+  {
     "platform": "LeetCode",
     "name": "Weekly Contest 506",
     "startTime": 1781404200,
     "duration": 5400,
     "url": "https://leetcode.com/contest/weekly-contest-506",
+    "status": "future"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "Ⓐ◉ AtCoder Regular Contest 222",
+    "startTime": 1781438400,
+    "duration": 7200,
+    "url": "https://atcoder.jp/contests/arc222",
     "status": "future"
   },
   {
@@ -69,6 +101,22 @@
     "startTime": 1781847000,
     "duration": 86400,
     "url": "https://www.hackerrank.com/contests/hackerrank-orchestrate-june26/challenges",
+    "status": "future"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "Ⓐ◉ AtCoder Beginner Contest 463",
+    "startTime": 1781956800,
+    "duration": 6000,
+    "url": "https://atcoder.jp/contests/abc463",
+    "status": "future"
+  },
+  {
+    "platform": "LeetCode",
+    "name": "Biweekly Contest 185",
+    "startTime": 1781965800,
+    "duration": 5400,
+    "url": "https://leetcode.com/contest/biweekly-contest-185",
     "status": "future"
   },
   {
