@@ -8,19 +8,19 @@
     "status": "running"
   },
   {
-    "platform": "CodeChef",
-    "name": "Weekend Dev Challenge 53: .NET projects",
-    "startTime": 1780684200,
-    "duration": 172800,
-    "url": "https://www.codechef.com/DEVWEEKEND53",
-    "status": "running"
-  },
-  {
     "platform": "AtCoder",
     "name": "Ⓐ◉ AtCoder Weekday Contest 0086 Beta",
     "startTime": 1780916400,
     "duration": 3600,
     "url": "https://atcoder.jp/contests/awc0086",
+    "status": "future"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Monday Munch - DSA Challenge 006 (Rated)",
+    "startTime": 1780921800,
+    "duration": 10800,
+    "url": "https://www.codechef.com/DSAMONDAY006",
     "status": "future"
   },
   {
@@ -102,6 +102,14 @@
     "duration": 14400,
     "url": "https://atcoder.jp/contests/ahc067",
     "status": "future"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Weekend Dev Challenge 53: .NET projects",
+    "startTime": 1780684200,
+    "duration": 172800,
+    "url": "https://www.codechef.com/DEVWEEKEND53",
+    "status": "recent"
   },
   {
     "platform": "CodeForces",
