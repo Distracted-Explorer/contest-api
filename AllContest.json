@@ -104,6 +104,14 @@
     "status": "future"
   },
   {
+    "platform": "AtCoder",
+    "name": "Ⓗ◉ AtCoder Heuristic Contest 067",
+    "startTime": 1782036000,
+    "duration": 14400,
+    "url": "https://atcoder.jp/contests/ahc067",
+    "status": "future"
+  },
+  {
     "platform": "LeetCode",
     "name": "Weekly Contest 505",
     "startTime": 1780799400,
