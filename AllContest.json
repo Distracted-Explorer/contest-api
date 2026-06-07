@@ -16,14 +16,6 @@
     "status": "running"
   },
   {
-    "platform": "LeetCode",
-    "name": "Weekly Contest 505",
-    "startTime": 1780799400,
-    "duration": 5400,
-    "url": "https://leetcode.com/contest/weekly-contest-505",
-    "status": "running"
-  },
-  {
     "platform": "CodeForces",
     "name": "Codeforces Round 1102 (Div. 2)",
     "startTime": 1780842900,
@@ -110,6 +102,14 @@
     "duration": 5400,
     "url": "https://leetcode.com/contest/biweekly-contest-185",
     "status": "future"
+  },
+  {
+    "platform": "LeetCode",
+    "name": "Weekly Contest 505",
+    "startTime": 1780799400,
+    "duration": 5400,
+    "url": "https://leetcode.com/contest/weekly-contest-505",
+    "status": "recent"
   },
   {
     "platform": "LeetCode",
