@@ -16,14 +16,6 @@
     "status": "running"
   },
   {
-    "platform": "CodeForces",
-    "name": "Codeforces Round 1102 (Div. 2)",
-    "startTime": 1780842900,
-    "duration": 8100,
-    "url": "https://codeforces.com/contestRegistration/2234",
-    "status": "running"
-  },
-  {
     "platform": "AtCoder",
     "name": "Ⓐ◉ AtCoder Weekday Contest 0086 Beta",
     "startTime": 1780916400,
@@ -110,6 +102,14 @@
     "duration": 14400,
     "url": "https://atcoder.jp/contests/ahc067",
     "status": "future"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Codeforces Round 1102 (Div. 2)",
+    "startTime": 1780842900,
+    "duration": 8100,
+    "url": "https://codeforces.com/contestRegistration/2234",
+    "status": "recent"
   },
   {
     "platform": "LeetCode",
