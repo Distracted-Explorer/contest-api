@@ -1,26 +1,18 @@
 [
   {
-    "platform": "AtCoder",
-    "name": "Ⓗ◉ AtCoder Heuristic Contest 066",
-    "startTime": 1780052400,
-    "duration": 860400,
-    "url": "https://atcoder.jp/contests/ahc066",
-    "status": "running"
-  },
-  {
-    "platform": "AtCoder",
-    "name": "Ⓐ◉ AtCoder Weekday Contest 0086 Beta",
-    "startTime": 1780916400,
-    "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0086",
-    "status": "future"
-  },
-  {
     "platform": "CodeChef",
     "name": "Monday Munch - DSA Challenge 006 (Rated)",
     "startTime": 1780921800,
     "duration": 10800,
     "url": "https://www.codechef.com/DSAMONDAY006",
+    "status": "running"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "Ⓐ◉ AtCoder Weekday Contest 0087 Beta",
+    "startTime": 1781002800,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0087",
     "status": "future"
   },
   {
@@ -112,6 +104,22 @@
     "status": "future"
   },
   {
+    "platform": "AtCoder",
+    "name": "Ⓐ◉ AtCoder Weekday Contest 0086 Beta",
+    "startTime": 1780916400,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0086",
+    "status": "recent"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "Ⓗ◉ AtCoder Heuristic Contest 066",
+    "startTime": 1780052400,
+    "duration": 860400,
+    "url": "https://atcoder.jp/contests/ahc066",
+    "status": "recent"
+  },
+  {
     "platform": "CodeChef",
     "name": "Weekend Dev Challenge 53: .NET projects",
     "startTime": 1780684200,
@@ -149,14 +157,6 @@
     "startTime": 1780747200,
     "duration": 6000,
     "url": "https://atcoder.jp/contests/abc461",
-    "status": "recent"
-  },
-  {
-    "platform": "AtCoder",
-    "name": "Ⓐ◉ AtCoder Weekday Contest 0085 Beta",
-    "startTime": 1780657200,
-    "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0085",
     "status": "recent"
   }
 ]
