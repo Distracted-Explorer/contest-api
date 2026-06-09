@@ -5,7 +5,7 @@
     "startTime": 1781002800,
     "duration": 3600,
     "url": "https://atcoder.jp/contests/awc0087",
-    "status": "future"
+    "status": "running"
   },
   {
     "platform": "CodeForces",
@@ -53,6 +53,14 @@
     "startTime": 1781438400,
     "duration": 7200,
     "url": "https://atcoder.jp/contests/arc222",
+    "status": "future"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Monday Munch - DSA Challenge 007 (Rated)",
+    "startTime": 1781526600,
+    "duration": 10800,
+    "url": "https://www.codechef.com/DSAMONDAY007",
     "status": "future"
   },
   {
