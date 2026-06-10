@@ -1,13 +1,5 @@
 [
   {
-    "platform": "AtCoder",
-    "name": "Ⓐ◉ AtCoder Weekday Contest 0088 Beta",
-    "startTime": 1781089200,
-    "duration": 3600,
-    "url": "https://atcoder.jp/contests/awc0088",
-    "status": "future"
-  },
-  {
     "platform": "CodeChef",
     "name": "Starters 242 (Rated till 5 star)",
     "startTime": 1781101800,
@@ -16,11 +8,19 @@
     "status": "future"
   },
   {
-    "platform": "CodeForces",
-    "name": "Codeforces Round 1103 (Div. 3)",
-    "startTime": 1781274900,
-    "duration": 9000,
-    "url": "https://codeforces.com/contestRegistration/2236",
+    "platform": "AtCoder",
+    "name": "Ⓐ◉ AtCoder Weekday Contest 0089 Beta",
+    "startTime": 1781175600,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0089",
+    "status": "future"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Weekend Dev Challenge 54: .NET projects",
+    "startTime": 1781289000,
+    "duration": 172800,
+    "url": "https://www.codechef.com/DEVWEEKEND54",
     "status": "future"
   },
   {
@@ -64,14 +64,6 @@
     "status": "future"
   },
   {
-    "platform": "CodeForces",
-    "name": "Order Capital Round 2 (Codeforces Round, Div. 1 + Div. 2)",
-    "startTime": 1781793300,
-    "duration": 10800,
-    "url": "https://codeforces.com/contestRegistration/2237",
-    "status": "future"
-  },
-  {
     "platform": "HackerRank",
     "name": "HackerRank Orchestrate June'26",
     "startTime": 1781847000,
@@ -110,6 +102,14 @@
     "duration": 14400,
     "url": "https://atcoder.jp/contests/ahc067",
     "status": "future"
+  },
+  {
+    "platform": "AtCoder",
+    "name": "Ⓐ◉ AtCoder Weekday Contest 0088 Beta",
+    "startTime": 1781089200,
+    "duration": 3600,
+    "url": "https://atcoder.jp/contests/awc0088",
+    "status": "recent"
   },
   {
     "platform": "CodeForces",
