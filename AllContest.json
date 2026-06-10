@@ -9,7 +9,7 @@
   },
   {
     "platform": "CodeChef",
-    "name": "Starters 242",
+    "name": "Starters 242 (Rated till 5 star)",
     "startTime": 1781101800,
     "duration": 7200,
     "url": "https://www.codechef.com/START242",
@@ -165,14 +165,6 @@
     "startTime": 1780842900,
     "duration": 8100,
     "url": "https://codeforces.com/contestRegistration/2234",
-    "status": "recent"
-  },
-  {
-    "platform": "LeetCode",
-    "name": "Weekly Contest 505",
-    "startTime": 1780799400,
-    "duration": 5400,
-    "url": "https://leetcode.com/contest/weekly-contest-505",
     "status": "recent"
   }
 ]
