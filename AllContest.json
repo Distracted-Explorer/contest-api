@@ -1,18 +1,18 @@
 [
   {
-    "platform": "CodeChef",
-    "name": "Starters 242 (Rated till 5 star)",
-    "startTime": 1781101800,
-    "duration": 7200,
-    "url": "https://www.codechef.com/START242",
-    "status": "future"
-  },
-  {
     "platform": "AtCoder",
     "name": "Ⓐ◉ AtCoder Weekday Contest 0089 Beta",
     "startTime": 1781175600,
     "duration": 3600,
     "url": "https://atcoder.jp/contests/awc0089",
+    "status": "future"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Codeforces Round 1103 (Div. 3)",
+    "startTime": 1781274900,
+    "duration": 9000,
+    "url": "https://codeforces.com/contestRegistration/2236",
     "status": "future"
   },
   {
@@ -64,6 +64,14 @@
     "status": "future"
   },
   {
+    "platform": "CodeForces",
+    "name": "Order Capital Round 2 (Codeforces Round, Div. 1 + Div. 2)",
+    "startTime": 1781793300,
+    "duration": 10800,
+    "url": "https://codeforces.com/contestRegistration/2237",
+    "status": "future"
+  },
+  {
     "platform": "HackerRank",
     "name": "HackerRank Orchestrate June'26",
     "startTime": 1781847000,
@@ -102,6 +110,22 @@
     "duration": 14400,
     "url": "https://atcoder.jp/contests/ahc067",
     "status": "future"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Starters 244",
+    "startTime": 1782311400,
+    "duration": 7200,
+    "url": "https://www.codechef.com/START244",
+    "status": "future"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Starters 242 (Rated till 5 star)",
+    "startTime": 1781101800,
+    "duration": 7200,
+    "url": "https://www.codechef.com/START242",
+    "status": "recent"
   },
   {
     "platform": "AtCoder",
@@ -157,14 +181,6 @@
     "startTime": 1780684200,
     "duration": 172800,
     "url": "https://www.codechef.com/DEVWEEKEND53",
-    "status": "recent"
-  },
-  {
-    "platform": "CodeForces",
-    "name": "Codeforces Round 1102 (Div. 2)",
-    "startTime": 1780842900,
-    "duration": 8100,
-    "url": "https://codeforces.com/contestRegistration/2234",
     "status": "recent"
   }
 ]
