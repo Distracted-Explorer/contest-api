@@ -16,6 +16,14 @@
     "status": "future"
   },
   {
+    "platform": "CodeForces",
+    "name": "Codeforces Round 1103 (Div. 3)",
+    "startTime": 1781274900,
+    "duration": 9000,
+    "url": "https://codeforces.com/contestRegistration/2236",
+    "status": "future"
+  },
+  {
     "platform": "AtCoder",
     "name": "Ⓐ◉ CodeQUEEN 2026 -qual- (AtCoder Beginner Contest 462)",
     "startTime": 1781352000,
@@ -53,6 +61,14 @@
     "startTime": 1781706600,
     "duration": 7200,
     "url": "https://www.codechef.com/START243",
+    "status": "future"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Order Capital Round 2 (Codeforces Round, Div. 1 + Div. 2)",
+    "startTime": 1781793300,
+    "duration": 10800,
+    "url": "https://codeforces.com/contestRegistration/2237",
     "status": "future"
   },
   {
