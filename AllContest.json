@@ -5,7 +5,7 @@
     "startTime": 1781274900,
     "duration": 9000,
     "url": "https://codeforces.com/contestRegistration/2236",
-    "status": "future"
+    "status": "running"
   },
   {
     "platform": "CodeChef",
@@ -149,14 +149,6 @@
     "startTime": 1781089200,
     "duration": 3600,
     "url": "https://atcoder.jp/contests/awc0088",
-    "status": "recent"
-  },
-  {
-    "platform": "CodeForces",
-    "name": "Educational Codeforces Round 191 (Rated for Div. 2)",
-    "startTime": 1781015700,
-    "duration": 7200,
-    "url": "https://codeforces.com/contestRegistration/2233",
     "status": "recent"
   }
 ]
