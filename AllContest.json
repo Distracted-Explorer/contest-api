@@ -1,19 +1,11 @@
 [
   {
-    "platform": "CodeForces",
-    "name": "Codeforces Round 1103 (Div. 3)",
-    "startTime": 1781274900,
-    "duration": 9000,
-    "url": "https://codeforces.com/contestRegistration/2236",
-    "status": "running"
-  },
-  {
     "platform": "CodeChef",
     "name": "Weekend Dev Challenge 54: .NET projects",
     "startTime": 1781289000,
     "duration": 172800,
     "url": "https://www.codechef.com/DEVWEEKEND54",
-    "status": "future"
+    "status": "running"
   },
   {
     "platform": "AtCoder",
@@ -118,6 +110,14 @@
     "duration": 7200,
     "url": "https://www.codechef.com/START244",
     "status": "future"
+  },
+  {
+    "platform": "CodeForces",
+    "name": "Codeforces Round 1103 (Div. 3)",
+    "startTime": 1781274900,
+    "duration": 9000,
+    "url": "https://codeforces.com/contestRegistration/2236",
+    "status": "recent"
   },
   {
     "platform": "AtCoder",
