@@ -1,13 +1,5 @@
 [
   {
-    "platform": "CodeChef",
-    "name": "Weekend Dev Challenge 54: .NET projects",
-    "startTime": 1781289000,
-    "duration": 172800,
-    "url": "https://www.codechef.com/DEVWEEKEND54",
-    "status": "running"
-  },
-  {
     "platform": "AtCoder",
     "name": "Ⓐ◉ AtCoder Weekday Contest 0091 Beta",
     "startTime": 1781521200,
@@ -102,6 +94,14 @@
     "duration": 7200,
     "url": "https://atcoder.jp/contests/arc223",
     "status": "future"
+  },
+  {
+    "platform": "CodeChef",
+    "name": "Weekend Dev Challenge 54: .NET projects",
+    "startTime": 1781289000,
+    "duration": 172800,
+    "url": "https://www.codechef.com/DEVWEEKEND54",
+    "status": "recent"
   },
   {
     "platform": "AtCoder",
